@@ -1,0 +1,512 @@
+[
+	{
+		"id": "01",
+		"title": "Spark Minda | Our Work | Website Design Agency Mumbai",
+		"name": "Spark Minda",
+		"seourl": "spark-minda",
+		"description": "ABC DESIGNS, Spark Minda",
+		"keywords": "Spark Minda",
+		"year": "",	
+		"project_info": "Spark Dhamaka, Spark Paris Tour",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "branding",
+		"tools": [
+			{ "tool": "CorelDRAW" }, 
+			{ "tool": "Adobe Illustrator" }, 
+			{ "tool": "After Effect" }
+		],
+		"thumbnail": 0,
+		"poster": "/img/work/spark_dhamaka.jpg",
+		"videothumbnail": "/img/work/spark_dhamaka.mp4",
+		"project": [
+			{  "project_pic": "/img/work/spark_minda/scratch_card.jpg",
+			   "video": 0
+			},
+			{
+				"videoname": "Spark Dhamaka",		
+				"project_pic": "/img/work/spark_dhamaka.jpg",		
+				"video": "/img/work/spark_dhamaka_lg.mp4"
+			},
+			{ "project_pic": "/img/work/spark_minda/scratch_&_win.jpg",
+			   "video": 0
+			},
+			{
+				"videoname": "Spark Paris Tour",
+				"project_pic": "/img/work/spark_paris.jpg",	
+				"video": "/img/work/spark_paris_lg.mp4"	
+			},
+			{ "project_pic": "/img/work/spark_minda/scratch_&_win_1.jpg",
+			   "video": 0
+			},
+			{ "project_pic": "/img/work/spark_minda/lock.jpg",
+			   "video": 0
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "02",
+		"title": "Volume Zero | Our Work | Website Design Agency Mumbai",
+		"name": "Volume Zero",
+		"seourl": "volume-zero",
+		"description": "ABC DESIGNS, Volume Zero",
+		"keywords": "Volume Zero",
+		"year": "",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "web_design",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/volzero.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/volzero/1.jpg",
+			   "video": 0
+			},
+			{  "project_pic": "/img/work/volzero/2.jpg",
+			   "video": 0
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "03",
+		"title": "Micro Housing 2019 | Our Work | Website Design Agency Mumbai",
+		"name": "Micro Housing 2019",
+		"seourl": "micro_housing",
+		"description": "ABC DESIGNS, Micro Housing 2019",
+		"keywords": "Micro Housing 2019",
+		"year": "",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "web_design",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/micro_housing.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/micro_housing/1.jpg",
+			   "video": 0
+			},
+			{  "project_pic": "/img/work/micro_housing/2.jpg",
+			   "video": 0
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "04",
+		"title": "Julius Packiam | Our Work | Website Design Agency Mumbai",
+		"name": "Julius Packiam",
+		"seourl": "juliuspackiam",
+		"description": "ABC DESIGNS, Julius Packiam",
+		"keywords": "Julius Packiam",
+		"year": "",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "web_design",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/juliuspackiam.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/julius_packiam/1.jpg",
+			   "video": 0
+			},
+			{  "project_pic": "/img/work/julius_packiam/2.jpg",
+			   "video": 0
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "05",
+		"title": "Unilever Case Studies | Our Work | Website Design Agency Mumbai",
+		"name": "Unilever Case Studies",
+		"seourl": "unilever-casestudies",
+		"description": "ABC DESIGNS, Unilever Case Studies",
+		"keywords": "Unilever Case Studies",
+		"year": "2019",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "interactive_solutions",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": 0,
+		"poster": "/img/work/unilever_thumb.jpg",
+		"videothumbnail": "/img/work/unilever_case_studies.mp4",
+		"project": [
+			{  
+				"videoname": "Unilever Event",
+				"project_pic": "/img/work/unilever_thumb.jpg",
+				"video": "/img/work/unilever_case_studies.mp4"
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "06",
+		"title": "People's Matters | Our Work | Website Design Agency Mumbai",
+		"name": "People's Matters",
+		"seourl": "people-matters",
+		"description": "ABC DESIGNS, People's Matters",
+		"keywords": "People's Matters",
+		"year": "2019",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "interactive_solutions",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/people_matters.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/people_matters/1.jpg",
+			   "video": 0
+			},
+			{  
+				"videoname": "Booth 1",
+				"project_pic": "/img/work/people_matters/2.jpg",
+				"video": "/img/work/people_matters/1.mp4"
+			},
+			{  
+				"videoname": "Booth 2",
+				"project_pic": "/img/work/people_matters/2.jpg",
+				"video": "/img/work/people_matters/2.mp4"
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "07",
+		"title": "Blue Rise | Our Work | Website Design Agency Mumbai",
+		"name": "Blue Rise",
+		"seourl": "blue-rise",
+		"description": "ABC DESIGNS, Blue Rise",
+		"keywords": "Blue Rise",
+		"year": "2019",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "interactive_solutions",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "CakePHP" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": 0,
+		"poster": "/img/work/brl/brl_thumb.jpg",
+		"videothumbnail": "/img/work/brl/brl.mp4",
+		"project": [
+			{  "project_pic": "/img/work/brl/3.jpg",
+			   "video": 0
+			},
+			{  "project_pic": "/img/work/work/brl_thumb.jpg",
+			   "video": "/img/work/brl/brl.mp4"
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "08",
+		"title": "NextBigIdea Contest 2019 | Our Work | Website Design Agency Mumbai",
+		"name": "NextBigIdea Contest 2019",
+		"seourl": "nextbigidea",
+		"description": "ABC DESIGNS, NextBigIdea Contest 2019",
+		"keywords": "NextBigIdea Contest 2019",
+		"year": "2019",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "interactive_solutions",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/nextbigidea.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/nextbigidea/1.jpg",
+			   "video": 0
+			},
+			{  "project_pic": "/img/work/nextbigidea/2.jpg",
+			   "video": 0
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "09",
+		"title": "Rassaz Group | Our Work | Website Design Agency Mumbai",
+		"name": "Rassaz Group",
+		"seourl": "rassaz-group",
+		"description": "ABC DESIGNS, Rassaz Group",
+		"keywords": "Rassaz Group",
+		"year": "",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "interactive_solutions",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/rassaz_group.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/rassaz/1.jpg",
+			   "video": 0
+			},
+			{  "project_pic": "/img/work/rassaz/2.jpg",
+			   "video": 0
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "10",
+		"title": "Assembly Elections 2018 | Our Work | Website Design Agency Mumbai",
+		"name": "Assembly Elections 2018",
+		"seourl": "assembly-elections-youtube",
+		"description": "ABC DESIGNS, Assembly Elections 2018",
+		"keywords": "Assembly Elections 2018",
+		"year": "2018",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "interactive_solutions",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/assembly_elections_yt.gif",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/assembly_elections_yt/1.jpg",
+			   "video": "/img/work/assembly_elections_yt/yt.mp4"
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "11",
+		"title": "Jewel Life Science Pvt. Ltd. | Our Work | Website Design Agency Mumbai",
+		"name": "Jewel Life Science Pvt. Ltd.",
+		"seourl": "jlifescience",
+		"description": "ABC DESIGNS, Jewel Life Science Pvt. Ltd.",
+		"keywords": "Jewel Life Science Pvt. Ltd.",
+		"year": "2018",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "branding",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/jlifescience.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/jlifescience/logo.gif",
+			   "video": "0"
+			},
+			{  "project_pic": "/img/work/jlifescience/2.jpg",
+			   "video": "0"
+			},
+			{  "project_pic": "/img/work/jlifescience/1.jpg",
+			   "video": "0"
+			}
+		],
+		"show": "1"
+	},
+	{
+		"id": "12",
+		"title": "Mothers International Preschool & Day Care Center | Our Work | Website Design Agency Mumbai",
+		"name": "Mothers International Preschool & Day Care Center",
+		"seourl": "mothers",
+		"description": "ABC DESIGNS, Mothers International Preschool & Day Care Center",
+		"keywords": "Mothers International Preschool & Day Care Center",
+		"year": "2018",	
+		"project_info": "-",	
+		"categories": [
+			{ "category": "All" },
+			{ "category": "Web Design" },
+			{ "category": "Interactive Solutions" },
+			{ "category": "Residential" },
+			{ "category": "Branding" },
+			{ "category": "Web Development" },
+			{ "category": "E-Commerce" },
+			{ "category": "Digital Marketing" },
+			{ "category": "Mobile App" } 
+		],
+		"type": "branding",
+		"tools": [
+			{ "tool": "HTML5" }, 
+			{ "tool": "CSS3" }, 
+			{ "tool": "PHP" }, 
+			{ "tool": "JQuery" }, 
+			{ "tool": "Bootstarp4" }
+		],
+		"thumbnail": "/img/work/mothers.jpg",
+		"poster": 0,
+		"videothumbnail": 0,
+		"project": [
+			{  "project_pic": "/img/work/mothers/1.jpg",
+			   "video": "0"
+			},
+			{  "project_pic": "/img/work/mothers/2.jpg",
+			   "video": "0"
+			}
+		],
+		"show": "1"
+	}
+]
