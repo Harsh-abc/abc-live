@@ -1,7 +1,7 @@
  
 	<!-- CTA area start -->
 	<section class="cta__area">
-		<div class="container pb-110">
+		<div class="container pb-80">
 			<div class="line-3"></div>
 			<div class="row">
 				<div class="col-xxl-12">

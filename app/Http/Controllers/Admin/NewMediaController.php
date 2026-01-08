@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\admin\Media;
+use App\Models\Admin\Media;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\Storage;
 

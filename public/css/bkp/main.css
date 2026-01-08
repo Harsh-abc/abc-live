@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,800");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700");
 
+body { overflow-x:hidden !important; }
+
 html, body { overflow-x:hidden !important; }
 html {
     font-family: sans-serif;

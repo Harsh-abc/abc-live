@@ -74,46 +74,58 @@
 				<li><a class="underline-below" href="/about">About</a></li>
 				<li><a class="underline-below" href="/services">Services </a>
 					<ul class="drop-down-ul">
-						<li> <a href="#"> Web Solutions <span class="drop-down-icon"></span></a>
+						<li> <a href="#"> Website Design & Development <span class="drop-down-icon"></span></a>
 							<ul class="drop-down-ul">
-								<li class="drop-down-li"> <a href="/web-solutions/interactive-solutions"> Interactive
-										Solutions </a>
+								<li class="drop-down-li"> <a href="/website-design-and-development/business-website-design-and-development">Business Website Design & Development</a>
 								</li>
-								<li> <a href="/web-solutions/ecommerce-development"> E-commerce Solutions </a>
+								<li> <a href="/web-solutions/ecommerce-development">Custom Website Development</a>
 								</li>
 								<!-- <li> <a href="#"> B2B </a></li> -->
-								<li> <a href="/web-solutions/api-development-and-integration"> API Development
-										and Integration </a></li>
-								<li> <a href="/web-solutions/website-maintenance-and-support"> Website
-										Maintenance and Support </a></li>
-								<li> <a href="/web-solutions/custom-web-development"> Custom Web Development
-									</a></li>
+								<li> <a href="/web-solutions/api-development-and-integration">E-commerce Website Development</a></li>
+								<li> <a href="/web-solutions/website-maintenance-and-support">Website Redesign</a></li>
+								<li> <a href="/web-solutions/custom-web-development">API Development & Integration</a></li>
+								<li> <a href="#">Website Maintenance & Support</a></li>
 								<!-- <li> <a href="/services/cms-development"> CMS Development </a></li> &#128898;-->
 							</ul>
 						</li>
-						<li> <a href="#"> UI/UX Design <span class="drop-down-icon"></span></a>
+						<li> <a href="#">App Design & Development<span class="drop-down-icon"></span></a>
 							<ul class="drop-down-ul">
-								<li> <a href="/ui-uxdesign/ui-design"> UI Design </a></li>
-								<li> <a href="/ui-uxdesign/ux-experience"> UX Experience </a></li>
-								<li> <a href="/ui-uxdesign/ux-audit"> UX Audit </a></li>
+								<li> <a href="/ui-uxdesign/ui-design">Mobile App UI/UX Design</a></li>
+								<li> <a href="/ui-uxdesign/ux-experience">Android App Development</a></li>
+								<li> <a href="/ui-uxdesign/ux-audit">iOS App Development</a></li>
+								<li> <a href="/ui-uxdesign/ux-audit">Web App Development</a></li>
+								<li> <a href="/ui-uxdesign/ux-audit">App Maintenance & Support</a></li>
 							</ul>
 						</li>
-						<li> <a href="#"> Digital Marketing <span class="drop-down-icon"></span></a>
-							<ul class="drop-down-ul">
-								<li> <a href="/digital-marketing/search-engine-optimization"> SEO Service </a>
+						<li> <a href="#">UI/UX Design<span class="drop-down-icon"></span></a>
+							{{-- <ul class="drop-down-ul">
+								<li> <a href="/digital-marketing/search-engine-optimization"> Search Engine Optimization (SEO) Services </a>
 								</li>
-								<li> <a href="/digital-marketing/search-engine-marketing"> SEM Service </a></li>
-								<li> <a href="/digital-marketing/social-media"> Social Media </a></li>
-								<li> <a href="/digital-marketing/content-writing"> Content Writing </a></li>
+								<li> <a href="/digital-marketing/search-engine-marketing"> Search Engine Marketing (SEM) Services </a></li>
+								<li> <a href="/digital-marketing/social-media"> Social Media Marketing (SMM) Services </a></li>
+								<li> <a href="/digital-marketing/content-writing"> Content Marketing & Content Writing Services </a></li>
+							</ul> --}}
+						</li>
+						<li> <a href="#">Digital Marketing Services<span class="drop-down-icon"></span></a>
+							<ul class="drop-down-ul">
+								<li> <a href="/concept-design/branding-solutions">Search Engine Optimization (SEO)</a></li>
+								<li> <a href="/concept-design/social-media-posts-design">Search Engine Marketing (Google Ads)</a></li>
+								<li> <a href="/concept-design/design-and-animation">Social Media Marketing</a>
+								</li>
+								<li> <a href="/concept-design/social-media-posts-design">Performance Marketing (Meta Ads)</a></li>
+								<li> <a href="/concept-design/social-media-posts-design">Content Marketing & Writing</a></li>
+								<!-- <li> <a href="#"> Design System </a></li> -->
+								<!-- <li> <a href="#"> Brand Guidelines </a></li>  -->
 							</ul>
 						</li>
-						<li> <a href="#"> Concept Design <span class="drop-down-icon"></span></a>
+						<li> <a href="#">Branding & Creative Design<span class="drop-down-icon"></span></a>
 							<ul class="drop-down-ul">
-								<li> <a href="/concept-design/branding-solutions"> Branding Solutions </a></li>
-								<li> <a href="/concept-design/social-media-posts-design"> Social Media Posts
-										Design </a></li>
-								<li> <a href="/concept-design/design-and-animation"> Design and Animation </a>
+								<li> <a href="/concept-design/branding-solutions">Branding Solutions</a></li>
+								<li> <a href="/concept-design/social-media-posts-design">Logo Design</a></li>
+								<li> <a href="/concept-design/design-and-animation">Social Media Creatives</a>
 								</li>
+								<li> <a href="/concept-design/social-media-posts-design">Design & Animation</a></li>
+								<li> <a href="/concept-design/social-media-posts-design">Marketing Creatives</a></li>
 								<!-- <li> <a href="#"> Design System </a></li> -->
 								<!-- <li> <a href="#"> Brand Guidelines </a></li>  -->
 							</ul>

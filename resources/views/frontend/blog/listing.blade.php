@@ -27,17 +27,14 @@
                             <div class="col-xxl-12">
                                 <h5> Explore Trending Topics </h5>
                                 <br />
-								@if($categories->count())
                                 <ul class="d-flex">
-							 @foreach($categories as $category)
-                                    <li> <a href="">  {{ $category->name }} </a> </li> @endforeach
-                                    <!-- <li> <a href=""> Business </a> </li>
+                                    <li> <a href=""> Technology </a> </li>
+                                    <li> <a href=""> Business </a> </li>
                                     <li> <a href=""> Management </a> </li>
                                     <li> <a href=""> Startups </a> </li>
                                     <li> <a href=""> Digital Marketing </a> </li>
-                                    <li> <a href=""> Web Designs </a> </li> --!>
+                                    <li> <a href=""> Web Designs </a> </li>
                                 </ul>
-								@endif
                             </div>
                         </div>
 
@@ -56,12 +53,9 @@
                                                 </div>
                                             </a>
                                         </div>
-										@php
-        $category = \App\Models\Categories::find($blog->category_id);
-    @endphp
                                         <h4 class="blog__meta">
                                             <a href="{{ url('/blog/' . $blog->blog_url) }}">
-                                                {{ $category->name  ?? '' }}
+                                                {{ optional($blog->category)->name ?? 'Category' }}
                                                 {{ $blog->post_author ?? '' }}
                                             </a>
                                             . {{ \Carbon\Carbon::parse($blog->created_at)->format('d M Y') }}

@@ -12,13 +12,10 @@
 
                         <!-- Blog Header Banner -->
                         <div class="row px-1 pb-50 blog-header-banner"
-                            style="background-image: url('{{ !empty($blog->banner_image) ? asset($blog->banner_image) : 'https://moz.com/images/blog/banners/04-local-seo-blog-banner-BGs/local-seo-category-blog-banner-BGs-E.png?w=1920&auto=compress%2Cformat&fit=crop&dm=1757708764&s=eaab989823d1473e80127bcf56a0b06f' }}');">
-                            <div class="col-lg-7 col-md-12"> 
-							@php
-        $category = \App\Models\Categories::find($blog->category_id);
-    @endphp
-                                <h3 class="text-capitalize" style="color: {{ $blog->highlight_color ?? '#ffc107' }}">{{ $category->name }}</h3>
-                                <h1 class="text-white">{{ $blog->blog_title }}</h1>
+                            style="background-image: url(https://moz.com/images/blog/banners/04-local-seo-blog-banner-BGs/local-seo-category-blog-banner-BGs-E.png?w=1920&auto=compress%2Cformat&fit=crop&dm=1757708764&s=eaab989823d1473e80127bcf56a0b06f)">
+                            <div class="col-lg-7 col-md-12">
+                                <h3 class="text-capitalize" style="color: yellow">local seo</h3>
+                                <h1 class="text-white">How to Diagnose and Fix Google Maps Ranking Drops</h1>
                                 <div class="py-2 d-flex gap-4 mt-3">
                                     <div class="text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -29,8 +26,7 @@
                                             <path
                                                 d="M19 4h-1v3a1 1 0 0 1-2 0V4H8v3a1 1 0 0 1-2 0V4H5a3 3 0 0 0-3 3v3h20V7a3 3 0 0 0-3-3" />
                                         </svg>
-                                        <span class="ms-2">{{ \Carbon\Carbon::parse($blog->publish_date)->format('M d, Y') }}</span>
-										<!-- <span class="ms-2">Jan 15, 2024</span> --!>
+                                        <span class="ms-2">Jan 15, 2024</span>
                                     </div>
                                     <div class="text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -41,7 +37,7 @@
                                             <path
                                                 d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m.5-13H11v6l5.2 3.2l.8-1.3l-4.5-2.7z" />
                                         </svg>
-                                        <span class="ms-2">{{ $blog->time_to_read }} min read</span>
+                                        <span class="ms-2">6 min read</span>
                                     </div>
                                 </div>
                                 <div class="mt-3 d-flex align-items-center">
@@ -49,14 +45,14 @@
                                         <img src="https://www.abcdesigns.in/img/logo/logo_light.png" alt="Logo"
                                             class="w-100 h-100 object-fit-cover rounded-circle">
                                     </figure>
-                                    <span class="text-white">Written by: <span style="color: {{ $blog->highlight_color ?? '#ffc107' }}">{{ $blog->post_author }}</span></span>
+                                    <span class="text-white">Written by: <span style="color: yellow">ABC
+                                            Designs</span></span>
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-12 mt-4 mt-lg-0">
                                 <figure class="mb-0">
-                                    <img src="{{ asset($blog->banner_image_1 ?? 'https://moz.com/images/blog/insets/Local-SEO.png?w=1360&h=900&auto=compress%2Cformat&fit=crop&dm=1757710396&s=8a42f69376c6267d1cc2c65929cb88b1') }}"
-                 alt="{{ $blog->alt_text_banner_1 ?? $blog->blog_title }}"
-                 class="img-fluid rounded">
+                                    <img src="https://moz.com/images/blog/insets/Local-SEO.png?w=1360&h=900&auto=compress%2Cformat&fit=crop&dm=1757710396&s=8a42f69376c6267d1cc2c65929cb88b1"
+                                        alt="Blog Featured Image" class="img-fluid rounded">
                                 </figure>
                             </div>
                         </div>
@@ -188,32 +184,10 @@
                                             @endforeach
                                         </div>
                                     @endif --}}
-<style>
-.blog-content-inner ul {
-    list-style-type: disc !important;
-    padding-left: 24px;
-    margin-bottom: 16px;
-}
 
-.blog-content-inner ol {
-    list-style-type: decimal !important;
-    padding-left: 24px;
-    margin-bottom: 16px;
-}
-
-.blog-content-inner li {
-    margin-bottom: 8px;
-}
-
-.blog-content-inner li::marker {
-    color: #000;
-}
-</style>
                                     <!-- Static content for demonstration -->
-                                    <div class="blog-content-inner ck-content">
-									{!! $blog->blog_content !!}
-
-                                       <!-- <h2>Help! My Google Business Profile Local Search Visibility is Dropping</h2>
+                                    <div class="blog-content-inner">
+                                        <h2>Help! My Google Business Profile Local Search Visibility is Dropping</h2>
                                         <p>Managing a Google Business Profile (GBP) that is suddenly not driving the
                                             leads
                                             or traffic it once did can be stressful. A loss of ranking in Google Maps
@@ -317,7 +291,7 @@
                                             troubleshooting. By following the steps outlined in this guide, you can
                                             identify the root cause and implement effective solutions.</p>
                                         <p>Remember that SEO is a long-term game, and consistent effort will yield
-                                            results over time.</p> --!>
+                                            results over time.</p>
                                     </div>
                                 </article>
 
@@ -406,57 +380,7 @@
 
                             </div>
                         </div>
-    <section class="related-blogs pt-5">
-        <div class="container">
-            <h3 class="mb-3">Latest Blogs</h3>
-<div class="row reset-grid blog_listing">
 
-                             @foreach ($relatedBlogs as $rBlog)
-                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                    <article class="blog__item">
-                                        <div class="blog__img-wrapper">
-                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}">
-                                                <div class="img-box">
-                                                    <img class="image-box__item" src="{{ asset($rBlog->thumb_image) }}"
-                                                        alt="{{ $rBlog->blog_title }}" />
-                                                    <img class="image-box__item" src="{{ asset($rBlog->thumb_image) }}"
-                                                        alt="{{ $rBlog->blog_title }}" />
-                                                </div>
-                                            </a>
-                                        </div>
-										@php
-        $category = \App\Models\Categories::find($rBlog->category_id);
-    @endphp
-                                        <h4 class="blog__meta">
-                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}">
-                                                {{ $category->name  ?? '' }}
-                                                {{ $rBlog->post_author ?? '' }}
-                                            </a>
-                                            . {{ \Carbon\Carbon::parse($rBlog->created_at)->format('d M Y') }}
-                                        </h4>
-                                        <h5>
-                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}" class="blog__title">
-                                                {{ $rBlog->blog_title }}
-                                            </a>
-                                        </h5>
-                                        <p>
-                                            {{ Str::limit(strip_tags($rBlog->blog_content), 250, '...') }}
-
-                                        </p>
-
-                                        <div class="mt-3">
-                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}" class="blog__btn border rounded-pill cus-url-btn float-end me-4">
-                                                Read More <span><i class="fa-solid fa-arrow-right"></i></span>
-                                            </a>
-                                        </div>
-                                    </article>
-
-                                </div>
-                            @endforeach
-                           
-                        </div>
-        </div>
-    </section>
                     </div>
                 </section>
                 <!-- Blog area end -->

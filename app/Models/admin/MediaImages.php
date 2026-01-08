@@ -8,6 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class MediaImages extends Model
 {
     use HasFactory;
-
-    protected $fillable = ['title', 'urls', 'thumbnails', 'alt', 'description', 'status'];
 }

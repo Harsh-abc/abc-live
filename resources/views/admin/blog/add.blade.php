@@ -104,16 +104,6 @@
 												</select>
 											</div> 
 											
-											 <div class="form-group">
-												<label>Time To Read (minutes) : <span>*</span></label>
-												<input type="number" name="time_to_read" value="" class="form-control" min="1" placeholder="Enter time to read in minutes" required>
-											</div>
-											
-											 <div class="form-group"> 									
-											<label>Highlight Color : </label>   
-											<input type="color" name="highlight_color" value="#ffa500">
-											</div>
-											
 											<div class="card shade">
 												<h5> SEO </h5>
 												<div class="row">
@@ -138,12 +128,12 @@
 											</div> <!-- --> 								
 										</div> <!-- -->
 										<div class="col-xl-3 col-lg-3 col-md-3"> 
-											<!-- <div class="form-group">
+											<div class="form-group">
 												<div class="card shade">  
 													<label class="text-left"> Upload Image For Blog Content </label> 
 													<a href="/admin/blog/media" id="AddImage" class="btn ripple btn-primary">Upload For Blog Content </a>  
 												</div>
-											</div>-->
+											</div>
 											<div class="form-group">
 												<div class="card shade">  
 													<div class="image-upload"> 
@@ -178,22 +168,6 @@
 												<div class="col-lg-9 col-md-9 form-group">
 													<label>Alt_Text_Banner : <span>*</span></label>
 													<input name="Alt_Text_Banner" id="Alt_Text_Banner" value="" required="" class="form-control" placeholder="Alt_Text_Banner" onkeypress="ArticleNameurl();" onblur="ArticleNameurl();" type="text">
-												</div>
-												
-												<div class="form-group">
-												<div class="card shade">  
-													<div id="choose-thumbnail" class="text-center">
-														<label class="text-left"> Choose Left Banner Image  </label>  
-														<div id="img-preview"></div>
-														<input type="file" accept="image/*" id="choose-file" value="" name="banner_image_1" />
-														<label for="choose-file" class="w-100">Choose Left Banner</label>
-													</div>
-												</div>
-											</div>
-
-												<div class="col-lg-9 col-md-9 form-group">
-													<label>Alt_Text_Banner_1 : <span>*</span></label>
-													<input name="alt_text_banner_1" id="alt_text_banner_1" value="" required="" class="form-control" placeholder="Alt_Text_Banner_1" onkeypress="ArticleNameurl();" onblur="ArticleNameurl();" type="text">
 												</div>
 
 											<div class="form-group">

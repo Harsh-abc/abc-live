@@ -14,7 +14,6 @@ use RealRashid\SweetAlert\Facades\Alert;
 use Storage;
 use App\Mail\Subscribe;
 use App\Models\admin\Blogs;
-use App\Models\Categories;
 use App\Models\Tags;
 use Illuminate\Http\JsonResponse;
 
@@ -186,16 +185,10 @@ class FrontendController extends Controller
      }
 	 
 	 public function blogpage(){
-         $Blogs = Blogs::select('id','blog_order','post_author','blog_title','blog_url','blog_content','thumb_image','is_banner','is_popular','status','category_id','created_at')
+         $Blogs = Blogs::select('id','blog_order','post_author','blog_title','blog_url','blog_content','meta_description','thumb_image','is_banner','is_popular','status','category_id','created_at')
      ->where('status',1) ->where('blogs.is_deleted',0)->orderBy('blog_order','desc')->get();
-	 
-	  $categories = Categories::where('status', 1)
-        ->where('type', 3)
-        ->orderBy('name')
-        ->get();
-    return view('frontend.blog.listing',compact('Blogs', 'categories'));
+    return view('frontend.blog.listing',compact('Blogs'));
      }
-	 
 	public function bloginnerpage($slug)
 	{
 		$blog = Blogs::where('blog_url', $slug)->where('is_deleted', 0)->firstOrFail();
@@ -206,14 +199,7 @@ class FrontendController extends Controller
 						  ->where('status', 1)
 						  ->pluck('name')
 						  ->toArray();
-						  
-		 $relatedBlogs = Blogs::where('is_deleted', 0)
-                         ->where('id', '!=', $blog->id)
-						 ->where('status', 1)
-                         ->orderBy('created_at', 'desc')
-                         ->take(3)
-                         ->get(); 
-		return view('frontend.blog.blog-inner', compact('blog', 'activeTags', 'relatedBlogs'));
+		return view('frontend.blog.blog-inner', compact('blog', 'activeTags'));
 	}
 
 }

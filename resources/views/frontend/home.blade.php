@@ -1,10 +1,11 @@
 @include('frontend.layout.header')
 
-<body class="video_start">
+<body class="">
+    {{-- video_start --}}
     @include('frontend.layout.nav')
     <!--
  <div class="page-loader">
-    <div class="clock" id="clock"> </div> 
+    <div class="clock" id="clock"> </div>
   <video id="loading-video" autoplay muted>
    <source src="/video/intro.mp4?ver=0.1" type="video/mp4">
    <source src="/video/intro.ogg?ver=0.1" type="video/ogg">
@@ -48,8 +49,7 @@
                                             <p class="hero_form_para">We create digital experiences that shape the
                                                 future, today! Helping
                                                 clients imagine & innovate.</p>
-                                            <form method="post" action="/contact-us" id="contactforms"
-                                               >
+                                            <form method="post" action="/contact-us" id="contactforms">
                                                 @csrf
                                                 <div class="form-row">
                                                     <div class="form-floating mb-3">
@@ -100,10 +100,8 @@
                                                 </div> -->
                                                 <div class="form-row">
                                                     <div class="form-floating mb-3">
-                                                        <textarea type="textbox"
-                                                            class="form-control @error('message') is-invalid @enderror"
-                                                            id="message" name="message" placeholder="Message*" value=""
-                                                            required>{{ old('message') }}</textarea>
+                                                        <textarea type="textbox" class="form-control @error('message') is-invalid @enderror" id="message" name="message"
+                                                            placeholder="Message*" value="" required>{{ old('message') }}</textarea>
                                                         @error('message')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
@@ -116,7 +114,8 @@
                                                     <div class="g-recaptcha"
                                                         data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
                                                     <span id="captchaErr"
-                                                        class="error-message"><?php //echo $captchaErr;?></span>
+                                                        class="error-message"><?php //echo $captchaErr;
+                                                        ?></span>
                                                 </div>
                                                 <div class="form-group submit">
                                                     <input type="submit" id="submitBtns" class="btn btn-dark w-100"
@@ -130,24 +129,24 @@
 
 
                                     </div>
-<!-- SOFIYAAA -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const form1 = document.getElementById("contactforms");
-    const submitBtn1 = document.getElementById("submitBtns");
+                                    <!-- SOFIYAAA -->
+                                    <script>
+                                        document.addEventListener("DOMContentLoaded", function() {
+                                            const form1 = document.getElementById("contactforms");
+                                            const submitBtn1 = document.getElementById("submitBtns");
 
-    form1.addEventListener("submit", function() {
-        submitBtn1.value = "Sending...";   // Change button text
-        submitBtn1.disabled = true;        // Disable button
-    });
+                                            form1.addEventListener("submit", function() {
+                                                submitBtn1.value = "Sending..."; // Change button text
+                                                submitBtn1.disabled = true; // Disable button
+                                            });
 
-    // Re-enable button if form submission fails or validation blocks it
-    form1.addEventListener("ajax:error", function() {
-        submitBtn1.value = "Submit";
-        submitBtn1.disabled = false;
-    });
-});
-</script>
+                                            // Re-enable button if form submission fails or validation blocks it
+                                            form1.addEventListener("ajax:error", function() {
+                                                submitBtn1.value = "Submit";
+                                                submitBtn1.disabled = false;
+                                            });
+                                        });
+                                    </script>
 
                                     <!-- <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon"> -->
                                     <div class="experience">
@@ -257,7 +256,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 <!-- About area start -->
                 <section class="about__area">
-                    <div class="container g-0 pt-140 pb-130">
+                    {{-- <div class="container g-0 pt-140 pb-130"> --}}
+                    <div class="container g-0 pt-80 pb-80">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
 
                                 <div class="about__content-wrapper" style="position:relative;">
-                                    <div class="about__img">
+                                    {{-- <div class="about__img">
                                         <div class="img-anim"> <img src="/img/office/IMG_6555.PNG" alt="About Image"
                                                 data-speed="0.3"> </div>
                                         <div class="about__img-right">
@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 <div class="primary"></div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
 
                                     <div class="about__content text-anim">
                                         <p> At our digital agency, we combine creativity, design, and emotion to connect
@@ -297,6 +297,13 @@ document.addEventListener("DOMContentLoaded", function() {
                                                 Explore Us <i class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
+
+                                    <div>
+                                        <figure>
+                                            <div class="img-anim"> <img src="/img/office/IMG_6555.PNG"
+                                                    alt="About Image" data-speed="0.3"> </div>
+                                        </figure>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -306,7 +313,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
                 <!-- Service area start -->
-                <section class="service__area pt-110 pb-150">
+                <section class="service__area pt-80 pb-80">
                     <div class="container">
                         <div class="row">
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -339,9 +346,12 @@ document.addEventListener("DOMContentLoaded", function() {
                                     <div class="service__img-wrapper">
                                         <img src="/img/service/1.jpg" alt="Service Image"
                                             class="service__img img-1 active" />
-                                        <img src="/img/service/2.jpg" alt="Service Image" class="service__img img-2" />
-                                        <img src="/img/service/3.jpg" alt="Service Image" class="service__img img-3" />
-                                        <img src="/img/service/4.jpg" alt="Service Image" class="service__img img-4" />
+                                        <img src="/img/service/2.jpg" alt="Service Image"
+                                            class="service__img img-2" />
+                                        <img src="/img/service/3.jpg" alt="Service Image"
+                                            class="service__img img-3" />
+                                        <img src="/img/service/4.jpg" alt="Service Image"
+                                            class="service__img img-4" />
 
                                         <span class="shape-box-1 current"></span>
                                         <span class="shape-box-2"></span>
@@ -351,35 +361,95 @@ document.addEventListener("DOMContentLoaded", function() {
                                 </div>
                                 <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                                     <div class="service__list">
-                                        <a href="/services">
-                                            <div class="service__item animation_home1_service" data-service="1">
-                                                <div class="service__number"><span>01</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title"> Web Solutions </h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p> At ABC Designs, we create engaging, interactive web solutions
-                                                        that captivate users and elevate brands, helping you thrive in
-                                                        today’s digital world. </p>
-                                                </div>
-                                                <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
+                                        {{-- <a href="/services"> --}}
+                                        <div class="service__item animation_home1_service" data-service="1">
+                                            <div class="service__number"><span>01</span></div>
+                                            <div class="service__title-wrapper">
+                                                <h4 class="service__title">
+                                                    <a href="/services" class="text-gray2">
+                                                        Web Solutions
+                                                    </a>
+                                                </h4>
                                             </div>
-                                        </a>
+                                            <div class="service__text">
+                                                <p> At ABC Designs, we create engaging, interactive web solutions
+                                                    that captivate users and elevate brands, helping you thrive in
+                                                    today’s digital world. </p>
+                                                <ul class="mt-2 d-flex gap-2 flex-wrap">
+                                                    <li>
+                                                        <a href="/web-solutions/interactive-solutions"
+                                                            class="border rounded-pill cus-url-btn fade_left">Business Website Design & Development</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/web-solutions/ecommerce-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">Custom Website Development</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/web-solutions/api-development-and-integration"
+                                                            class="border rounded-pill cus-url-btn fade_left">E-commerce Website Development</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/web-solutions/website-maintenance-and-support"
+                                                            class="border rounded-pill cus-url-btn fade_left">Website Redesign</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/web-solutions/custom-web-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">API Development & Integration</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/web-solutions/custom-web-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">Website Maintenance & Support</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="service__link">
+                                                <a href="/services" class="text-gray2">
+                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        {{-- </a> --}}
                                         <a href="/services">
                                             <div class="service__item  animation_home1_service" data-service="2">
                                                 <div class="service__number"><span>02</span></div>
                                                 <div class="service__title-wrapper">
-                                                    <h4 class="service__title"> UI/UX Design</h4>
+                                                    <h4 class="service__title">
+                                                        <a href="#" class="text-gray2">
+                                                            App Design & Development
+                                                        </a>
+                                                    </h4>
                                                 </div>
                                                 <div class="service__text">
                                                     <p> At ABC Designs, we craft intuitive UI/UX designs that enhance
                                                         user experiences and drive engagement, helping your brand stand
                                                         out in the digital world. </p>
+                                                    <ul class="mt-2 d-flex gap-2 flex-wrap">
+                                                        <li>
+                                                            <a href="/ui-uxdesign/ui-design"
+                                                                class="border rounded-pill cus-url-btn fade_left">Mobile App UI/UX Design</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ui-uxdesign/ux-experience"
+                                                                class="border rounded-pill cus-url-btn fade_left">Android App Development</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ui-uxdesign/ux-audit"
+                                                                class="border rounded-pill cus-url-btn fade_left">iOS App Development</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ui-uxdesign/ux-audit"
+                                                                class="border rounded-pill cus-url-btn fade_left">Web App Development</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/ui-uxdesign/ux-audit"
+                                                                class="border rounded-pill cus-url-btn fade_left">App Maintenance & Support</a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                                 <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                    <a href="#" class="text-gray2">
+                                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </a>
@@ -387,15 +457,43 @@ document.addEventListener("DOMContentLoaded", function() {
                                             <div class="service__item  animation_home1_service" data-service="3">
                                                 <div class="service__number"><span>03</span></div>
                                                 <div class="service__title-wrapper">
-                                                    <h4 class="service__title">Digital <br>Maketing</h4>
+                                                    <h4 class="service__title">
+                                                        <a href="#" class="text-gray2">
+                                                            UI/UX Design
+                                                        </a>
+                                                    </h4>
                                                 </div>
                                                 <div class="service__text">
                                                     <p> At ABC Designs, we offer result-driven digital marketing
                                                         services that boost your online presence, engage audiences, and
                                                         drive business growth. </p>
+                                                    {{-- <ul class="mt-2 d-flex gap-2 flex-wrap">
+                                                        <li>
+                                                            <a href="/digital-marketing/search-engine-optimization"
+                                                                class="border rounded-pill cus-url-btn fade_left">SEO
+                                                                Service</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/search-engine-marketing"
+                                                                class="border rounded-pill cus-url-btn fade_left">SEM
+                                                                Service</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/social-media"
+                                                                class="border rounded-pill cus-url-btn fade_left">Social
+                                                                Media</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/content-writing"
+                                                                class="border rounded-pill cus-url-btn fade_left">Content
+                                                                Writing</a>
+                                                        </li>
+                                                    </ul> --}}
                                                 </div>
                                                 <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                    <a href="#" class="text-gray2">
+                                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </a>
@@ -403,15 +501,79 @@ document.addEventListener("DOMContentLoaded", function() {
                                             <div class="service__item  animation_home1_service" data-service="4">
                                                 <div class="service__number"><span>04</span></div>
                                                 <div class="service__title-wrapper">
-                                                    <h4 class="service__title"> Concept Design </h4>
+                                                    <h4 class="service__title">
+                                                        <a href="#" class="text-gray2">Digital Marketing Services</a>
+                                                    </h4>
                                                 </div>
                                                 <div class="service__text">
                                                     <p> At ABC Designs, we offer creative concept design, branding
                                                         solutions, social media post designs, and dynamic animations to
                                                         elevate your brand. </p>
+                                                    <ul class="mt-2 d-flex gap-2 flex-wrap">
+                                                        <li>
+                                                            <a href="/concept-design/branding-solutions"
+                                                                class="border rounded-pill cus-url-btn fade_left">Search Engine Optimization (SEO)</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/social-media-posts-design"
+                                                                class="border rounded-pill cus-url-btn fade_left">Search Engine Marketing (Google Ads)</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/design-and-animation"
+                                                                class="border rounded-pill cus-url-btn fade_left">Performance Marketing (Meta Ads)</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/design-and-animation"
+                                                                class="border rounded-pill cus-url-btn fade_left">Content Marketing & Writing</a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                                 <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                    <a href="#" class="text-gray2">
+                                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/services">
+                                            <div class="service__item  animation_home1_service" data-service="4">
+                                                <div class="service__number"><span>05</span></div>
+                                                <div class="service__title-wrapper">
+                                                    <h4 class="service__title">
+                                                        <a href="#" class="text-gray2">Branding & Creative Design</a>
+                                                    </h4>
+                                                </div>
+                                                <div class="service__text">
+                                                    <p> At ABC Designs, we offer creative concept design, branding
+                                                        solutions, social media post designs, and dynamic animations to
+                                                        elevate your brand. </p>
+                                                    <ul class="mt-2 d-flex gap-2 flex-wrap">
+                                                        <li>
+                                                            <a href="/concept-design/branding-solutions"
+                                                                class="border rounded-pill cus-url-btn fade_left">Branding Solutions</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/social-media-posts-design"
+                                                                class="border rounded-pill cus-url-btn fade_left">Logo Design</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/design-and-animation"
+                                                                class="border rounded-pill cus-url-btn fade_left">Social Media Creatives</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/design-and-animation"
+                                                                class="border rounded-pill cus-url-btn fade_left">Design & Animation</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/design-and-animation"
+                                                                class="border rounded-pill cus-url-btn fade_left">Marketing Creatives</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="service__link">
+                                                    <a href="#" class="text-gray2">
+                                                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </a>
@@ -426,7 +588,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 <!-- Counter area start -->
                 <section class="counter__area">
-                    <div class="container g-0 pt-150">
+                    <div class="container g-0 pt-80">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -466,7 +628,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 <!-- Workflow area start -->
                 <section class="workflow__area">
-                    <div class="container g-0 pt-140 pb-140">
+                    <div class="container g-0 pt-80 pb-80">
                         <div class="line-3"></div>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -514,6 +676,8 @@ document.addEventListener("DOMContentLoaded", function() {
                                             <p>We look forward to engage with beyond the conventional</p>
                                         </div>
                                     </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
                                 </div>
                             </div>
                         </div>
@@ -523,7 +687,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
                 <!-- Portfolio area start -->
-                <section class="portfolio__area pb-140">
+                {{-- <section class="portfolio__area pb-140">
                     <div class="container">
                         <div class="row top_row">
                             <h2 class="portfolio__text">work</h2>
@@ -599,13 +763,75 @@ document.addEventListener("DOMContentLoaded", function() {
                             </div>
                         </div>
                     </div>
+                </section> --}}
+                <section class="portfolio__area pt-80 pb-80">
+                    <div class="container">
+                        <div class="row flex-items-center">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                <div class="sec-title-wrapper wrap">
+                                    <h2 class="sec-title title-anim text-white fs-1">Work</h2>
+                                    {{-- <h3 class="sec-title title-anim">Solution we <br>provide</h3> --}}
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-5">
+                                <div class="service__top-text text-anim">
+                                    <p> As we look towards the future, we are excited to continue pushing boundaries,
+                                        exploring new technologies, and expanding our capabilities to meet the
+                                        ever-changing needs of the digital world. With our passion, expertise, and
+                                        client-centric approach.</p>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
+                                <div class="service__top-btn">
+                                    <div class="btn_wrapper">
+                                        <a href="/services" class="btn-item wc-btn-secondary btn-hover"><span></span>
+                                            View <br>all services <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add this section where you want the gallery -->
+                        <section class="circular-gallery-section" id="circularGallerySection">
+                            <div class="circular-gallery-container">
+
+                                <!-- Gallery Scene -->
+                                <div class="circular-gallery-scene" id="galleryScene">
+                                    <div class="circular-gallery-assembly" id="galleryAssembly">
+                                        <!-- Articles will be dynamically inserted here -->
+                                    </div>
+                                </div>
+
+                                <!-- Navigation Controls -->
+                                <div class="circular-gallery-controls">
+                                    <button class="circular-gallery-btn circular-gallery-btn-prev" id="galleryPrev"
+                                        aria-label="Previous">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </button>
+                                    <div class="circular-gallery-counter">
+                                        <span id="currentIndex">1</span> / <span id="totalCount">18</span>
+                                    </div>
+                                    <button class="circular-gallery-btn circular-gallery-btn-next" id="galleryNext"
+                                        aria-label="Next">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2">
+                                            <polyline points="9 18 15 12 9 6"></polyline>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+
                 </section>
+
                 <!-- Portfolio area end -->
 
 
                 <!-- Brand area start -->
                 <section class="brand__area">
-                    <div class="container g-0 pt-140 pb-130">
+                    <div class="container g-0 pt-80 pb-80">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -665,7 +891,140 @@ document.addEventListener("DOMContentLoaded", function() {
                 </section>
                 <!-- Brand area end -->
 
-                @include('frontend.layout.cta')
+                <!-- FAQ area start -->
+                <section class="faq__area">
+                    <div class="container g-0 pb-80">
+                        <div class="line-3"></div>
+                        <div class="row">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                <div class="faq__content px-0 pt-0">
+                                    <h2 class="faq__title title-anim">Frequently Asked Questions</h2>
+                                    <div class="faq__list">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        What types of businesses can benefit from interactive solutions?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <p>Businesses across all industries can benefit from interactive
+                                                            solutions, including e-commerce, education, healthcare, and
+                                                            entertainment. Any brand looking to enhance user engagement
+                                                            and experience can leverage our services. </p>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="true" aria-controls="collapseTwo">
+                                                        How long does it take to develop an interactive application?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <p> The development timeline for an interactive application
+                                                            depends on its complexity and specific requirements. We work
+                                                            closely with clients to establish timelines that meet their
+                                                            needs while ensuring quality. </p>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                        aria-expanded="true" aria-controls="collapseThree">
+                                                        What is the cost of your interactive services?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <p> The cost of our interactive services varies based on project
+                                                            scope and requirements. We offer competitive pricing
+                                                            tailored to deliver maximum value for your investment. </p>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- -->
+                                        </div> <!-- accordion -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="subscribe-container col-xxl-6 col-xl-6 col-lg-6 col-md-6 d-flex flex-column justify-content-start align-items-start">
+                                <div
+                                    class="w-100 pt-80 pb-80 rounded d-flex flex-column justify-content-center align-items-center border">
+                                    <div class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                                            viewBox="0 0 256 256"><!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE -->
+                                            <path fill="currentColor"
+                                                d="M216 82h-34V48a14 14 0 0 0-14-14H40a14 14 0 0 0-14 14v128a6 6 0 0 0 3.42 5.41A5.86 5.86 0 0 0 32 182a6 6 0 0 0 3.77-1.33L73.71 150H74v34a14 14 0 0 0 14 14h94.29l37.94 30.67A6 6 0 0 0 224 230a5.86 5.86 0 0 0 2.58-.59A6 6 0 0 0 230 224V96a14 14 0 0 0-14-14M71.58 138a6 6 0 0 0-3.77 1.33L38 163.43V48a2 2 0 0 1 2-2h128a2 2 0 0 1 2 2v88a2 2 0 0 1-2 2ZM218 211.43l-29.81-24.1a6 6 0 0 0-3.77-1.33H88a2 2 0 0 1-2-2v-34h82a14 14 0 0 0 14-14V94h34a2 2 0 0 1 2 2Z" />
+                                        </svg>
+                                    </div>
+                                    <h2 class="mt-3">Do you have more questions?</h2>
+                                    <div
+                                        class="mt-3 w-100 row height-100 d-flex justify-content-center align-items-center">
+                                        <div class="col-md-10">
+                                            <div class="subscribe-btn position-relative">
+                                                <input class="form-control" placeholder="Your email address">
+                                                <button class="btn position-absolute">Send</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- FAQ area end -->
+                <section class="verified-section pb-80">
+                    <div class="container text-center">
+
+                        <!-- Title -->
+                        <h2 class="verified-title mb-5">
+                            VERIFIED <span>BY</span>
+                        </h2>
+
+                        <!-- Logos -->
+                        <div class="row justify-content-center align-items-center g-4">
+
+                            <div class="col-6 col-sm-4 col-md-2">
+                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" alt="Google Partner"
+                                    class="verified-logo img-fluid">
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-2">
+                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" alt="Meta Business Partner"
+                                    class="verified-logo img-fluid">
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-2">
+                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" alt="Clutch Agency" class="verified-logo img-fluid">
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-2">
+                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" alt="Top Digital Marketing Company"
+                                    class="verified-logo img-fluid">
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-2">
+                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" alt="Sortlist Verified Agency"
+                                    class="verified-logo img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                {{-- @include('frontend.layout.cta') --}}
 
             </main>
 
