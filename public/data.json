@@ -1,0 +1,2598 @@
+{
+	"categories": [
+		{
+			"category": "All",
+			"seourl": "all"
+		},
+		{ 
+			"category": "UI Design & Development",
+			"seourl": "uidesign-development"
+		},
+		{ 
+			"category": "Interactive Solutions",
+			"seourl": "interactive-solutions"
+		}, 
+		{ 
+			"category": "Branding",
+			"seourl": "branding"
+		},
+		{ 
+			"category": "App Development",
+			"seourl": "app-development"
+		},
+		{ 
+			"category": "E-Commerce",
+			"seourl": "e-commerce"
+		},
+		{ 
+			"category": "Digital Marketing",
+			"seourl": "digital-marketing"
+		} 
+	],
+	"projects": [
+		{
+			"id": "01",
+			"title": "Bharat Inclusion Summit | Our Work | Website Design Agency Mumbai",
+			"name": "Bharat Inclusion Summit",
+			"seourl": "bharat-inclusion-summit",
+			"description": "ABC DESIGNS, Bharat Inclusion Summit",
+			"keywords": "Bharat Inclusion Summit",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"client": "Stepone",
+			"project_head": "Enhancing Engagement and Interactivity",
+			"project_info": [
+				{	
+					"project_info": "In this case study, we showcase how we collaborated with a client to develop an interactive solution that enhanced user engagement and provided a unique and immersive digital experience. The project involved the creation of a custom interactive application or system that transformed the way users interacted with the client's brand, products, or services."
+				}
+			],
+			"project_head2": "Build, streamline and evolve together with solution",
+			"project_info2": [
+				{						
+					"project_info": "We sought to create an engaging and user-friendly experience through intuitive navigation, interactive features, and accessible design elements."
+				},
+				{	
+					"project_info": "Our design team created a visually appealing and intuitive interface that prioritized ease of use and accessibility. We ensured clear content organization, legible typography, and high contrast to cater to users with varying abilities."
+				}
+			],
+			
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Badge Printing" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe XD" }, 
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "Laravel" }, 
+				{ "tool": "Ajax" }, 
+				{ "tool": "AWS" }, 
+				{ "tool": "SVG" }
+			],
+			"thumbnail": "/img/portfolio/1.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/bii/banner.jpg", 
+			"vdobanner": "/img/portfolio/bii/event.mp4", 
+			"project": [
+				{  "project_pic": "/img/portfolio/bii/6.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/bii/2.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/bii/3.jpg",
+				   "label": 1
+				},
+				{ "project_pic": "/img/portfolio/bii/4.jpg",
+				   "label": 1
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "02",
+			"title": "Fully Faltoo NFT MTV 2022 | Our Work | Website Design Agency Mumbai",
+			"name": "Fully Faltoo NFT MTV 2022",
+			"seourl": "fully-faltoo-nft-mtv-2022",
+			"description": "ABC DESIGNS, Fully Faltoo NFT MTV 2022",
+			"keywords": "Fully Faltoo NFT MTV 2022, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/10", 
+			"banner": "/img/portfolio/fullyfaltu/banner.jpg", 
+			"vdobanner": "/img/portfolio/fullyfaltu/event.mp4", 
+			"project": [ 
+				{  "project_pic": "/img/portfolio/fullyfaltu/1.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/fullyfaltu/2.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/fullyfaltu/3.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/fullyfaltu/4.jpg",
+				   "label": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "03",
+			"title": "Mariafe Artacho Del Solar | Our Work | Website Design Agency Mumbai",
+			"name": "Mariafe Artacho Del Solar",
+			"seourl": "mariafe-artacho-del-solar",
+			"description": "ABC DESIGNS, Mariafe Artacho Del Solar",
+			"keywords": "Mariafe Artacho Del Solar, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" },
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe XD" },  
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/6.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/mariafe/banner.jpg", 
+			"vdobanner": "/img/portfolio/mariafe/mariafe_artacho_del_solar.mp4", 
+			"project": [ 
+				{  "project_pic": "/img/portfolio/mariafe/1.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/mariafe/2.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/mariafe/3.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/mariafe/4.jpg",
+				   "label": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "04",
+			"title": "Experience Tetris | Our Work | Website Design Agency Mumbai",
+			"name": "Experience Tetris",
+			"seourl": "experience-tetris",
+			"description": "ABC DESIGNS, Experience Tetris",
+			"keywords": "Experience Tetris, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/2.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/experience_tetris/banner.jpg", 
+			"project": [
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": " ",		
+					"project_pic": " ",		
+					"video": ""
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "05",
+			"title": "Sketcher Squad | Our Work | Website Design Agency Mumbai",
+			"name": "Sketcher Squad",
+			"seourl": "sketcher-squad",
+			"description": "ABC DESIGNS, Sketcher Squad",
+			"keywords": "Sketcher Squad, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/3.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/sketcher/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "06",
+			"title": "Micasa Admire Luxuries | Our Work | Website Design Agency Mumbai",
+			"name": "Micasa Admire Luxuries",
+			"seourl": "micasa-admire-luxuries",
+			"description": "ABC DESIGNS, Micasa Admire Luxuries",
+			"keywords": "Micasa Admire Luxuries, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/5.jpg", 
+			"video_thumb": "/img/portfolio/10", 
+			"banner": "/img/portfolio/micasa/banner.jpg", 
+			"vdobanner": "/img/portfolio/micasa/micasa.mp4", 
+			"project": [ 
+				{  "project_pic": "/img/portfolio/micasa/1.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/micasa/2.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/micasa/3.jpg",
+				   "label": 0
+				},
+				{  "project_pic": "/img/portfolio/micasa/4.jpg",
+				   "label": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "07",
+			"title": "Cummins Virtual Factor 2022 | Our Work | Website Design Agency Mumbai",
+			"name": "Cummins Virtual Factor 2022",
+			"seourl": "cummins-virtual-factor-2022",
+			"description": "ABC DESIGNS, Cummins Virtual Factor 2022",
+			"keywords": "Cummins Virtual Factor 2022, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2022",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/12", 
+			"banner": "/img/portfolio/cummins_virtual/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "08",
+			"title": "Julius Packiam | Our Work | Website Design Agency Mumbai",
+			"name": "Julius Packiam",
+			"seourl": "julius-packiam",
+			"description": "ABC DESIGNS, Julius Packiam",
+			"keywords": "Julius Packiam, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/8.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/juliuspackiam/banner.jpg", 
+			"vdobanner": "/img/portfolio/juliuspackiam/event.mp4",
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "09",
+			"title": "IIFL 2021 | Our Work | Website Design Agency Mumbai",
+			"name": "IIFL 2021",
+			"seourl": "IIFL-2021",
+			"description": "ABC DESIGNS, IIFL 2021",
+			"keywords": "IIFL 2021, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2021",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/20", 
+			"banner": "/img/portfolio/iifl/banner.jpg",
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "10",
+			"title": "India At Cannes 2023 | Our Work | Website Design Agency Mumbai",
+			"name": "India At Cannes 2023",
+			"seourl": "india-at-cannes-2023",
+			"description": "ABC DESIGNS, India At Cannes 2023",
+			"keywords": "India At Cannes 2023, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/14.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/indiacannes_2023/banner.jpg",  
+			"vdobanner": "/img/portfolio/indiacannes_2023/indiacannes_2023.mp4",
+			"project": [ 
+				{  "project_pic": "/img/portfolio/indiacannes_2023/1.jpg",
+				   "video": 0
+				},
+				{  "project_pic": "/img/portfolio/indiacannes_2023/1.jpg",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "11",
+			"title": "Nestle SOGH | Our Work | Website Design Agency Mumbai",
+			"name": "Nestle SOGH",
+			"seourl": "nestle-sogh",
+			"description": "ABC DESIGNS, Nestle SOGH",
+			"keywords": "Nestle SOGH, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/23",  
+			"banner": "/img/portfolio/mission_possible/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "12",
+			"title": "Nasscom NISC 2022 | Our Work | Website Design Agency Mumbai",
+			"name": "Nasscom NISC 2022",
+			"seourl": "nasscom-nisc-2022",
+			"description": "ABC DESIGNS, Nasscom NISC 2022",
+			"keywords": "Nasscom NISC 2022, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2022",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/11.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/nasscom/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "13",
+			"title": "Mission Possible Launch 2021 | Our Work | Website Design Agency Mumbai",
+			"name": "Mission Possible Launch 2021",
+			"seourl": "mission-possible-launch-2021",
+			"description": "ABC DESIGNS, Mission Possible Launch 2021",
+			"keywords": "Mission Possible Launch 2021, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2021",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/21.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/mission_possible/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "14",
+			"title": "Football Game | Our Work | Website Design Agency Mumbai",
+			"name": "Football Game",
+			"seourl": "football-game",
+			"description": "ABC DESIGNS, Football Game",
+			"keywords": "Football Game, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/7", 
+			"banner": "/img/portfolio/football_game/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "15",
+			"title": "Health Concept | Our Work | Website Design Agency Mumbai",
+			"name": "Health Concept",
+			"seourl": "health-concept",
+			"description": "ABC DESIGNS, Health Concept",
+			"keywords": "Health Concept, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "APP Development",
+			"type": "app-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/healthconcept_app.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/health_concept/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "16",
+			"title": "NTFL 2020 | Our Work | Website Design Agency Mumbai",
+			"name": "NTFL",
+			"seourl": "ntfl",
+			"description": "ABC DESIGNS, NTFL",
+			"keywords": "NTFL, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/40", 
+			"banner": "/img/portfolio/ntfl/banner.jpg",
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "17",
+			"title": "Namak Issk ka | Our Work | Website Design Agency Mumbai",
+			"name": "Namak Issk ka",
+			"seourl": "namak-issk-ka",
+			"description": "ABC DESIGNS, Namak Issk ka",
+			"keywords": "Namak Issk ka, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/41", 
+			"banner": "/img/portfolio/namak_isskka/banner.jpg",
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "18",
+			"title": "MP Interactive Screen GAME | Our Work | Website Design Agency Mumbai",
+			"name": "MP Interactive Screen GAME",
+			"seourl": "mp-interactive-screen-game",
+			"description": "ABC DESIGNS, MP Interactive Screen GAME",
+			"keywords": "MP Interactive Screen GAME, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/4.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/mpinteractive_2023/banner.jpg",
+			"vdobanner": 0,
+			"project": [ 
+				{  "project_pic": "/img/portfolio/mpinteractive_2023/1.jpg",
+				   "video": 0
+				},
+				{  "project_pic": "/img/portfolio/mpinteractive_2023/1.jpg",
+				   "video": 0
+				},
+				{  "project_pic": "/img/portfolio/mpinteractive_2023/3.jpg",
+				   "video": 0
+				},
+				{  "project_pic": "/img/portfolio/mpinteractive_2023/4.jpg",
+				   "video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "19",
+			"title": "Intel-AI for Youth Symposium | Our Work | Website Design Agency Mumbai",
+			"name": "Intel-AI for Youth Symposium",
+			"seourl": "intel-ai-for-youth-symposium",
+			"description": "ABC DESIGNS, Intel-AI for Youth Symposium",
+			"keywords": "Intel-AI for Youth Symposium, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/42.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/intel_aiforyouth/banner.jpg",
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "20",
+			"title": "Playtorium | Our Work | Website Design Agency Mumbai",
+			"name": "Playtorium",
+			"seourl": "playtorium",
+			"description": "ABC DESIGNS, Playtorium",
+			"keywords": "Playtorium, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/9.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/playtorium/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "21",
+			"title": "Tiny Library 2023 - VolumeZero | Our Work | Website Design Agency Mumbai",
+			"name": "Tiny Library 2023 - VolumeZero",
+			"seourl": "tiny-library-2023-volumezero",
+			"description": "ABC DESIGNS, Tiny Library 2023 - VolumeZero",
+			"keywords": "Tiny Library 2023 - VolumeZero, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/13.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/tiny_library/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "22",
+			"title": "Live IKF 2021 | Our Work | Website Design Agency Mumbai",
+			"name": "Live IKF 2021",
+			"seourl": "live-ikf-2021",
+			"description": "ABC DESIGNS, Live IKF 2021",
+			"keywords": "Live IKF 2021, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2021",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/43", 
+			"banner": "/img/portfolio/live_ikf/banner.jpg",
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "23",
+			"title": "Grace Turnkey Projects | Our Work | Website Design Agency Mumbai",
+			"name": "Grace Turnkey Projects",
+			"seourl": "grace-turnkey-projects",
+			"description": "ABC DESIGNS, Grace Turnkey Projects",
+			"keywords": "Grace Turnkey Projects, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/15.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/grace/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "24",
+			"title": "Swiggy Emailers | Our Work | Website Design Agency Mumbai",
+			"name": "Swiggy Emailers",
+			"seourl": "swiggy-emailer",
+			"description": "ABC DESIGNS, Swiggy Emailer",
+			"keywords": "Swiggy Emailer, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }
+			],
+			"thumbnail": "/img/portfolio/16.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/emailer/swiggy/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "25",
+			"title": "Linkedin Emailers | Our Work | Website Design Agency Mumbai",
+			"name": "Linkedin Emailers",
+			"seourl": "linkedin-emailer",
+			"description": "ABC DESIGNS, Linkedin Emailer",
+			"keywords": "Linkedin Emailer, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" } 
+			],
+			"thumbnail": "/img/portfolio/17.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/emailer/linkedin/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "26",
+			"title": "Rudram Infra | Our Work | Website Design Agency Mumbai",
+			"name": "Rudram Infra",
+			"seourl": "rudram-infra",
+			"description": "ABC DESIGNS, Rudram Infra",
+			"keywords": "Rudram Infra, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "branding",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "CorelDRAW" }, 
+				{ "tool": "Adobe Illustrator" } 
+			],
+			"thumbnail": "/img/portfolio/19.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/rudram/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "27",
+			"title": "Saaf Niyat Sahi Vikaas | Our Work | Website Design Agency Mumbai",
+			"name": "Saaf Niyat Sahi Vikaas",
+			"seourl": "saaf-niyat-sahi-vikaas",
+			"description": "ABC DESIGNS, Saaf Niyat Sahi Vikaas",
+			"keywords": "Saaf Niyat Sahi Vikaas, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" } 
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/18", 
+			"banner": "/img/portfolio/saaf_niyat/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "28",
+			"title": "Amway Emailers | Our Work | Website Design Agency Mumbai",
+			"name": "Amway Emailers",
+			"seourl": "amway-emailer",
+			"description": "ABC DESIGNS, Amway Emailer",
+			"keywords": "Amway Emailer, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }
+			],
+			"thumbnail": "/img/portfolio/24.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/emailer/amway/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "29",
+			"title": "Tata Sky Emailers | Our Work | Website Design Agency Mumbai",
+			"name": "Tata Sky Emailers",
+			"seourl": "tata-sky-emailer",
+			"description": "ABC DESIGNS, Tata Sky Emailer",
+			"keywords": "Tata Sky Emailer, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" } 
+			],
+			"thumbnail": 0, 
+			"video_thumb": "/img/portfolio/25", 
+			"banner": "/img/portfolio/emailer/tatasky/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "30",
+			"title": "India at Cannes 2020 | Our Work | Website Design Agency Mumbai",
+			"name": "India at Cannes 2020",
+			"seourl": "india-at-cannes-2020",
+			"description": "ABC DESIGNS, India at Cannes 2020",
+			"keywords": "India at Cannes 2020, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/22.jpg", 
+			"video_thumb": 0, 
+			"banner": "/img/portfolio/cannes/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "31",
+			"title": "Viacom18 | Our Work | Website Design Agency Mumbai",
+			"name": "Viacom18",
+			"seourl": "viacom18",
+			"description": "ABC DESIGNS, Viacom18",
+			"keywords": "Viacom18, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/26.jpg", 
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/viacom18/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "32",
+			"title": "Youth Secrets | Our Work | Website Design Agency Mumbai",
+			"name": "Youth Secrets",
+			"seourl": "youth-secrets",
+			"description": "ABC DESIGNS, Youth Secrets",
+			"keywords": "Youth Secrets, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "E-Commerce",
+			"type": "e-commerce",			
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "AWS" },  
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/27.jpg", 
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/youth_secrets/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "33",
+			"title": "TechHRIndia 2022 | Our Work | Website Design Agency Mumbai",
+			"name": "TechHRIndia 2022",
+			"seourl": "techhrindia-2022",
+			"description": "ABC DESIGNS, TechHRIndia 2022",
+			"keywords": "TechHRIndia 2022, ABC DESIGNS",
+			"start_date": "",	
+			"end_date": "", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",			
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" }, 
+				{ "tool": "Laravel" }
+			],
+			"thumbnail": "/img/portfolio/28.jpg", 
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/techhrindia/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "34",
+			"title": "Eventify Entertainment | Our Work | Website Design Agency Mumbai",
+			"name": "Eventify Entertainment",
+			"seourl": "eventify-entertainment",
+			"description": "ABC DESIGNS, Eventify Entertainment",
+			"keywords": "Eventify Entertainment, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/29.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/eventify/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "35",
+			"title": "Studio Bridge | Our Work | Website Design Agency Mumbai",
+			"name": "Studio Bridge",
+			"seourl": "studio-bridge",
+			"description": "ABC DESIGNS, Studio Bridge",
+			"keywords": "Studio Bridge, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Studio Bridge is an independent design practice that specializes in spatial & interior design. We created a fully responsive website for Studio Bridge.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": 0,
+			"video_thumb": "/img/portfolio/30",  
+			"banner": "/img/portfolio/studio_bridge/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "36",
+			"title": "Godrej Appliances | Our Work | Website Design Agency Mumbai",
+			"name": "Godrej Appliances",
+			"seourl": "godrej-appliances",
+			"description": "ABC DESIGNS, Godrej Appliances",
+			"keywords": "Godrej Appliances, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/31.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/godrej/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "37",
+			"title": "People's Matters | Our Work | Website Design Agency Mumbai",
+			"name": "People's Matters",
+			"seourl": "peoples-matters",
+			"description": "ABC DESIGNS, People's Matters",
+			"keywords": "People's Matters, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/32.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/peoples_matters/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "38",
+			"title": "Mahindra | Our Work | Website Design Agency Mumbai",
+			"name": "Mahindra",
+			"seourl": "mahindra",
+			"description": "ABC DESIGNS, Mahindra",
+			"keywords": "Mahindra, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/33.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/mahindra/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "39",
+			"title": "Wash N Dry | Our Work | Website Design Agency Mumbai",
+			"name": "Wash N Dry",
+			"seourl": "wash-n-dry",
+			"description": "ABC DESIGNS, Wash N Dry",
+			"keywords": "Wash N Dry, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "APP Development",
+			"type": "app-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/34.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/wash_dry/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "40",
+			"title": "Volkswagen Brand Conference | Our Work | Website Design Agency Mumbai",
+			"name": "Volkswagen Brand Conference",
+			"seourl": "volkswagen-brand-conference",
+			"description": "ABC DESIGNS, Volkswagen Brand Conference",
+			"keywords": "Volkswagen Brand Conference, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": 0,
+			"video_thumb": "/img/portfolio/35",  
+			"banner": "/img/portfolio/peoples_matters/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "41",
+			"title": "Sanofi CPL | Our Work | Website Design Agency Mumbai",
+			"name": "Sanofi CPL",
+			"seourl": "sanofi-cpl",
+			"description": "ABC DESIGNS, Sanofi CPL",
+			"keywords": "Sanofi CPLe, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Interactive Solutions",
+			"type": "interactive-solutions",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": 0,
+			"video_thumb": "/img/portfolio/36",  
+			"banner": "/img/portfolio/sanofi/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "42",
+			"title": "NextBigIdea  | Our Work | Website Design Agency Mumbai",
+			"name": "NextBigIdea ",
+			"seourl": "nextbigidea",
+			"description": "ABC DESIGNS, NextBigIdea",
+			"keywords": "NextBigIdea, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/37.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/nextbigidea/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "43",
+			"title": "Bombay Stencil  | Our Work | Website Design Agency Mumbai",
+			"name": "Bombay Stencil",
+			"seourl": "bombay-stencil",
+			"description": "ABC DESIGNS, Bombay Stencil",
+			"keywords": "Bombay Stencil, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/38.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/bombay_stencil/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "44",
+			"title": "The Mumbai Summit 2020  | Our Work | Website Design Agency Mumbai",
+			"name": "The Mumbai Summit 2020 ",
+			"seourl": "the-mumbai-summit-2020",
+			"description": "ABC DESIGNS, The Mumbai Summit 2020",
+			"keywords": "The Mumbai Summit 2020, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2020",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "UI Design & Development",
+			"type": "uidesign-development",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/39.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/mumbai_summit/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "45",
+			"title": "Ascenso | Our Work | Website Design Agency Mumbai",
+			"name": "Ascenso",
+			"seourl": "ascenso",
+			"description": "ABC DESIGNS, Ascenso",
+			"keywords": "Ascenso, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": 0,
+			"video_thumb": "/img/portfolio/44",  
+			"banner": "/img/portfolio/ascenso/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "46",
+			"title": "Spark Minda | Our Work | Website Design Agency Mumbai",
+			"name": "Spark Minda",
+			"seourl": "spark-minda",
+			"description": "ABC DESIGNS, Spark Minda",
+			"keywords": "Spark Minda, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/45.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/spark_minda/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "47",
+			"title": "Saraswati Classes | Our Work | Website Design Agency Mumbai",
+			"name": "Saraswati Classes",
+			"seourl": "saraswati-classes",
+			"description": "ABC DESIGNS, Saraswati Classes",
+			"keywords": "Saraswati Classes, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/46.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/saraswati_classes/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "48",
+			"title": "Kombooz India | Our Work | Website Design Agency Mumbai",
+			"name": "Kombooz India",
+			"seourl": "komboozindia",
+			"description": "ABC DESIGNS, Kombooz India",
+			"keywords": "Kombooz India, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2023",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "E-Commerce",
+			"type": "e-commerce",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/47.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/komboozindia/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "49",
+			"title": "ExtraMarks | Our Work | Website Design Agency Mumbai",
+			"name": "ExtraMarks",
+			"seourl": "extramarks",
+			"description": "ABC DESIGNS, ExtraMarks",
+			"keywords": "ExtraMarks, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2022",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": 0,
+			"video_thumb": "/img/portfolio/48",  
+			"banner": "/img/portfolio/extramarks/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		},
+		{
+			"id": "50",
+			"title": "Sodexo CureFit | Our Work | Website Design Agency Mumbai",
+			"name": "Sodexo CureFit",
+			"seourl": "sodexo-curefit",
+			"description": "ABC DESIGNS, Sodexo CureFit",
+			"keywords": "Sodexo CureFit, ABC DESIGNS",
+			"start_date": "02-03-2023",	
+			"end_date": "05-03-2023", 
+			"year": "2022",	
+			"project_head": "Build, streamline and evolve together with solution",	
+			"project_info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"category_name": "Digital Marketing",
+			"type": "digital-marketing",
+			"work_desc": [
+				{ "tech": "Brand Development" }, 
+				{ "tech": "UX/UI Design" }, 
+				{ "tech": "Front-End Development" }, 
+				{ "tech": "SVG Animations" }, 
+				{ "tech": "Laravel Development" }
+			],
+			"tools": [
+				{ "tool": "Adobe Illustrator" }, 
+				{ "tool": "HTML5" }, 
+				{ "tool": "CSS" }, 
+				{ "tool": "Bootstrap" }, 
+				{ "tool": "jQuery" } 
+			],
+			"thumbnail": "/img/portfolio/49.jpg",
+			"video_thumb": 0,  
+			"banner": "/img/portfolio/sodexo/banner.jpg", 
+			"project": [ 
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{  "project_pic": "",
+				   "video": 0
+				},
+				{
+					"videoname": "",			
+					"video": 0
+				}
+			],
+			"show": "1"
+		}
+	]
+}
+		
