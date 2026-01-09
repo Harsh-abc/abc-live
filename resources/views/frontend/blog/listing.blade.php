@@ -27,141 +27,101 @@
                             <div class="col-xxl-12">
                                 <h5> Explore Trending Topics </h5>
                                 <br />
-                                <ul class="d-flex">
-                                    <li> <a href=""> Technology </a> </li>
-                                    <li> <a href=""> Business </a> </li>
-                                    <li> <a href=""> Management </a> </li>
-                                    <li> <a href=""> Startups </a> </li>
-                                    <li> <a href=""> Digital Marketing </a> </li>
-                                    <li> <a href=""> Web Designs </a> </li>
+                                @if($categories->count())
+                                <ul class="d-flex blog-category-tabs">
+                                    <li>
+                                        <a href="javascript:void(0)" class="active" data-id="all">
+                                            All
+                                        </a>
+                                    </li>
+                                    @foreach($categories as $category)
+                                    <li>
+                                        <a href="javascript:void(0)" data-id="{{ $category->id }}">
+                                            {{ $category->name }}
+                                        </a>
+                                    </li>
+                                    @endforeach
                                 </ul>
+                                @endif
                             </div>
                         </div>
 
-                        <div class="row reset-grid blog_listing">
+                        <div class="row reset-grid blog_listing" id="blogListing">
 
                             @foreach ($Blogs as $blog)
-                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                    <article class="blog__item">
-                                        <div class="blog__img-wrapper">
-                                            <a href="{{ url('/blog/' . $blog->blog_url) }}">
-                                                <div class="img-box">
-                                                    <img class="image-box__item" src="{{ asset($blog->thumb_image) }}"
-                                                        alt="{{ $blog->blog_title }}" />
-                                                    <img class="image-box__item" src="{{ asset($blog->thumb_image) }}"
-                                                        alt="{{ $blog->blog_title }}" />
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <h4 class="blog__meta">
-                                            <a href="{{ url('/blog/' . $blog->blog_url) }}">
-                                                {{ optional($blog->category)->name ?? 'Category' }}
-                                                {{ $blog->post_author ?? '' }}
-                                            </a>
-                                            . {{ \Carbon\Carbon::parse($blog->created_at)->format('d M Y') }}
-                                        </h4>
-                                        <h5>
-                                            <a href="{{ url('/blog/' . $blog->blog_url) }}" class="blog__title">
-                                                {{ $blog->blog_title }}
-                                            </a>
-                                        </h5>
-                                        <p>
-                                            {{ Str::limit(strip_tags($blog->blog_content), 250, '...') }}
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 blog-item"
+                                data-category="{{ $blog->category_id }}">
+                                <article class="blog__item">
+                                    <div class="blog__img-wrapper">
+                                        <a href="{{ url('/blog/' . $blog->blog_url) }}">
+                                            <div class="img-box">
+                                                <img class="image-box__item" src="{{ asset($blog->thumb_image) }}"
+                                                    alt="{{ $blog->blog_title }}" />
+                                                <img class="image-box__item" src="{{ asset($blog->thumb_image) }}"
+                                                    alt="{{ $blog->blog_title }}" />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    @php
+                                    $category = \App\Models\Categories::find($blog->category_id);
+                                    @endphp
+                                    <h4 class="blog__meta">
+                                        <a href="{{ url('/blog/' . $blog->blog_url) }}">
+                                            {{ $category->name  ?? '' }}
+                                            {{ $blog->post_author ?? '' }}
+                                        </a>
+                                        . {{ \Carbon\Carbon::parse($blog->created_at)->format('d M Y') }}
+                                    </h4>
+                                    <h5>
+                                        <a href="{{ url('/blog/' . $blog->blog_url) }}" class="blog__title">
+                                            {{ $blog->blog_title }}
+                                        </a>
+                                    </h5>
+                                    <p>
+                                        {{ Str::limit(strip_tags($blog->blog_content), 250, '...') }}
 
-                                        </p>
+                                    </p>
 
-                                        <div class="mt-3">
-                                            <a href="{{ url('/blog/' . $blog->blog_url) }}" class="blog__btn border rounded-pill cus-url-btn float-end me-4">
-                                                Read More <span><i class="fa-solid fa-arrow-right"></i></span>
-                                            </a>
-                                        </div>
-                                    </article>
+                                    <div class="mt-3">
+                                        <a href="{{ url('/blog/' . $blog->blog_url) }}" class="blog__btn border rounded-pill cus-url-btn float-end me-4">
+                                            Read More <span><i class="fa-solid fa-arrow-right"></i></span>
+                                        </a>
+                                    </div>
+                                </article>
 
-                                </div>
+                            </div>
                             @endforeach
-
-
-                            {{-- <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-							<article class="blog__item">
-								<div class="blog__img-wrapper">
-									<a href="/blogs/blog-details">
-										<div class="img-box">
-											<img class="image-box__item" src="/img/blogs/2.jpg" alt="Blog Thumbnail" />
-											<img class="image-box__item" src="/img/blogs/2.jpg" alt="BLog Thumbnail" />
-										</div>
-									</a>
-								</div>
-								<h4 class="blog__meta"><a href="/blogs/blog-details">SEO </a> . 15 Feb 2025</h4>
-								<h5><a href="blog-details.html" class="blog__title">Top 10 Off-Page SEO Strategies to Boost Your Website in 2025</a></h5>
-								<a href="/blogs/blog-details" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-							</article>
-						</div> <!-- -->
-						<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-							<article class="blog__item">
-								<div class="blog__img-wrapper">
-									<a href="/blogs/blog-details">
-										<div class="img-box">
-											<img class="image-box__item" src="/img/blogs/3.jpg" alt="Blog Thumbnail" />
-											<img class="image-box__item" src="/img/blogs/3.jpg" alt="BLog Thumbnail" />
-										</div>
-									</a>
-								</div>
-								<h4 class="blog__meta"><a href="/blogs/blog-details">SEO </a> . 15 Feb 2025</h4>
-								<h5><a href="blog-details.html" class="blog__title">Top 10 Off-Page SEO Strategies to Boost Your Website in 2025</a></h5>
-								<a href="/blogs/blog-details" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-							</article>
-						</div> <!-- -->
-						<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-							<article class="blog__item">
-								<div class="blog__img-wrapper">
-									<a href="/blogs/blog-details">
-										<div class="img-box">
-											<img class="image-box__item" src="/img/blogs/4.jpg" alt="Blog Thumbnail" />
-											<img class="image-box__item" src="/img/blogs/4.jpg" alt="BLog Thumbnail" />
-										</div>
-									</a>
-								</div>
-								<h4 class="blog__meta"><a href="/blogs/blog-details">SEO </a> . 15 Feb 2025</h4>
-								<h5><a href="blog-details.html" class="blog__title">Top 10 Off-Page SEO Strategies to Boost Your Website in 2025</a></h5>
-								<a href="/blogs/blog-details" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-							</article>
-						</div> <!-- -->
-						<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-							<article class="blog__item">
-								<div class="blog__img-wrapper">
-									<a href="/blogs/blog-details">
-										<div class="img-box">
-											<img class="image-box__item" src="/img/blogs/5.jpg" alt="Blog Thumbnail" />
-											<img class="image-box__item" src="/img/blogs/5.jpg" alt="BLog Thumbnail" />
-										</div>
-									</a>
-								</div>
-								<h4 class="blog__meta"><a href="/blogs/blog-details">SEO </a> . 15 Feb 2025</h4>
-								<h5><a href="blog-details.html" class="blog__title">Top 10 Off-Page SEO Strategies to Boost Your Website in 2025</a></h5>
-								<a href="/blogs/blog-details" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-							</article>
-						</div> <!-- -->
-						<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-							<article class="blog__item">
-								<div class="blog__img-wrapper">
-									<a href="/blogs/blog-details">
-										<div class="img-box">
-											<img class="image-box__item" src="/img/blogs/6.jpg" alt="Blog Thumbnail" />
-											<img class="image-box__item" src="/img/blogs/6.jpg" alt="BLog Thumbnail" />
-										</div>
-									</a>
-								</div>
-								<h4 class="blog__meta"><a href="/blogs/blog-details">SEO </a> . 15 Feb 2025</h4>
-								<h5><a href="blog-details.html" class="blog__title">Top 10 Off-Page SEO Strategies to Boost Your Website in 2025</a></h5>
-								<a href="/blogs/blog-details" class="blog__btn">Read More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-							</article>
-						</div> <!-- -->  --}}
                         </div>
                     </div>
                 </section>
                 <!-- Blog area end -->
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
 
+                        document.querySelectorAll('.blog-category-tabs a').forEach(tab => {
+                            tab.addEventListener('click', function() {
 
+                                // active state
+                                document.querySelectorAll('.blog-category-tabs a')
+                                    .forEach(el => el.classList.remove('active'));
+                                this.classList.add('active');
+
+                                let selectedCategory = this.dataset.id; // ✅ FIXED
+                                let blogs = document.querySelectorAll('.blog-item');
+
+                                blogs.forEach(blog => {
+                                    if (selectedCategory === 'all' ||
+                                        blog.dataset.category === selectedCategory) {
+                                        blog.style.display = '';
+                                    } else {
+                                        blog.style.display = 'none';
+                                    }
+                                });
+                            });
+                        });
+
+                    });
+                </script>
 
                 <!-- -->
                 <section class="pt-100">

@@ -112,48 +112,60 @@ class BlogController extends Controller
       }
 
       $rand = rand(11111,99999);
-      if($request->banner_image != null){
+      if ($request->hasFile('banner_image')) {
         $image = $request->file('banner_image');
-        $imageName = $image->getClientOriginalName();
-        $extension = $request->banner_image->getClientOriginalExtension();
-        $img1=Image::make($image);   
-        $title_img = 'Blog_banner_'.$rand.'.'.$extension;
-        $banner_path = '/img/blog/Blog_banner_'.$rand.'.'.$extension;
-        $img1->save(public_path('/img/blog/'.$title_img));
+        $extension = $image->getClientOriginalExtension();
+        $fileName = 'Blog_banner_' . $rand . '.' . $extension;
 
-        $obj = new MediaImages();
-        $obj->status = 1;
-        $obj->urls = $banner_path;
-        $obj->thumbnails = $banner_path;
-        $obj->save();
-      }else{
+        $image->move(public_path('img/blog'), $fileName);
+
+        $banner_path = '/img/blog/' . $fileName;
+MediaImages::create([ 'status' => 1, 'urls' => $banner_path, 'thumbnails' => $banner_path ]);
+      
+    } else {
         $banner_path = null;
-      }
+    }
+	 if ($request->hasFile('banner_image_1')) {
+        $file = $request->file('banner_image_1');
+		$extension = $image->getClientOriginalExtension();
+        $filename = 'Blog_banner_1_' . $rand . '.' . $extension;
+        $file->move(public_path('img/blog/left_banner'), $filename);
+	$banner_path_1 = '/img/blog/left_banner/' . $fileName;    
+MediaImages::create([ 'status' => 1, 'urls' => $banner_path_1, 'thumbnails' => $banner_path_1 ]);
+	
+    }
+	else {
+        $banner_path_1 = null;
+    }
+	
+    if ($request->hasFile('thumb_image')) {
+        $image = $request->file('thumb_image');
+        $extension = $image->getClientOriginalExtension();
+        $fileName = 'Blog_thumb_' . $rand . '.' . $extension;
 
-      if($request->thumb_image != null){
-        $thumb_path = $this->uploadcropimages($request->thumnail,$rand);
-        $obj = new MediaImages();
-        $obj->status = 1;
-        $obj->urls = $thumb_path;
-        $obj->thumbnails = $thumb_path;
-        $obj->save();
-      }else{
+        $image->move(public_path('img/blog/thumbnail'), $fileName);
+
+        $thumb_path = '/img/blog/thumbnail/' . $fileName;
+MediaImages::create([ 'status' => 1, 'urls' => $thumb_path, 'thumbnails' => $thumb_path ]);
+    } else {
         $thumb_path = null;
-      }
+    }
+
 
       $publish_date =  date("Y-m-d", strtotime($request->publish_date));  
 
-     
-      
-
-      
-
-     
        $obj = new Blogs();
          $obj->category_id = $request->category_id;
          $obj->banner_image = $banner_path;
+		 $obj->banner_image_1 = $banner_path_1;
          $obj->thumb_image = $thumb_path;
+		 $obj->Alt_Text_Thumbnail = $request->Alt_Text_Thumbnail;
+		$obj->Alt_Text_Banner = $request->Alt_Text_Banner;
+		    $obj->alt_text_banner_1 = $request->alt_text_banner_1;
+		$obj->time_to_read = $request->time_to_read;
+		$obj->highlight_color = $request->highlight_color;
          $obj->blog_title = $request->blog_name;
+		 $obj->post_author = $request->post_author;
          $obj->blog_url = strtolower($request->blog_url);
          $obj->blog_content = $request->blog_content;
          $obj->tags = $tags;
@@ -211,47 +223,39 @@ class BlogController extends Controller
         $tags = null;
       }
 
-      $Image_path = public_path().$request->edit_banner_image;
-      if(File::exists($Image_path) && $request->banner_image != null) {
-        File::delete($Image_path);
-      }
+      $banner_path = $request->edit_banner_image ?? null;
+    $thumb_path  = $request->edit_thumb_image ?? null;
+	      $banner_path_1 = $request->edit_banner_image1 ?? null;
 
-      $Image_path1 = public_path().$request->edit_thumb_image;
-      if(File::exists($Image_path1) && $request->thumb_image != null) {
-        File::delete($Image_path1);
-      }
-
+    if ($request->hasFile('banner_image')) {
         $rand = rand(11111,99999);
-        if($request->banner_image != null){
-          $image = $request->file('banner_image');
-          $imageName = $image->getClientOriginalName();
-          $extension = $request->banner_image->getClientOriginalExtension();
-          $img1=Image::make($image);   
-          $title_img = 'Blog_banner_'.$rand.'.'.$extension;
-          $banner_path = '/img/blog/Blog_banner_'.$rand.'.'.$extension;
-          $img1->save(public_path('/img/blog/'.$title_img));
+        $image = $request->file('banner_image');
+        $extension = $image->getClientOriginalExtension();
+        $fileName = 'Blog_banner_'.$rand.'.'.$extension;
+        $image->move(public_path('img/blog'), $fileName);
+        $banner_path = '/img/blog/' . $fileName;
+        $obj = new MediaImages(); $obj->status = 1; $obj->urls = $banner_path; $obj->thumbnails = $banner_path; $obj->save();
+    }
+	
+	 if ($request->hasFile('banner_image_1')) {
+        $rand = rand(11111,99999);
+        $image = $request->file('banner_image_1');
+        $extension = $image->getClientOriginalExtension();
+        $fileName = 'Blog_banner_1_'.$rand.'.'.$extension;
+        $image->move(public_path('img/blog/left_banner'), $fileName);
+        $banner_path_1 = '/img/blog/left_banner/' . $fileName;
+        $obj = new MediaImages(); $obj->status = 1; $obj->urls = $banner_path_1; $obj->thumbnails = $banner_path_1; $obj->save();
+    }
 
-        $obj = new MediaImages();
-        $obj->status = 1;
-        $obj->urls = $banner_path;
-        $obj->thumbnails = $banner_path;
-        $obj->save();
-
-        }else{
-          $banner_path = $request->edit_banner_image;
-        }
-
-        if($request->thumb_image != null){
-          $thumb_path = $this->uploadcropimages($request->thumnail,$rand);
-
-          $obj = new MediaImages();
-        $obj->status = 1;
-        $obj->urls = $thumb_path;
-        $obj->thumbnails = $thumb_path;
-        $obj->save();
-        }else{
-          $thumb_path = $request->edit_thumb_image;
-        }
+    if ($request->hasFile('thumb_image')) {
+        $rand = rand(11111,99999);
+        $image = $request->file('thumb_image');
+        $extension = $image->getClientOriginalExtension();
+        $fileName = 'Blog_thumb_'.$rand.'.'.$extension;
+        $image->move(public_path('img/blog/thumbnail'), $fileName);
+        $thumb_path = '/img/blog/thumbnail/' . $fileName;
+        $obj = new MediaImages(); $obj->status = 1; $obj->urls = $thumb_path; $obj->thumbnails = $thumb_path; $obj->save();
+    }
 
         if($request->publish_date != null){
           $publish_date =  date("Y-m-d", strtotime($request->publish_date));  
@@ -260,13 +264,17 @@ class BlogController extends Controller
         }
           
         
-
         $obj = Blogs::find($request->edit_id);
         $obj->category_id = $request->category_id;
         $obj->banner_image = $banner_path;
+		$obj->banner_image_1 = $banner_path_1;
         $obj->thumb_image = $thumb_path;
         $obj->blog_title = $request->blog_name;
- 
+		 $obj->Alt_Text_Thumbnail = $request->Alt_Text_Thumbnail;
+		$obj->Alt_Text_Banner = $request->Alt_Text_Banner;
+		    $obj->alt_text_banner_1 = $request->alt_text_banner_1;
+		$obj->time_to_read = $request->time_to_read;
+		$obj->highlight_color = $request->highlight_color;
         $obj->blog_url = strtolower($request->blog_url);
         $obj->blog_content = $request->blog_content;
  
