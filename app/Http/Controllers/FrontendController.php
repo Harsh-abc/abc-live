@@ -181,7 +181,7 @@ class FrontendController extends Controller
       $obj = new Subscribes;
       $obj->email = $request->email;
       $obj->save();
-      return redirect()->back();
+      return redirect()->back()->with('success', 'Thank you for subscribing!');
    }
 
    public function blogpage()

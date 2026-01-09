@@ -58,9 +58,9 @@
                                                             id="name" name="name" placeholder="Name*"
                                                             value="{{ old('name') }}">
                                                         @error('name')
-                                                            <span class="invalid-feedback" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
                                                         @enderror
                                                         <label for="name">Name</label>
                                                     </div>
@@ -72,9 +72,9 @@
                                                             id="email" name="email" placeholder="Email"
                                                             value="{{ old('email') }}">
                                                         @error('email')
-                                                            <span class="invalid-feedback" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
                                                         @enderror
                                                         <label for="email">Email*</label>
                                                     </div>
@@ -84,9 +84,9 @@
                                                             id="contact" name="contact" placeholder="Contact*"
                                                             value="{{ old('contact') }}" required="required">
                                                         @error('contact')
-                                                            <span class="invalid-feedback" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
                                                         @enderror
                                                         <label for="contact">Contact*</label>
                                                     </div>
@@ -103,9 +103,9 @@
                                                         <textarea type="textbox" class="form-control @error('message') is-invalid @enderror" id="message" name="message"
                                                             placeholder="Message*" value="" required>{{ old('message') }}</textarea>
                                                         @error('message')
-                                                            <span class="invalid-feedback" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
                                                         @enderror
                                                         <label for="subject">Message</label>
                                                     </div>
@@ -115,7 +115,7 @@
                                                         data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
                                                     <span id="captchaErr"
                                                         class="error-message"><?php //echo $captchaErr;
-                                                        ?></span>
+                                                                                ?></span>
                                                 </div>
                                                 <div class="form-group submit">
                                                     <input type="submit" id="submitBtns" class="btn btn-dark w-100"
@@ -969,16 +969,24 @@
                                                 d="M216 82h-34V48a14 14 0 0 0-14-14H40a14 14 0 0 0-14 14v128a6 6 0 0 0 3.42 5.41A5.86 5.86 0 0 0 32 182a6 6 0 0 0 3.77-1.33L73.71 150H74v34a14 14 0 0 0 14 14h94.29l37.94 30.67A6 6 0 0 0 224 230a5.86 5.86 0 0 0 2.58-.59A6 6 0 0 0 230 224V96a14 14 0 0 0-14-14M71.58 138a6 6 0 0 0-3.77 1.33L38 163.43V48a2 2 0 0 1 2-2h128a2 2 0 0 1 2 2v88a2 2 0 0 1-2 2ZM218 211.43l-29.81-24.1a6 6 0 0 0-3.77-1.33H88a2 2 0 0 1-2-2v-34h82a14 14 0 0 0 14-14V94h34a2 2 0 0 1 2 2Z" />
                                         </svg>
                                     </div>
+                                    @if(session('success'))
+                                    <p class="text-success mt-2">{{ session('success') }}</p>
+                                    @endif
+
                                     <h2 class="mt-3">Do you have more questions?</h2>
-                                    <div
-                                        class="mt-3 w-100 row height-100 d-flex justify-content-center align-items-center">
-                                        <div class="col-md-10">
-                                            <div class="subscribe-btn position-relative">
-                                                <input class="form-control" placeholder="Your email address">
-                                                <button class="btn position-absolute">Send</button>
+                                    <form id="subscribeForm" method="POST" action="{{ route('Subscribes.store') }}">
+                                        @csrf
+                                        <div
+                                            class="mt-3 w-100 row height-100 d-flex justify-content-center align-items-center">
+                                            <div class="col-md-10">
+                                                <div class="subscribe-btn position-relative">
+                                                    <input class="form-control" name="email"
+                                                        type="email" placeholder="Your email address">
+                                                    <button id="subscribeBtn" class="btn position-absolute" type="submit">Send</button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -1023,6 +1031,14 @@
                         </div>
                     </div>
                 </section>
+                <script>
+                    document.getElementById('subscribeForm').addEventListener('submit', function() {
+                        const btn = document.getElementById('subscribeBtn');
+
+                        btn.disabled = true;
+                        btn.innerHTML = 'Sending <span class="hourglass">⏳</span>';
+                    });
+                </script>
 
                 {{-- @include('frontend.layout.cta') --}}
 
