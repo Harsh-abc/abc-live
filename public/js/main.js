@@ -4999,3 +4999,479 @@ $(document).ready(function () {
         pauseOnHover: true,
     });
 });
+
+gsap.to("#bounceImage", {
+    y: -18,
+    duration: 1.5,
+    ease: "power1.inOut",
+    repeat: -1,
+    yoyo: true,
+});
+
+gsap.utils.toArray(".fade-left").forEach((el) => {
+    gsap.from(el, {
+        scrollTrigger: {
+            trigger: el,
+            start: "top 90%",
+        },
+        y: 50,
+        opacity: 0,
+        duration: 1.4,
+        ease: "sine.out",
+    });
+});
+function toggleReadMore() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("moreText");
+    var btnText = document.getElementById("readMoreBtn");
+
+    moreText.classList.toggle("show");
+
+    if (moreText.classList.contains("show")) {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read Less";
+    } else {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read More";
+    }
+}
+
+(function () {
+    "use strict";
+
+    // Configuration
+    const config = {
+        autoplay: true,
+        autoplayDelay: 5000,
+        slidesToShow: {
+            mobile: 1,
+            tablet: 2,
+            desktop: 3,
+        },
+        breakpoints: {
+            tablet: 768,
+            desktop: 1024,
+        },
+    };
+
+    // State
+    let currentIndex = 0;
+    let slidesToShow = 1;
+    let totalSlides = 0;
+    let totalDots = 0;
+    let isDragging = false;
+    let startX = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let autoplayInterval = null;
+    let progressInterval = null;
+    let progressValue = 0;
+
+    // DOM Elements
+    let track, dots, prevBtn, nextBtn, progressBar;
+    let slides = [];
+
+    // Initialize
+    function init() {
+        track = document.getElementById("processTrack");
+        dots = document.getElementById("processDots");
+        prevBtn = document.getElementById("processPrev");
+        nextBtn = document.getElementById("processNext");
+        progressBar = document.getElementById("processProgress");
+
+        if (!track) return;
+
+        slides = Array.from(track.querySelectorAll(".process-card"));
+        totalSlides = slides.length;
+
+        // Set slides to show based on viewport
+        updateSlidesToShow();
+
+        // Generate dots
+        generateDots();
+
+        // Add event listeners
+        addEventListeners();
+
+        // Start autoplay
+        if (config.autoplay) {
+            startAutoplay();
+        }
+
+        // Initial position
+        goToSlide(0, false);
+    }
+
+    // Update slides to show based on viewport width
+    function updateSlidesToShow() {
+        const width = window.innerWidth;
+
+        if (width >= config.breakpoints.desktop) {
+            slidesToShow = config.slidesToShow.desktop;
+        } else if (width >= config.breakpoints.tablet) {
+            slidesToShow = config.slidesToShow.tablet;
+        } else {
+            slidesToShow = config.slidesToShow.mobile;
+        }
+
+        totalDots = Math.ceil(totalSlides - slidesToShow + 1);
+        if (totalDots < 1) totalDots = 1;
+
+        // Regenerate dots on resize
+        generateDots();
+
+        // Ensure current index is valid
+        if (currentIndex > totalDots - 1) {
+            currentIndex = totalDots - 1;
+        }
+
+        goToSlide(currentIndex, false);
+    }
+
+    // Generate dot indicators
+    function generateDots() {
+        if (!dots) return;
+
+        dots.innerHTML = "";
+
+        for (let i = 0; i < totalDots; i++) {
+            const dot = document.createElement("button");
+            dot.classList.add("process-dot");
+            dot.setAttribute("aria-label", `Go to slide ${i + 1}`);
+
+            if (i === currentIndex) {
+                dot.classList.add("active");
+            }
+
+            dot.addEventListener("click", () => {
+                goToSlide(i);
+                resetAutoplay();
+            });
+
+            dots.appendChild(dot);
+        }
+    }
+
+    // Update active dot
+    function updateDots() {
+        const allDots = dots.querySelectorAll(".process-dot");
+        allDots.forEach((dot, index) => {
+            dot.classList.toggle("active", index === currentIndex);
+        });
+    }
+
+    // Go to specific slide
+    function goToSlide(index, animate = true) {
+        if (index < 0) index = 0;
+        if (index > totalDots - 1) index = totalDots - 1;
+
+        currentIndex = index;
+
+        const slideWidth = slides[0].offsetWidth;
+        currentTranslate = -currentIndex * slideWidth;
+        prevTranslate = currentTranslate;
+
+        if (animate) {
+            track.style.transition =
+                "transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
+        } else {
+            track.style.transition = "none";
+        }
+
+        track.style.transform = `translateX(${currentTranslate}px)`;
+
+        updateDots();
+        updateButtons();
+    }
+
+    // Update button states
+    function updateButtons() {
+        if (prevBtn) {
+            prevBtn.disabled = currentIndex === 0;
+        }
+        if (nextBtn) {
+            nextBtn.disabled = currentIndex >= totalDots - 1;
+        }
+    }
+
+    // Go to next slide
+    function nextSlide() {
+        if (currentIndex < totalDots - 1) {
+            goToSlide(currentIndex + 1);
+        } else {
+            goToSlide(0); // Loop back to start
+        }
+    }
+
+    // Go to previous slide
+    function prevSlide() {
+        if (currentIndex > 0) {
+            goToSlide(currentIndex - 1);
+        } else {
+            goToSlide(totalDots - 1); // Loop to end
+        }
+    }
+
+    // Drag handling
+    function handleDragStart(e) {
+        isDragging = true;
+        startX = getPositionX(e);
+        track.classList.add("dragging");
+        stopAutoplay();
+    }
+
+    function handleDragMove(e) {
+        if (!isDragging) return;
+
+        const currentX = getPositionX(e);
+        const diff = currentX - startX;
+        currentTranslate = prevTranslate + diff;
+
+        track.style.transform = `translateX(${currentTranslate}px)`;
+    }
+
+    function handleDragEnd() {
+        if (!isDragging) return;
+
+        isDragging = false;
+        track.classList.remove("dragging");
+
+        const movedBy = currentTranslate - prevTranslate;
+        const slideWidth = slides[0].offsetWidth;
+        const threshold = slideWidth / 4;
+
+        if (movedBy < -threshold) {
+            nextSlide();
+        } else if (movedBy > threshold) {
+            prevSlide();
+        } else {
+            goToSlide(currentIndex);
+        }
+
+        startAutoplay();
+    }
+
+    function getPositionX(e) {
+        return e.type.includes("mouse") ? e.pageX : e.touches[0].clientX;
+    }
+
+    // Autoplay
+    function startAutoplay() {
+        if (!config.autoplay) return;
+
+        stopAutoplay();
+
+        progressValue = 0;
+        updateProgress();
+
+        progressInterval = setInterval(() => {
+            progressValue += 100 / (config.autoplayDelay / 100);
+            updateProgress();
+        }, 100);
+
+        autoplayInterval = setInterval(() => {
+            nextSlide();
+            progressValue = 0;
+        }, config.autoplayDelay);
+    }
+
+    function stopAutoplay() {
+        if (autoplayInterval) {
+            clearInterval(autoplayInterval);
+            autoplayInterval = null;
+        }
+        if (progressInterval) {
+            clearInterval(progressInterval);
+            progressInterval = null;
+        }
+    }
+
+    function resetAutoplay() {
+        stopAutoplay();
+        startAutoplay();
+    }
+
+    function updateProgress() {
+        if (progressBar) {
+            progressBar.style.width = `${progressValue}%`;
+        }
+    }
+
+    // Add event listeners
+    function addEventListeners() {
+        // Navigation buttons
+        if (prevBtn) {
+            prevBtn.addEventListener("click", () => {
+                prevSlide();
+                resetAutoplay();
+            });
+        }
+
+        if (nextBtn) {
+            nextBtn.addEventListener("click", () => {
+                nextSlide();
+                resetAutoplay();
+            });
+        }
+
+        // Drag events (mouse)
+        track.addEventListener("mousedown", handleDragStart);
+        document.addEventListener("mousemove", handleDragMove);
+        document.addEventListener("mouseup", handleDragEnd);
+        track.addEventListener("mouseleave", () => {
+            if (isDragging) handleDragEnd();
+        });
+
+        // Drag events (touch)
+        track.addEventListener("touchstart", handleDragStart, {
+            passive: true,
+        });
+        document.addEventListener("touchmove", handleDragMove, {
+            passive: true,
+        });
+        document.addEventListener("touchend", handleDragEnd);
+
+        // Prevent context menu while dragging
+        track.addEventListener("contextmenu", (e) => {
+            if (isDragging) e.preventDefault();
+        });
+
+        // Pause on hover
+        track.addEventListener("mouseenter", stopAutoplay);
+        track.addEventListener("mouseleave", () => {
+            if (!isDragging) startAutoplay();
+        });
+
+        // Keyboard navigation
+        document.addEventListener("keydown", (e) => {
+            const section = document.getElementById("processSection");
+            if (!section) return;
+
+            const rect = section.getBoundingClientRect();
+            const inView = rect.top < window.innerHeight && rect.bottom > 0;
+
+            if (!inView) return;
+
+            if (e.key === "ArrowLeft") {
+                prevSlide();
+                resetAutoplay();
+            } else if (e.key === "ArrowRight") {
+                nextSlide();
+                resetAutoplay();
+            }
+        });
+
+        // Resize handler
+        let resizeTimeout;
+        window.addEventListener("resize", () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(updateSlidesToShow, 100);
+        });
+
+        // Visibility change (pause when tab is hidden)
+        document.addEventListener("visibilitychange", () => {
+            if (document.hidden) {
+                stopAutoplay();
+            } else {
+                startAutoplay();
+            }
+        });
+    }
+
+    // Initialize when DOM is ready
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+    } else {
+        init();
+    }
+
+    // Expose API
+    window.ProcessSlider = {
+        next: nextSlide,
+        prev: prevSlide,
+        goTo: goToSlide,
+        getCurrentIndex: () => currentIndex,
+        startAutoplay,
+        stopAutoplay,
+    };
+})();
+
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#typing-typeit", {
+        speed: 125,
+        deleteSpeed: 100,
+        breakLines: false,
+        loop: true,
+    })
+    .type("Website Design & Development")
+    .pause(1500)
+    .delete(null, { delay: 300 })
+    .type("SEO")
+    .pause(1500)
+    .delete(null, { delay: 300 })
+    .type("Google Ads")
+    .pause(1500)
+    .delete(null, { delay: 300 })
+    .type("Social Media Marketing")
+    .pause(1500)
+    .delete(null, { delay: 300 })
+    .type("Branding")
+    .pause(1500)
+    .delete(null, { delay: 300 })
+    .go();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const stickyColumn = document.getElementById("stickyColumn");
+    const wrapper = document.querySelector(".service__list-wrapper");
+
+    if (!stickyColumn || !wrapper) return;
+
+    // Configuration
+    const config = {
+        topOffset: 100, // Distance from top when sticky
+        breakpoint: 1200, // Minimum screen width for sticky behavior
+    };
+
+    function handleSticky() {
+        // Only apply on larger screens
+        if (window.innerWidth < config.breakpoint) {
+            stickyColumn.style.position = "relative";
+            stickyColumn.style.top = "0";
+            return;
+        }
+
+        const wrapperRect = wrapper.getBoundingClientRect();
+        const columnHeight = stickyColumn.offsetHeight;
+        const wrapperBottom = wrapperRect.bottom;
+
+        // Check if we've scrolled past the wrapper
+        if (wrapperBottom <= columnHeight + config.topOffset) {
+            stickyColumn.style.position = "sticky";
+            stickyColumn.style.top = config.topOffset + "px";
+            stickyColumn.style.bottom = "auto";
+        } else {
+            stickyColumn.style.position = "sticky";
+            stickyColumn.style.top = config.topOffset + "px";
+            stickyColumn.style.bottom = "auto";
+        }
+    }
+
+    // Throttle scroll event for performance
+    let ticking = false;
+    window.addEventListener("scroll", function () {
+        if (!ticking) {
+            window.requestAnimationFrame(function () {
+                handleSticky();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    });
+
+    // Handle window resize
+    window.addEventListener("resize", handleSticky);
+
+    // Initial call
+    handleSticky();
+});

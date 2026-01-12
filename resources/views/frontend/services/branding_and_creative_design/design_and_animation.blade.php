@@ -13,13 +13,12 @@
                         <div class="row justify-content-between px-1 pb-50 blog-header-banner"
                             style="background-image: url(https://www.techmagnate.com/wp-content/themes/techmagnate/images/service-back-img.webp)">
                             <div class="col-lg-7 col-md-12">
-                                <h1 class="sec-title title-anim text-white">Content Marketing & Writing Services That Build Authority, Drive Traffic & Convert Audiences</h1>
+                                <h1 class="sec-title title-anim text-white">Design & Animation Services That Bring Brands to Life</h1>
 
                                 <div class="mt-3 d-flex flex-column align-items-start text-anim">
                                     <p class="text-white">
-                                       In today's digital landscape, content is the foundation of online visibility, trust, and growth. Businesses that consistently publish valuable, relevant, and well-optimised content attract more traffic, build stronger brand authority, and convert audiences into loyal customers. Content Marketing & Writing is no longer optional — it is a core growth strategy.<br><br>
-                                       At ABC Designs, we provide professional content marketing and writing services that help businesses communicate clearly, rank higher on search engines, and drive meaningful engagement. Our content is not written just to fill pages — it is created with a purpose: to inform, influence, and convert.<br><br>
-                                       Whether you need website content, SEO blogs, landing pages, or long-form marketing assets, our content writing services are designed to support your digital marketing goals and deliver measurable business results.
+                                       In today's fast-moving digital landscape, visuals play a critical role in how brands communicate, connect, and convert. Static content alone is no longer enough. Businesses need compelling design and animation services that tell stories, simplify messages, and create memorable brand experiences. At ABC Designs, we deliver professional design and animation solutions that blend creativity, strategy, and motion to help brands stand out across digital platforms.<br><br>
+                                       Our creative design and animation services are crafted to support branding, marketing, advertising, websites, apps, and social media campaigns. From eye-catching graphics to engaging motion animations, we create visual content that not only looks impressive but also serves clear business goals.
                                     </p>
                                 </div>
                                 <div class="my-3">
@@ -32,7 +31,7 @@
                             <div class="col-lg-5 col-md-12 w-fit mt-4 mt-lg-0 sss-banner-right">
                                 <figure class="mb-0" id="bounceImage">
                                     <img src="https://www.techmagnate.com/wp-content/uploads/2025/10/SEO-Services.webp"
-                                        alt="Content Marketing & Writing Services" class="img-fluid rounded">
+                                        alt="Design & Animation Services" class="img-fluid rounded">
                                 </figure>
                             </div>
                         </div>
@@ -48,8 +47,8 @@
                                 <!-- Static content for demonstration -->
                                 <div class="blog-content-inner">
 
-                                    <h2 class="sec-title title-anim">Trusted Content Marketing & Writing Agency in India</h2>
-                                    <p class="fade-left mt-2">Delivering SEO-Driven Content That Performs Across Channels</p>
+                                    <h2 class="sec-title title-anim">Trusted Design & Animation Company in India</h2>
+                                    <p class="fade-left mt-2">Delivering Creative Visuals That Inspire, Engage & Convert</p>
 
                                     <ul class="mt-4 list-unstyled">
 
@@ -61,7 +60,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Proven expertise in content marketing services across industries
+                                                Proven expertise in graphic design and animation
                                             </p>
                                         </li>
 
@@ -73,7 +72,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                SEO-friendly, keyword-optimised content strategies
+                                                Experience across branding, marketing, digital, and product design
                                             </p>
                                         </li>
 
@@ -85,7 +84,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Conversion-focused writing for websites and campaigns
+                                                Strong focus on visual storytelling and brand consistency
                                             </p>
                                         </li>
 
@@ -97,7 +96,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Consistent tone, brand voice, and messaging
+                                                High-quality motion graphics and animation design
                                             </p>
                                         </li>
 
@@ -109,13 +108,13 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Transparent process and quality assurance
+                                                Transparent process, timely delivery, and creative excellence
                                             </p>
                                         </li>
 
                                     </ul>
 
-                                    <p class="fade-left mt-3">At ABC Designs, we don't believe in generic or AI-generated filler content. We focus on strategic, human-written content that aligns with search intent, user needs, and business objectives.</p>
+                                    <p class="fade-left mt-3">At ABC Designs, we help businesses communicate more effectively through design-led animation and creative visuals that leave a lasting impact.</p>
 
                                 </div>
 
@@ -207,29 +206,29 @@
 
                         <figure class="float-end ms-4 mb-3" style="max-width: 420px;">
                             <img src="https://www.techmagnate.com/wp-content/uploads/2025/01/Partner-with-the-Best-SEO-Company-for-Business-Growth-1-1.webp"
-                                alt="Content Marketing Agency" class="img-fluid rounded">
+                                alt="Design & Animation Agency" class="img-fluid rounded">
                         </figure>
 
-                        <h2 class="sec-title title-anim">Partner with a Content Marketing Agency Built for Long-Term Growth</h2>
+                        <h2 class="sec-title title-anim">Partner with a Creative Design & Animation Agency Built for Brand Growth</h2>
 
                         <p class="fade-left mt-3">
-                            Content marketing is more than writing blogs or website pages. It requires deep understanding of audience intent, keyword research, content structure, storytelling, and conversion psychology. Our team of content strategists, SEO content writers, and editors works collaboratively to create content that performs across search engines and marketing channels.
+                            Design and animation are not just about aesthetics — they are powerful communication tools. Our team of creative designers, motion graphic artists, and visual storytellers works closely with brands to translate ideas into engaging visual experiences.
                         </p>
 
                         <p class="fade-left">
-                            We begin by understanding your business, target audience, and goals. Based on this insight, we develop content that supports SEO rankings, brand authority, and lead generation. Every piece of content is created with clarity, relevance, and purpose.
+                            We take a strategic approach to design and animation, ensuring that every visual aligns with brand identity, target audience, and marketing objectives. Whether it's a static design asset or a full animated sequence, our focus remains on clarity, engagement, and consistency.
                         </p>
 
                         <p class="fade-left">
-                            Our content marketing approach ensures:
+                            Our creative solutions are:
                         </p>
 
                         <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                            <li>Strong search engine visibility</li>
-                            <li>Higher engagement and time on page</li>
-                            <li>Clear brand positioning and messaging</li>
-                            <li>Better lead quality and conversions</li>
-                            <li>Long-term organic growth</li>
+                            <li>Visually compelling and brand-aligned</li>
+                            <li>Optimized for digital and marketing platforms</li>
+                            <li>Designed to improve engagement and recall</li>
+                            <li>Scalable for multi-channel usage</li>
+                            <li>Delivered with attention to detail and quality</li>
                         </ul>
 
                         <!-- Clear float -->
@@ -237,8 +236,8 @@
 
                     </div>
 
-                    <h2 class="sec-title title-anim">Content Marketing & Writing Services We Offer</h2>
-                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end content writing and content marketing services tailored to different business needs.</p>
+                    <h2 class="sec-title title-anim">Design & Animation Services We Offer</h2>
+                    <p class="fade-left mt-3">At ABC Designs, we provide a complete range of design and animation services to support branding, marketing, and digital communication needs.</p>
 
                     <div class="container-fluid m-0 p-0">
                         <div class="row pt-4">
@@ -249,16 +248,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                alt="Website Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Creative Graphic Design" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Website Content Writing
+                                                    Creative Graphic Design
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write clear, compelling, and SEO-friendly website content that communicates your value proposition, builds trust, and guides visitors toward action.
+                                                We create visually appealing graphic designs that communicate your brand message clearly. From marketing creatives to digital visuals, our designs maintain consistency and visual impact across channels.
                                             </p>
                                         </div>
                                     </div>
@@ -267,16 +266,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Professional Website Development-.webp"
-                                                alt="SEO Blog Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Motion Graphics & Animation" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    SEO Blog Writing
+                                                    Motion Graphics & Animation
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Our SEO blog writing services help businesses rank for relevant keywords, attract organic traffic, and establish topical authority.
+                                                Our motion graphics animation services help brands explain ideas, promote products, and engage audiences through smooth, dynamic visuals.
                                             </p>
 
                                         </div>
@@ -286,16 +285,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                alt="Landing Page & Sales Copywriting" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Explainer Video Animation" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Landing Page & Sales Copywriting
+                                                    Explainer Video Animation
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We create conversion-focused landing page content designed to generate leads, inquiries, and sales.
+                                                We design animated explainer videos that simplify complex concepts, making them easy to understand and visually engaging for users.
                                             </p>
                                         </div>
                                     </div>
@@ -304,16 +303,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                alt="Product & Service Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Branding Design & Animation" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Product & Service Content Writing
+                                                    Branding Design & Animation
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Clear, persuasive product and service descriptions that highlight benefits, features, and buyer intent.
+                                                We bring brands to life with animated brand visuals, including logo animation, brand motion elements, and creative assets that enhance brand identity.
                                             </p>
                                         </div>
                                     </div>
@@ -322,16 +321,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Content for Digital Marketing Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Social Media Design & Animation" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content for Digital Marketing Campaigns
+                                                    Social Media Design & Animation
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write content for ads, email campaigns, and promotional assets that support marketing performance.
+                                                We create social media animation and creative visuals optimized for engagement across platforms like Instagram, Facebook, LinkedIn, and YouTube.
                                             </p>
                                         </div>
                                     </div>
@@ -340,16 +339,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Social Media Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="UI Animation & Interaction Design" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Social Media Content Writing
+                                                    UI Animation & Interaction Design
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Engaging social media captions and content aligned with brand voice and campaign objectives.
+                                                Enhance digital experiences with UI animation design that improves usability, feedback, and interaction within websites and mobile apps.
                                             </p>
                                         </div>
                                     </div>
@@ -357,17 +356,17 @@
                                     <!-- 7 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Optimization & Refresh"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Marketing & Advertising Creatives"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Optimization & Refresh
+                                                    Marketing & Advertising Creatives
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We optimize existing content for SEO, readability, and relevance to improve rankings and performance.
+                                                Our marketing design and animation services support digital ads, performance campaigns, and promotional content that drives attention and action.
                                             </p>
                                         </div>
                                     </div>
@@ -375,17 +374,17 @@
                                     <!-- 8 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Strategy & Planning"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Custom Visual Storytelling"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Strategy & Planning
+                                                    Custom Visual Storytelling
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We build structured content marketing strategies, including topic planning, keyword mapping, and publishing calendars.
+                                                We develop creative visual concepts and animation styles that help brands tell stories effectively and connect emotionally with audiences.
                                             </p>
                                         </div>
                                     </div>
@@ -394,8 +393,8 @@
 
 
                                 <div class="sss-colored-box p-4 rounded mt-3 mb-4">
-                                    <h3 class="sec-title title-anim m-0">Our Proven Content Marketing Process</h3>
-                                    <p class="fade-left mt-2">A Strategic, SEO-Driven Content Methodology</p>
+                                    <h3 class="sec-title title-anim m-0">Our Design & Animation Process</h3>
+                                    <p class="fade-left mt-2">A Structured, Creative & Strategy-Driven Approach</p>
 
                                     <ul class="row ga list-unstyled p-0 m-0 mt-5 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
@@ -405,7 +404,7 @@
                                             </figure>
                                             <h4>Discover</h4>
                                             <p class="mt-2">
-                                                We understand your business, industry, audience, competitors, and content goals to define direction and tone.
+                                                We begin by understanding your brand, objectives, audience, and usage requirements. This helps define the right creative direction and animation style.
                                             </p>
                                         </li>
 
@@ -414,30 +413,30 @@
                                                 <img src="/img/icons/icon_Analyze-.webp" alt="Research Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Research</h4>
+                                            <h4>Research & Analyze</h4>
                                             <p class="mt-2">
-                                                Our team performs in-depth keyword research, search intent analysis, and competitor content evaluation.
+                                                Our team studies competitors, visual trends, and platform requirements to identify opportunities for impactful design and animation.
                                             </p>
                                         </li>
 
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Strategize-.webp" alt="Strategize Icon"
+                                                <img src="/img/icons/icon_Strategize-.webp" alt="Concept & Strategy Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Strategize</h4>
+                                            <h4>Concept & Strategy</h4>
                                             <p class="mt-2">
-                                                We create a content roadmap covering content types, formats, keywords, and publishing priorities.
+                                                We develop creative concepts, visual styles, storyboards, and animation plans aligned with your brand and communication goals.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Write & Optimize Icon"
+                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Design & Animate Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Write & Optimize</h4>
+                                            <h4>Design & Animate</h4>
                                             <p class="mt-2">
-                                                Content is written by experienced writers and optimised for SEO, readability, and conversions.
+                                                Our designers and animators bring concepts to life using high-quality design tools and animation techniques to ensure polished results.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
@@ -447,17 +446,17 @@
                                             </figure>
                                             <h4>Review & Refine</h4>
                                             <p class="mt-2">
-                                                We edit, proofread, and refine content to ensure quality, clarity, and consistency.
+                                                We collaborate closely with you to refine visuals, timing, and motion until the final output meets expectations.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Publish & Improve Icon"
+                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Deliver & Support Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Publish & Improve</h4>
+                                            <h4>Deliver & Support</h4>
                                             <p class="mt-2">
-                                                Post-publish, content is monitored and refined to improve performance over time.
+                                                Final assets are delivered in required formats, optimized for platforms, with ongoing support for updates or iterations.
                                             </p>
                                         </li>
 
@@ -465,130 +464,113 @@
 
                                 </div>
 
-                                <h2 class="sec-title title-anim">Why Content Marketing Is Essential for Business Success</h2>
-                                <p class="fade-left mt-2">Content marketing builds long-term visibility and trust that paid advertising alone cannot achieve.</p>
+                                <h2 class="sec-title title-anim">Why Design & Animation Matter for Modern Businesses</h2>
+                                <p class="fade-left mt-2">Strong visual communication plays a key role in brand perception, engagement, and conversions. Effective design and animation services help businesses:</p>
 
                                 <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Improve Website Performance & Search Visibility-.webp"
-                                                alt="Drive Sustainable Organic Traffic Icon"
+                                                alt="Increase Engagement Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Drive Sustainable Organic Traffic</h4>
+                                        <h4>Increase Engagement</h4>
                                         <p class="mt-2">
-                                            SEO-friendly content attracts users actively searching for information, products, or services.
+                                            Animated visuals and creative designs capture attention faster and keep users engaged longer than static content.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
-                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Educate & Influence Buyers Icon"
+                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Communicate Messages Clearly Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Educate & Influence Buyers</h4>
+                                        <h4>Communicate Messages Clearly</h4>
                                         <p class="mt-2">
-                                            Well-written content guides users through their decision-making journey.
+                                            Motion graphics and explainer animations simplify complex ideas, making them easy to understand and remember.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Website Maintenance & Support-.webp"
-                                                alt="Build Brand Authority Icon"
+                                                alt="Strengthen Brand Identity Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Build Brand Authority</h4>
+                                        <h4>Strengthen Brand Identity</h4>
                                         <p class="mt-2">
-                                            Consistent, high-quality content positions your business as an industry expert.
+                                            Consistent visual design and animation improve brand recall and create a recognizable visual language.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Strengthen Brand Awareness & Trust-.webp"
-                                                alt="Deliver Long-Term ROI Icon"
+                                                alt="Improve Marketing Performance Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Deliver Long-Term ROI</h4>
+                                        <h4>Improve Marketing Performance</h4>
                                         <p class="mt-2">
-                                            Unlike ads, content continues to generate traffic and leads over time.
+                                            High-quality animated creatives improve performance across digital marketing, ads, and social media campaigns.
                                         </p>
                                     </li>
                                 </ul>
-                                <p class="fade-left">A strong content strategy turns your website into a valuable digital asset that works 24/7.</p>
+
+                                <p class="fade-left">Design and animation transform content into experiences that inform, engage, and inspire action.</p>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Content Marketing Use Cases Across Business Types</h2>
+                                    <h2 class="sec-title title-anim">How Design & Animation Connect with Other Core Services</h2>
                                     <p class="fade-left mt-3">
-                                        Our content marketing services are tailored for different business models:
+                                        To deliver complete creative and marketing solutions, our design and animation services work seamlessly with:
                                     </p>
 
                                     <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
+                                        <li class="col-12 col-md-6 col-lg-6 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                    alt="Service-Based Businesses Icon"
+                                                    alt="Branding Solutions Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Service-Based Businesses</h4>
+                                            <h4>Branding Solutions</h4>
                                             <p class="mt-2">
-                                                Generate inquiries and leads with SEO-optimised service content.
+                                                Ensuring consistent brand identity, visuals, and storytelling across all creative assets.
                                             </p>
                                         </li>
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
+                                        <li class="col-12 col-md-6 col-lg-6 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="B2B Companies Icon"
+                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="Social Media Creatives Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>B2B Companies</h4>
+                                            <h4>Social Media Creatives</h4>
                                             <p class="mt-2">
-                                                Educate decision-makers and build trust with long-form, value-driven content.
-                                            </p>
-                                        </li>
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                    alt="E-commerce Brands Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>E-commerce Brands</h4>
-                                            <p class="mt-2">
-                                                Drive product discovery and organic traffic through blogs and category content.
-                                            </p>
-                                        </li>
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                    alt="Startups & Growing Brands Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>Startups & Growing Brands</h4>
-                                            <p class="mt-2">
-                                                Build visibility, authority, and credibility from the ground up.
+                                                Producing engaging static and animated content optimized for social platforms.
                                             </p>
                                         </li>
                                     </ul>
+
+                                    <p class="fade-left">
+                                        These connected services help brands maintain visual consistency and stronger digital presence.
+                                    </p>
                                 </div>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Content Marketing & Writing</h2>
+                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Design & Animation Services</h2>
                                     <p class="fade-left mt-3">
-                                        At ABC Designs, we approach content marketing with a balance of strategy, creativity, and SEO intelligence. Our focus is not just on writing content, but on creating content that supports business growth, search visibility, and user engagement. Every piece of content is written with a clear objective — to inform, rank, and convert.
+                                        At ABC Designs, we deliver design and animation services that are rooted in strategy, creativity, and real business objectives. Our approach goes beyond aesthetics — we focus on creating visual experiences that communicate clearly, engage audiences, and strengthen brand identity across digital platforms.
                                     </p>
                                     <p class="fade-left">
-                                        Our team of experienced content writers, SEO specialists, and editors works closely with businesses to maintain brand voice, consistency, and quality across all content assets. By combining keyword research, search intent, and conversion-focused writing, we deliver content that performs both for users and search engines.
+                                        Our team of experienced creative designers and animators works closely with brands to understand messaging, audience behavior, and usage contexts. By combining thoughtful design, high-quality animation, and brand-focused execution, we ensure every visual asset delivers impact, consistency, and long-term value.
                                     </p>
                                     <p class="fade-left mt-3">
-                                        What sets our content marketing services apart:
+                                        What sets our design & animation services apart:
                                     </p>
                                     <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                                        <li>Experienced SEO content writers</li>
-                                        <li>Keyword-driven, intent-focused content strategy</li>
-                                        <li>Human-written, high-quality content</li>
-                                        <li>Clear brand voice and messaging</li>
-                                        <li>SEO-friendly structure and optimisation</li>
-                                        <li>Long-term growth-oriented approach</li>
+                                        <li>Experienced creative designers and animators</li>
+                                        <li>Strategy-driven design and animation approach</li>
+                                        <li>High-quality motion graphics and visual execution</li>
+                                        <li>Brand-focused and audience-centric creative solutions</li>
+                                        <li>Transparent collaboration and timely delivery</li>
+                                        <li>Designs and animations built for real business impact</li>
                                     </ul>
                                     <p class="fade-left mt-3">
-                                        We help businesses turn content into traffic, authority, and measurable conversions.
+                                        We create designs that attract attention and animations that tell stories.
                                     </p>
                                 </div>
 
@@ -621,14 +603,14 @@
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                         aria-expanded="true" aria-controls="collapseOne">
-                                                        1. What is content marketing?
+                                                        1. What are design and animation services?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing is the process of creating and distributing valuable content to attract, engage, and convert a target audience.
+                                                            Design and animation services involve creating visual content and animated visuals to communicate brand messages, promote products, and engage audiences.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -640,14 +622,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        2. How does content marketing help SEO?
+                                                        2. How does animation help in marketing?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            SEO-optimised content improves keyword rankings, organic traffic, and search visibility over time.
+                                                            Animation improves engagement, simplifies messaging, and increases content retention, making marketing campaigns more effective.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -659,14 +641,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                        3. Do you write SEO-friendly content?
+                                                        3. Do you create both static and animated designs?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseThree" class="accordion-collapse collapse"
                                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. All our content is written with SEO best practices, keyword optimisation, and readability in mind.
+                                                            Yes. We provide graphic design, motion graphics, animated videos, and interactive visual assets.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -678,14 +660,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                         aria-expanded="false" aria-controls="collapseFour">
-                                                        4. Can you write content for existing websites?
+                                                        4. Can animation be used for social media and ads?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFour" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Absolutely. We offer content rewriting, optimisation, and expansion services.
+                                                            Absolutely. Our animations are optimized for social media platforms, digital ads, websites, and mobile apps.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -697,14 +679,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                                         aria-expanded="false" aria-controls="collapseFive">
-                                                        5. Do you maintain brand tone and voice?
+                                                        5. Do you offer custom animation styles?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFive" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We align content with your brand guidelines and communication style.
+                                                            Yes. All animation styles are customized to align with brand identity and campaign objectives.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -716,33 +698,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSix"
                                                         aria-expanded="false" aria-controls="collapseSix">
-                                                        6. How long does content marketing take to show results?
+                                                        6. Will the designs be optimized for multiple platforms?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSix" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing typically shows results within 3–6 months, depending on competition and consistency.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- FAQ 7 -->
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingSeven">
-                                                    <button class="accordion-button collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                                        aria-expanded="false" aria-controls="collapseSeven">
-                                                        7. Do you provide content strategy as well?
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseSeven" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body">
-                                                        <p>
-                                                            Yes. We offer complete content strategy, planning, and execution services.
+                                                            Yes. We deliver assets in formats optimized for web, mobile, ads, and social platforms.
                                                         </p>
                                                     </div>
                                                 </div>

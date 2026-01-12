@@ -13,13 +13,21 @@
                         <div class="row justify-content-between px-1 pb-50 blog-header-banner"
                             style="background-image: url(https://www.techmagnate.com/wp-content/themes/techmagnate/images/service-back-img.webp)">
                             <div class="col-lg-7 col-md-12">
-                                <h1 class="sec-title title-anim text-white">Content Marketing & Writing Services That Build Authority, Drive Traffic & Convert Audiences</h1>
+                                <h1 class="sec-title title-anim text-white">iOS App Development Services for Scalable &
+                                    High-Performance Mobile Apps</h1>
 
                                 <div class="mt-3 d-flex flex-column align-items-start text-anim">
                                     <p class="text-white">
-                                       In today's digital landscape, content is the foundation of online visibility, trust, and growth. Businesses that consistently publish valuable, relevant, and well-optimised content attract more traffic, build stronger brand authority, and convert audiences into loyal customers. Content Marketing & Writing is no longer optional — it is a core growth strategy.<br><br>
-                                       At ABC Designs, we provide professional content marketing and writing services that help businesses communicate clearly, rank higher on search engines, and drive meaningful engagement. Our content is not written just to fill pages — it is created with a purpose: to inform, influence, and convert.<br><br>
-                                       Whether you need website content, SEO blogs, landing pages, or long-form marketing assets, our content writing services are designed to support your digital marketing goals and deliver measurable business results.
+                                        Apple users expect premium performance, flawless design, and seamless
+                                        functionality. To meet these expectations, businesses need expertly built iOS
+                                        applications that combine robust development with intuitive user experience. At
+                                        ABC Designs, we deliver iOS app development services that help businesses launch
+                                        secure, scalable, and high-performing mobile applications for iPhone, iPad, and
+                                        the Apple ecosystem.<br><br>
+                                        Our professional iOS app development solutions are designed to support business
+                                        growth, user engagement, and long-term scalability. From startups launching
+                                        their first iOS app to enterprises building complex applications, we develop iOS
+                                        apps that align with Apple standards and real business objectives.
                                     </p>
                                 </div>
                                 <div class="my-3">
@@ -32,7 +40,7 @@
                             <div class="col-lg-5 col-md-12 w-fit mt-4 mt-lg-0 sss-banner-right">
                                 <figure class="mb-0" id="bounceImage">
                                     <img src="https://www.techmagnate.com/wp-content/uploads/2025/10/SEO-Services.webp"
-                                        alt="Content Marketing & Writing Services" class="img-fluid rounded">
+                                        alt="iOS App Development Services" class="img-fluid rounded">
                                 </figure>
                             </div>
                         </div>
@@ -48,74 +56,92 @@
                                 <!-- Static content for demonstration -->
                                 <div class="blog-content-inner">
 
-                                    <h2 class="sec-title title-anim">Trusted Content Marketing & Writing Agency in India</h2>
-                                    <p class="fade-left mt-2">Delivering SEO-Driven Content That Performs Across Channels</p>
+                                    <h2 class="sec-title title-anim">Trusted iOS App Development Company in India</h2>
+                                    <p class="fade-left mt-2">Delivering Secure, Scalable & Performance-Driven iOS
+                                        Applications</p>
 
                                     <ul class="mt-4 list-unstyled">
 
                                         <li class="mb-1 fade-left">
                                             <p class="fade-left d-flex align-items-start">
                                                 <span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 64 64">
-                                                        <path fill="#344549" d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
-                                                        <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" viewBox="0 0 64 64">
+                                                        <path fill="#344549"
+                                                            d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
+                                                        <path fill="#9c0808"
+                                                            d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Proven expertise in content marketing services across industries
+                                                Proven expertise in iOS app development
                                             </p>
                                         </li>
 
                                         <li class="mb-1 fade-left">
                                             <p class="fade-left d-flex align-items-start">
                                                 <span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 64 64">
-                                                        <path fill="#344549" d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
-                                                        <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" viewBox="0 0 64 64">
+                                                        <path fill="#344549"
+                                                            d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
+                                                        <path fill="#9c0808"
+                                                            d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                SEO-friendly, keyword-optimised content strategies
+                                                Experience building apps for iPhone and iPad
                                             </p>
                                         </li>
 
                                         <li class="mb-1 fade-left">
                                             <p class="fade-left d-flex align-items-start">
                                                 <span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 64 64">
-                                                        <path fill="#344549" d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
-                                                        <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" viewBox="0 0 64 64">
+                                                        <path fill="#344549"
+                                                            d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
+                                                        <path fill="#9c0808"
+                                                            d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Conversion-focused writing for websites and campaigns
+                                                Strong focus on performance, security, and scalability
                                             </p>
                                         </li>
 
                                         <li class="mb-1 fade-left">
                                             <p class="fade-left d-flex align-items-start">
                                                 <span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 64 64">
-                                                        <path fill="#344549" d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
-                                                        <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" viewBox="0 0 64 64">
+                                                        <path fill="#344549"
+                                                            d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
+                                                        <path fill="#9c0808"
+                                                            d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Consistent tone, brand voice, and messaging
+                                                Compliance with Apple design and development guidelines
                                             </p>
                                         </li>
 
                                         <li class="mb-1 fade-left">
                                             <p class="fade-left d-flex align-items-start">
                                                 <span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 64 64">
-                                                        <path fill="#344549" d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
-                                                        <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" viewBox="0 0 64 64">
+                                                        <path fill="#344549"
+                                                            d="M48.34 8.824H5.843a5.84 5.84 0 0 0-5.838 5.84v42.498A5.84 5.84 0 0 0 5.843 63H48.34a5.84 5.84 0 0 0 5.838-5.839V14.664a5.84 5.84 0 0 0-5.838-5.84m2.72 45.46a5.166 5.166 0 0 1-5.165 5.168H8.293a5.166 5.166 0 0 1-5.168-5.168V16.683a5.167 5.167 0 0 1 5.168-5.167h37.602a5.17 5.17 0 0 1 5.165 5.167z" />
+                                                        <path fill="#9c0808"
+                                                            d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Transparent process and quality assurance
+                                                Transparent communication and reliable project delivery
                                             </p>
                                         </li>
 
                                     </ul>
 
-                                    <p class="fade-left mt-3">At ABC Designs, we don't believe in generic or AI-generated filler content. We focus on strategic, human-written content that aligns with search intent, user needs, and business objectives.</p>
+                                    <p class="fade-left mt-3">At ABC Designs, we don't just build apps — we create
+                                        Apple-ready mobile solutions designed for performance, usability, and growth.
+                                    </p>
 
                                 </div>
 
@@ -207,29 +233,35 @@
 
                         <figure class="float-end ms-4 mb-3" style="max-width: 420px;">
                             <img src="https://www.techmagnate.com/wp-content/uploads/2025/01/Partner-with-the-Best-SEO-Company-for-Business-Growth-1-1.webp"
-                                alt="Content Marketing Agency" class="img-fluid rounded">
+                                alt="iOS App Development Agency" class="img-fluid rounded">
                         </figure>
 
-                        <h2 class="sec-title title-anim">Partner with a Content Marketing Agency Built for Long-Term Growth</h2>
+                        <h2 class="sec-title title-anim">Partner with an iOS App Development Agency Built for Long-Term
+                            Success</h2>
 
                         <p class="fade-left mt-3">
-                            Content marketing is more than writing blogs or website pages. It requires deep understanding of audience intent, keyword research, content structure, storytelling, and conversion psychology. Our team of content strategists, SEO content writers, and editors works collaboratively to create content that performs across search engines and marketing channels.
+                            Developing an iOS app requires deep technical expertise, platform knowledge, and attention
+                            to detail. Our team of experienced iOS app developers, UI/UX designers, and mobile
+                            strategists works collaboratively to deliver iOS applications that meet Apple's strict
+                            quality standards while achieving business goals.
                         </p>
 
                         <p class="fade-left">
-                            We begin by understanding your business, target audience, and goals. Based on this insight, we develop content that supports SEO rankings, brand authority, and lead generation. Every piece of content is created with clarity, relevance, and purpose.
+                            We follow a business-centric iOS development approach, ensuring every app is optimized for
+                            performance, user experience, and scalability. From architecture planning to App Store
+                            deployment, we handle the complete iOS app development lifecycle.
                         </p>
 
                         <p class="fade-left">
-                            Our content marketing approach ensures:
+                            Our iOS apps are:
                         </p>
 
                         <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                            <li>Strong search engine visibility</li>
-                            <li>Higher engagement and time on page</li>
-                            <li>Clear brand positioning and messaging</li>
-                            <li>Better lead quality and conversions</li>
-                            <li>Long-term organic growth</li>
+                            <li>Fast, responsive, and stable</li>
+                            <li>Secure and performance-optimized</li>
+                            <li>Designed for seamless user experience</li>
+                            <li>Built for future scalability and feature expansion</li>
+                            <li>Ready for smooth App Store submission</li>
                         </ul>
 
                         <!-- Clear float -->
@@ -237,8 +269,9 @@
 
                     </div>
 
-                    <h2 class="sec-title title-anim">Content Marketing & Writing Services We Offer</h2>
-                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end content writing and content marketing services tailored to different business needs.</p>
+                    <h2 class="sec-title title-anim">iOS App Development Services We Offer</h2>
+                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end iOS app development services
+                        tailored to diverse business needs.</p>
 
                     <div class="container-fluid m-0 p-0">
                         <div class="row pt-4">
@@ -249,16 +282,18 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                alt="Website Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Custom iOS App Development"
+                                                class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Website Content Writing
+                                                    Custom iOS App Development
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write clear, compelling, and SEO-friendly website content that communicates your value proposition, builds trust, and guides visitors toward action.
+                                                We build custom iOS applications tailored to your business goals, user
+                                                needs, and functional requirements using modern iOS technologies.
                                             </p>
                                         </div>
                                     </div>
@@ -266,17 +301,20 @@
                                     <!-- 2 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Professional Website Development-.webp"
-                                                alt="SEO Blog Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
+                                                alt="iOS App UI/UX Design Integration"
+                                                class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    SEO Blog Writing
+                                                    iOS App UI/UX Design Integration
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Our SEO blog writing services help businesses rank for relevant keywords, attract organic traffic, and establish topical authority.
+                                                Our development seamlessly aligns with intuitive mobile app UI/UX
+                                                design, ensuring smooth navigation, clarity, and user engagement across
+                                                all screens.
                                             </p>
 
                                         </div>
@@ -285,17 +323,19 @@
                                     <!-- 3 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                alt="Landing Page & Sales Copywriting" class="w-25 h-25 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Professional Website Development-.webp"
+                                                alt="Native iOS App Development"
+                                                class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Landing Page & Sales Copywriting
+                                                    Native iOS App Development
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We create conversion-focused landing page content designed to generate leads, inquiries, and sales.
+                                                We develop native iOS apps using Swift and modern frameworks to deliver
+                                                high performance, security, and stability.
                                             </p>
                                         </div>
                                     </div>
@@ -303,17 +343,19 @@
                                     <!-- 4 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                alt="Product & Service Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
+                                                alt="iOS App Migration & Upgrades"
+                                                class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Product & Service Content Writing
+                                                    iOS App Migration & Upgrades
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Clear, persuasive product and service descriptions that highlight benefits, features, and buyer intent.
+                                                Upgrade legacy iOS apps or migrate existing applications to newer iOS
+                                                versions with improved performance and compatibility.
                                             </p>
                                         </div>
                                     </div>
@@ -321,17 +363,19 @@
                                     <!-- 5 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Content for Digital Marketing Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
+                                                alt="Testing & Quality Assurance"
+                                                class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content for Digital Marketing Campaigns
+                                                    Testing & Quality Assurance
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write content for ads, email campaigns, and promotional assets that support marketing performance.
+                                                We conduct rigorous testing to ensure bug-free performance, security,
+                                                and device compatibility before launch.
                                             </p>
                                         </div>
                                     </div>
@@ -340,16 +384,18 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Social Media Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Secure iOS App Development"
+                                                class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Social Media Content Writing
+                                                    Secure iOS App Development
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Engaging social media captions and content aligned with brand voice and campaign objectives.
+                                                Our apps are built with strong data protection, secure authentication,
+                                                and compliance with Apple security guidelines.
                                             </p>
                                         </div>
                                     </div>
@@ -357,35 +403,19 @@
                                     <!-- 7 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Optimization & Refresh"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp"
+                                                alt="iOS App Maintenance & Support"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Optimization & Refresh
+                                                    iOS App Maintenance & Support
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We optimize existing content for SEO, readability, and relevance to improve rankings and performance.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <!-- 8 -->
-                                    <div class="service__item-2">
-                                        <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Strategy & Planning"
-                                                class="w-25 h-25 obj-fit-contain mb-3">
-
-                                            <h3>
-                                                <span class="service__title-2">
-                                                    Content Strategy & Planning
-                                                </span>
-                                            </h3>
-
-                                            <p>
-                                                We build structured content marketing strategies, including topic planning, keyword mapping, and publishing calendars.
+                                                We offer post-launch maintenance, updates, and optimization to keep your
+                                                iOS app running smoothly.
                                             </p>
                                         </div>
                                     </div>
@@ -394,8 +424,8 @@
 
 
                                 <div class="sss-colored-box p-4 rounded mt-3 mb-4">
-                                    <h3 class="sec-title title-anim m-0">Our Proven Content Marketing Process</h3>
-                                    <p class="fade-left mt-2">A Strategic, SEO-Driven Content Methodology</p>
+                                    <h3 class="sec-title title-anim m-0">Our Proven iOS App Development Process</h3>
+                                    <p class="fade-left mt-2">A Structured, Performance-Focused Approach</p>
 
                                     <ul class="row ga list-unstyled p-0 m-0 mt-5 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
@@ -405,18 +435,20 @@
                                             </figure>
                                             <h4>Discover</h4>
                                             <p class="mt-2">
-                                                We understand your business, industry, audience, competitors, and content goals to define direction and tone.
+                                                We understand your business goals, app idea, target audience, and
+                                                functional requirements to define a clear iOS app roadmap.
                                             </p>
                                         </li>
 
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Analyze-.webp" alt="Research Icon"
+                                                <img src="/img/icons/icon_Analyze-.webp" alt="Analyze Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Research</h4>
+                                            <h4>Analyze</h4>
                                             <p class="mt-2">
-                                                Our team performs in-depth keyword research, search intent analysis, and competitor content evaluation.
+                                                Our team analyzes technical requirements, user flows, and scalability
+                                                needs to choose the right architecture and development approach.
                                             </p>
                                         </li>
 
@@ -427,37 +459,42 @@
                                             </figure>
                                             <h4>Strategize</h4>
                                             <p class="mt-2">
-                                                We create a content roadmap covering content types, formats, keywords, and publishing priorities.
+                                                We define app structure, feature prioritization, and development
+                                                strategy aligned with Apple guidelines and business objectives.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Write & Optimize Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
+                                                <img src="/img/icons/icon_Design & Develop.webp"
+                                                    alt="Design & Develop Icon" class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Write & Optimize</h4>
+                                            <h4>Design & Develop</h4>
                                             <p class="mt-2">
-                                                Content is written by experienced writers and optimised for SEO, readability, and conversions.
+                                                Our designers and developers collaborate to build a secure,
+                                                high-performance iOS app optimized for speed and usability.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Test & Optimize-.webp" alt="Review & Refine Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
+                                                <img src="/img/icons/icon_Test & Optimize-.webp"
+                                                    alt="Test & Optimize Icon" class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Review & Refine</h4>
+                                            <h4>Test & Optimize</h4>
                                             <p class="mt-2">
-                                                We edit, proofread, and refine content to ensure quality, clarity, and consistency.
+                                                We thoroughly test the app across Apple devices to ensure smooth
+                                                performance, security, and App Store readiness.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Publish & Improve Icon"
+                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp"
+                                                    alt="Launch, Monitor & Improve Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Publish & Improve</h4>
+                                            <h4>Launch, Monitor & Improve</h4>
                                             <p class="mt-2">
-                                                Post-publish, content is monitored and refined to improve performance over time.
+                                                After App Store submission, we monitor app performance and provide
+                                                continuous improvements as your business grows.
                                             </p>
                                         </li>
 
@@ -465,130 +502,100 @@
 
                                 </div>
 
-                                <h2 class="sec-title title-anim">Why Content Marketing Is Essential for Business Success</h2>
-                                <p class="fade-left mt-2">Content marketing builds long-term visibility and trust that paid advertising alone cannot achieve.</p>
+                                <h2 class="sec-title title-anim">Why iOS App Development Is Crucial for Business Growth
+                                </h2>
+                                <p class="fade-left mt-2">A professionally developed iOS app allows businesses to
+                                    connect with premium users, strengthen brand credibility, and drive long-term
+                                    engagement.</p>
 
                                 <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Improve Website Performance & Search Visibility-.webp"
-                                                alt="Drive Sustainable Organic Traffic Icon"
+                                                alt="Access High-Value Apple Users Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Drive Sustainable Organic Traffic</h4>
+                                        <h4>Access High-Value Apple Users</h4>
                                         <p class="mt-2">
-                                            SEO-friendly content attracts users actively searching for information, products, or services.
+                                            iOS users are known for higher engagement and purchasing power, making iOS
+                                            apps ideal for revenue-focused businesses.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
-                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Educate & Influence Buyers Icon"
+                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
+                                                alt="Enhanced Security & Performance Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Educate & Influence Buyers</h4>
+                                        <h4>Enhanced Security & Performance</h4>
                                         <p class="mt-2">
-                                            Well-written content guides users through their decision-making journey.
+                                            Apple's ecosystem offers advanced security features, ensuring data
+                                            protection and app stability.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Website Maintenance & Support-.webp"
-                                                alt="Build Brand Authority Icon"
+                                                alt="Scalable & Future-Ready Platform Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Build Brand Authority</h4>
+                                        <h4>Scalable & Future-Ready Platform</h4>
                                         <p class="mt-2">
-                                            Consistent, high-quality content positions your business as an industry expert.
+                                            iOS apps are built to scale seamlessly with new features, integrations, and
+                                            user growth.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Strengthen Brand Awareness & Trust-.webp"
-                                                alt="Deliver Long-Term ROI Icon"
-                                                class="w-25 h-25 obj-fit-contain">
+                                                alt="Strong Brand Credibility Icon" class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Deliver Long-Term ROI</h4>
+                                        <h4>Strong Brand Credibility</h4>
                                         <p class="mt-2">
-                                            Unlike ads, content continues to generate traffic and leads over time.
+                                            A well-designed iOS app enhances brand perception and trust among premium
+                                            audiences.
                                         </p>
                                     </li>
                                 </ul>
-                                <p class="fade-left">A strong content strategy turns your website into a valuable digital asset that works 24/7.</p>
+                                <p class="fade-left">A high-quality iOS app becomes a long-term digital asset, not just
+                                    a mobile product.</p>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Content Marketing Use Cases Across Business Types</h2>
+                                    <h2 class="sec-title title-anim">How This Service Connects with Other Core
+                                        Solutions</h2>
                                     <p class="fade-left mt-3">
-                                        Our content marketing services are tailored for different business models:
+                                        To deliver complete mobile solutions, our iOS app development services work
+                                        seamlessly with:
                                     </p>
-
-                                    <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                    alt="Service-Based Businesses Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>Service-Based Businesses</h4>
-                                            <p class="mt-2">
-                                                Generate inquiries and leads with SEO-optimised service content.
-                                            </p>
-                                        </li>
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="B2B Companies Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>B2B Companies</h4>
-                                            <p class="mt-2">
-                                                Educate decision-makers and build trust with long-form, value-driven content.
-                                            </p>
-                                        </li>
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                    alt="E-commerce Brands Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>E-commerce Brands</h4>
-                                            <p class="mt-2">
-                                                Drive product discovery and organic traffic through blogs and category content.
-                                            </p>
-                                        </li>
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                    alt="Startups & Growing Brands Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>Startups & Growing Brands</h4>
-                                            <p class="mt-2">
-                                                Build visibility, authority, and credibility from the ground up.
-                                            </p>
-                                        </li>
+                                    <ul class="fade-left list-style-disc ms-4 mt-2"
+                                        style="list-style-type: disc !important;">
+                                        <li><strong>Mobile App UI/UX Design</strong> – to ensure visually intuitive,
+                                            user-friendly, and conversion-focused app interfaces.</li>
+                                        <li><strong>App Maintenance & Support</strong> – to keep your iOS app secure,
+                                            updated, and optimized post-launch.</li>
                                     </ul>
+                                    <p class="fade-left mt-3">
+                                        These connected services ensure your app is well-designed, well-built, and
+                                        consistently maintained.
+                                    </p>
                                 </div>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Content Marketing & Writing</h2>
+                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for iOS App Development
+                                    </h2>
                                     <p class="fade-left mt-3">
-                                        At ABC Designs, we approach content marketing with a balance of strategy, creativity, and SEO intelligence. Our focus is not just on writing content, but on creating content that supports business growth, search visibility, and user engagement. Every piece of content is written with a clear objective — to inform, rank, and convert.
+                                        At ABC Designs, we specialize in building high-quality iOS applications that
+                                        meet Apple's performance, security, and design standards. Our approach focuses
+                                        on combining strong technical expertise with a clear understanding of business
+                                        goals, ensuring every iOS app we develop delivers reliability, scalability, and
+                                        long-term value.
                                     </p>
                                     <p class="fade-left">
-                                        Our team of experienced content writers, SEO specialists, and editors works closely with businesses to maintain brand voice, consistency, and quality across all content assets. By combining keyword research, search intent, and conversion-focused writing, we deliver content that performs both for users and search engines.
-                                    </p>
-                                    <p class="fade-left mt-3">
-                                        What sets our content marketing services apart:
-                                    </p>
-                                    <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                                        <li>Experienced SEO content writers</li>
-                                        <li>Keyword-driven, intent-focused content strategy</li>
-                                        <li>Human-written, high-quality content</li>
-                                        <li>Clear brand voice and messaging</li>
-                                        <li>SEO-friendly structure and optimisation</li>
-                                        <li>Long-term growth-oriented approach</li>
-                                    </ul>
-                                    <p class="fade-left mt-3">
-                                        We help businesses turn content into traffic, authority, and measurable conversions.
+                                        Our team of experienced iOS app developers follows a structured, native-first
+                                        development approach to create secure, scalable, and App Store-ready
+                                        applications. From clean architecture and optimized performance to smooth user
+                                        experiences and ongoing support, we ensure your iOS app is built to perform
+                                        consistently and evolve with your business needs.
                                     </p>
                                 </div>
 
@@ -621,14 +628,16 @@
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                         aria-expanded="true" aria-controls="collapseOne">
-                                                        1. What is content marketing?
+                                                        1. What is iOS app development?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing is the process of creating and distributing valuable content to attract, engage, and convert a target audience.
+                                                            iOS app development is the process of building mobile
+                                                            applications specifically for Apple devices such as iPhone
+                                                            and iPad.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -640,14 +649,15 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        2. How does content marketing help SEO?
+                                                        2. Do you develop native iOS apps?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            SEO-optimised content improves keyword rankings, organic traffic, and search visibility over time.
+                                                            Yes. We specialize in native iOS app development using
+                                                            modern technologies and Apple frameworks.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -659,14 +669,15 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                        3. Do you write SEO-friendly content?
+                                                        3. Can you publish the app on the App Store?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseThree" class="accordion-collapse collapse"
                                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. All our content is written with SEO best practices, keyword optimisation, and readability in mind.
+                                                            Yes. We assist with App Store submission and ensure
+                                                            compliance with Apple guidelines.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -678,14 +689,15 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                         aria-expanded="false" aria-controls="collapseFour">
-                                                        4. Can you write content for existing websites?
+                                                        4. Are iOS apps secure?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFour" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Absolutely. We offer content rewriting, optimisation, and expansion services.
+                                                            Yes. iOS apps are built with strong security features and
+                                                            Apple-approved standards.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -697,14 +709,15 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                                         aria-expanded="false" aria-controls="collapseFive">
-                                                        5. Do you maintain brand tone and voice?
+                                                        5. Can you upgrade or redesign an existing iOS app?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFive" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We align content with your brand guidelines and communication style.
+                                                            Absolutely. We provide app upgrades, redesigns, and
+                                                            performance optimization services.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -716,33 +729,15 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSix"
                                                         aria-expanded="false" aria-controls="collapseSix">
-                                                        6. How long does content marketing take to show results?
+                                                        6. Do you offer post-launch support?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSix" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing typically shows results within 3–6 months, depending on competition and consistency.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- FAQ 7 -->
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingSeven">
-                                                    <button class="accordion-button collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                                        aria-expanded="false" aria-controls="collapseSeven">
-                                                        7. Do you provide content strategy as well?
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseSeven" class="accordion-collapse collapse"
-                                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                                    <div class="accordion-body">
-                                                        <p>
-                                                            Yes. We offer complete content strategy, planning, and execution services.
+                                                            Yes. We provide ongoing maintenance, updates, and
+                                                            performance monitoring.
                                                         </p>
                                                     </div>
                                                 </div>

@@ -13,13 +13,13 @@
                         <div class="row justify-content-between px-1 pb-50 blog-header-banner"
                             style="background-image: url(https://www.techmagnate.com/wp-content/themes/techmagnate/images/service-back-img.webp)">
                             <div class="col-lg-7 col-md-12">
-                                <h1 class="sec-title title-anim text-white">Content Marketing & Writing Services That Build Authority, Drive Traffic & Convert Audiences</h1>
+                                <h1 class="sec-title title-anim text-white">Logo Design Services That Build Strong Brand Identity & Instant Recognition</h1>
 
                                 <div class="mt-3 d-flex flex-column align-items-start text-anim">
                                     <p class="text-white">
-                                       In today's digital landscape, content is the foundation of online visibility, trust, and growth. Businesses that consistently publish valuable, relevant, and well-optimised content attract more traffic, build stronger brand authority, and convert audiences into loyal customers. Content Marketing & Writing is no longer optional — it is a core growth strategy.<br><br>
-                                       At ABC Designs, we provide professional content marketing and writing services that help businesses communicate clearly, rank higher on search engines, and drive meaningful engagement. Our content is not written just to fill pages — it is created with a purpose: to inform, influence, and convert.<br><br>
-                                       Whether you need website content, SEO blogs, landing pages, or long-form marketing assets, our content writing services are designed to support your digital marketing goals and deliver measurable business results.
+                                       A logo is the most visible and powerful element of a brand's identity. It is often the first impression people have of your business — and first impressions matter. A professionally designed logo communicates trust, credibility, and purpose, while a poorly designed logo can weaken brand perception instantly.<br><br>
+                                       At ABC Designs, we offer professional logo design services that help businesses create distinctive, meaningful, and timeless logos. Our logo designs are not just visually appealing — they are strategically crafted to represent your brand values, connect with your audience, and scale seamlessly across digital and offline platforms.<br><br>
+                                       Whether you're a startup launching a new brand, a growing business refining your identity, or an established company planning a redesign, our custom logo design solutions ensure your brand stands out with confidence and clarity.
                                     </p>
                                 </div>
                                 <div class="my-3">
@@ -32,7 +32,7 @@
                             <div class="col-lg-5 col-md-12 w-fit mt-4 mt-lg-0 sss-banner-right">
                                 <figure class="mb-0" id="bounceImage">
                                     <img src="https://www.techmagnate.com/wp-content/uploads/2025/10/SEO-Services.webp"
-                                        alt="Content Marketing & Writing Services" class="img-fluid rounded">
+                                        alt="Logo Design Services" class="img-fluid rounded">
                                 </figure>
                             </div>
                         </div>
@@ -48,8 +48,8 @@
                                 <!-- Static content for demonstration -->
                                 <div class="blog-content-inner">
 
-                                    <h2 class="sec-title title-anim">Trusted Content Marketing & Writing Agency in India</h2>
-                                    <p class="fade-left mt-2">Delivering SEO-Driven Content That Performs Across Channels</p>
+                                    <h2 class="sec-title title-anim">Trusted Logo Design Company in India</h2>
+                                    <p class="fade-left mt-2">Delivering Creative, Strategic & Business-Focused Logo Designs</p>
 
                                     <ul class="mt-4 list-unstyled">
 
@@ -61,7 +61,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Proven expertise in content marketing services across industries
+                                                Proven expertise in professional logo design services
                                             </p>
                                         </li>
 
@@ -73,7 +73,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                SEO-friendly, keyword-optimised content strategies
+                                                Custom logo designs for startups, SMEs, and enterprises
                                             </p>
                                         </li>
 
@@ -85,7 +85,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Conversion-focused writing for websites and campaigns
+                                                Strategy-driven design approach, not generic templates
                                             </p>
                                         </li>
 
@@ -97,7 +97,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Consistent tone, brand voice, and messaging
+                                                Logos designed for digital and offline scalability
                                             </p>
                                         </li>
 
@@ -109,13 +109,13 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Transparent process and quality assurance
+                                                Transparent process and collaborative execution
                                             </p>
                                         </li>
 
                                     </ul>
 
-                                    <p class="fade-left mt-3">At ABC Designs, we don't believe in generic or AI-generated filler content. We focus on strategic, human-written content that aligns with search intent, user needs, and business objectives.</p>
+                                    <p class="fade-left mt-3">At ABC Designs, we don't design logos based on trends alone. We create logos with meaning, purpose, and long-term usability.</p>
 
                                 </div>
 
@@ -207,38 +207,37 @@
 
                         <figure class="float-end ms-4 mb-3" style="max-width: 420px;">
                             <img src="https://www.techmagnate.com/wp-content/uploads/2025/01/Partner-with-the-Best-SEO-Company-for-Business-Growth-1-1.webp"
-                                alt="Content Marketing Agency" class="img-fluid rounded">
+                                alt="Logo Design Agency" class="img-fluid rounded">
                         </figure>
 
-                        <h2 class="sec-title title-anim">Partner with a Content Marketing Agency Built for Long-Term Growth</h2>
+                        <h2 class="sec-title title-anim">Partner with a Logo Design Agency Built for Brand Growth</h2>
 
                         <p class="fade-left mt-3">
-                            Content marketing is more than writing blogs or website pages. It requires deep understanding of audience intent, keyword research, content structure, storytelling, and conversion psychology. Our team of content strategists, SEO content writers, and editors works collaboratively to create content that performs across search engines and marketing channels.
+                            A logo is more than a graphic symbol — it is the visual foundation of your brand. Our team of brand designers and creative strategists works closely with businesses to understand their vision, audience, industry, and positioning before designing a logo.
                         </p>
 
                         <p class="fade-left">
-                            We begin by understanding your business, target audience, and goals. Based on this insight, we develop content that supports SEO rankings, brand authority, and lead generation. Every piece of content is created with clarity, relevance, and purpose.
-                        </p>
-
-                        <p class="fade-left">
-                            Our content marketing approach ensures:
+                            We focus on:
                         </p>
 
                         <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                            <li>Strong search engine visibility</li>
-                            <li>Higher engagement and time on page</li>
-                            <li>Clear brand positioning and messaging</li>
-                            <li>Better lead quality and conversions</li>
-                            <li>Long-term organic growth</li>
+                            <li>Brand personality and values</li>
+                            <li>Industry relevance and differentiation</li>
+                            <li>Simplicity, clarity, and memorability</li>
+                            <li>Scalability across platforms and formats</li>
                         </ul>
+
+                        <p class="fade-left mt-3">
+                            Our goal is to design logos that are recognisable, adaptable, and timeless, not trendy designs that lose relevance over time.
+                        </p>
 
                         <!-- Clear float -->
                         <div class="clearfix"></div>
 
                     </div>
 
-                    <h2 class="sec-title title-anim">Content Marketing & Writing Services We Offer</h2>
-                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end content writing and content marketing services tailored to different business needs.</p>
+                    <h2 class="sec-title title-anim">Logo Design Services We Offer</h2>
+                    <p class="fade-left mt-3">At ABC Designs, we provide comprehensive logo design services tailored to different business needs and stages.</p>
 
                     <div class="container-fluid m-0 p-0">
                         <div class="row pt-4">
@@ -249,16 +248,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                alt="Website Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Custom Logo Design" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Website Content Writing
+                                                    Custom Logo Design
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write clear, compelling, and SEO-friendly website content that communicates your value proposition, builds trust, and guides visitors toward action.
+                                                We create 100% original, custom logo designs that reflect your brand identity and business objectives — no templates, no stock icons.
                                             </p>
                                         </div>
                                     </div>
@@ -267,16 +266,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Professional Website Development-.webp"
-                                                alt="SEO Blog Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Brand-Focused Logo Strategy" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    SEO Blog Writing
+                                                    Brand-Focused Logo Strategy
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Our SEO blog writing services help businesses rank for relevant keywords, attract organic traffic, and establish topical authority.
+                                                Each logo is backed by research into your brand story, target audience, competitors, and industry landscape.
                                             </p>
 
                                         </div>
@@ -286,16 +285,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                alt="Landing Page & Sales Copywriting" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Logo Redesign & Modernisation" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Landing Page & Sales Copywriting
+                                                    Logo Redesign & Modernisation
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We create conversion-focused landing page content designed to generate leads, inquiries, and sales.
+                                                We refresh outdated logos while preserving brand recognition and trust, ensuring a modern and professional look.
                                             </p>
                                         </div>
                                     </div>
@@ -304,16 +303,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                alt="Product & Service Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Typography & Wordmark Logos" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Product & Service Content Writing
+                                                    Typography & Wordmark Logos
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Clear, persuasive product and service descriptions that highlight benefits, features, and buyer intent.
+                                                Clean, typography-based logo designs that focus on brand name clarity and elegance.
                                             </p>
                                         </div>
                                     </div>
@@ -322,16 +321,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Content for Digital Marketing Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Icon & Symbol-Based Logos" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content for Digital Marketing Campaigns
+                                                    Icon & Symbol-Based Logos
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write content for ads, email campaigns, and promotional assets that support marketing performance.
+                                                Distinctive logo marks designed to work independently across apps, social media, and branding materials.
                                             </p>
                                         </div>
                                     </div>
@@ -340,16 +339,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Social Media Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Startup & Business Logo Packages" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Social Media Content Writing
+                                                    Startup & Business Logo Packages
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Engaging social media captions and content aligned with brand voice and campaign objectives.
+                                                Cost-effective logo solutions designed specifically for startups and growing businesses.
                                             </p>
                                         </div>
                                     </div>
@@ -357,17 +356,17 @@
                                     <!-- 7 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Optimization & Refresh"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Logo Variations & Formats"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Optimization & Refresh
+                                                    Logo Variations & Formats
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We optimize existing content for SEO, readability, and relevance to improve rankings and performance.
+                                                We deliver multiple logo variations for different backgrounds, orientations, and use cases.
                                             </p>
                                         </div>
                                     </div>
@@ -375,17 +374,17 @@
                                     <!-- 8 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Strategy & Planning"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Complete Logo File Delivery"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Strategy & Planning
+                                                    Complete Logo File Delivery
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We build structured content marketing strategies, including topic planning, keyword mapping, and publishing calendars.
+                                                Logos are delivered in all required formats for web, print, social media, and branding use.
                                             </p>
                                         </div>
                                     </div>
@@ -394,8 +393,8 @@
 
 
                                 <div class="sss-colored-box p-4 rounded mt-3 mb-4">
-                                    <h3 class="sec-title title-anim m-0">Our Proven Content Marketing Process</h3>
-                                    <p class="fade-left mt-2">A Strategic, SEO-Driven Content Methodology</p>
+                                    <h3 class="sec-title title-anim m-0">Our Proven Logo Design Process</h3>
+                                    <p class="fade-left mt-2">A Strategic & Creative Logo Development Methodology</p>
 
                                     <ul class="row ga list-unstyled p-0 m-0 mt-5 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
@@ -405,7 +404,7 @@
                                             </figure>
                                             <h4>Discover</h4>
                                             <p class="mt-2">
-                                                We understand your business, industry, audience, competitors, and content goals to define direction and tone.
+                                                We understand your business, industry, brand values, vision, and target audience.
                                             </p>
                                         </li>
 
@@ -414,50 +413,50 @@
                                                 <img src="/img/icons/icon_Analyze-.webp" alt="Research Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Research</h4>
+                                            <h4>Research & Conceptualisation</h4>
                                             <p class="mt-2">
-                                                Our team performs in-depth keyword research, search intent analysis, and competitor content evaluation.
+                                                We research competitors, visual trends, and positioning to develop strong logo concepts.
                                             </p>
                                         </li>
 
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Strategize-.webp" alt="Strategize Icon"
+                                                <img src="/img/icons/icon_Strategize-.webp" alt="Design Exploration Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Strategize</h4>
+                                            <h4>Design Exploration</h4>
                                             <p class="mt-2">
-                                                We create a content roadmap covering content types, formats, keywords, and publishing priorities.
+                                                Multiple logo concepts are designed based on strategy, symbolism, and usability.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Write & Optimize Icon"
+                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Refinement & Feedback Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Write & Optimize</h4>
+                                            <h4>Refinement & Feedback</h4>
                                             <p class="mt-2">
-                                                Content is written by experienced writers and optimised for SEO, readability, and conversions.
+                                                Selected concepts are refined based on feedback to improve clarity, balance, and impact.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Test & Optimize-.webp" alt="Review & Refine Icon"
+                                                <img src="/img/icons/icon_Test & Optimize-.webp" alt="Finalisation Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Review & Refine</h4>
+                                            <h4>Finalisation</h4>
                                             <p class="mt-2">
-                                                We edit, proofread, and refine content to ensure quality, clarity, and consistency.
+                                                The final logo is polished, aligned, and prepared for real-world usage.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Publish & Improve Icon"
+                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Delivery Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Publish & Improve</h4>
+                                            <h4>Delivery & Brand Usage Support</h4>
                                             <p class="mt-2">
-                                                Post-publish, content is monitored and refined to improve performance over time.
+                                                We deliver final logo files along with guidance for correct usage across platforms.
                                             </p>
                                         </li>
 
@@ -465,130 +464,142 @@
 
                                 </div>
 
-                                <h2 class="sec-title title-anim">Why Content Marketing Is Essential for Business Success</h2>
-                                <p class="fade-left mt-2">Content marketing builds long-term visibility and trust that paid advertising alone cannot achieve.</p>
+                                <h2 class="sec-title title-anim">Why Professional Logo Design Is Critical for Business Success</h2>
+                                <p class="fade-left mt-2">Your logo plays a key role in shaping how people perceive your brand.</p>
 
                                 <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Improve Website Performance & Search Visibility-.webp"
-                                                alt="Drive Sustainable Organic Traffic Icon"
+                                                alt="Build Trust & Credibility Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Drive Sustainable Organic Traffic</h4>
+                                        <h4>Build Trust & Credibility</h4>
                                         <p class="mt-2">
-                                            SEO-friendly content attracts users actively searching for information, products, or services.
+                                            A professional logo signals reliability and quality, especially for new businesses.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
-                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Educate & Influence Buyers Icon"
+                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Create Strong Brand Recognition Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Educate & Influence Buyers</h4>
+                                        <h4>Create Strong Brand Recognition</h4>
                                         <p class="mt-2">
-                                            Well-written content guides users through their decision-making journey.
+                                            A memorable logo helps customers recognise and recall your brand easily.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Website Maintenance & Support-.webp"
-                                                alt="Build Brand Authority Icon"
+                                                alt="Ensure Brand Consistency Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Build Brand Authority</h4>
+                                        <h4>Ensure Brand Consistency</h4>
                                         <p class="mt-2">
-                                            Consistent, high-quality content positions your business as an industry expert.
+                                            A well-designed logo supports consistent branding across all marketing channels.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Strengthen Brand Awareness & Trust-.webp"
-                                                alt="Deliver Long-Term ROI Icon"
+                                                alt="Support Marketing & Sales Efforts Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Deliver Long-Term ROI</h4>
+                                        <h4>Support Marketing & Sales Efforts</h4>
                                         <p class="mt-2">
-                                            Unlike ads, content continues to generate traffic and leads over time.
+                                            A strong logo improves the effectiveness of advertising, packaging, and digital campaigns.
                                         </p>
                                     </li>
                                 </ul>
-                                <p class="fade-left">A strong content strategy turns your website into a valuable digital asset that works 24/7.</p>
+
+                                <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
+                                    <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
+                                        <figure class="mb-3">
+                                            <img src="/img/icons/icon_Improve Website Performance & Search Visibility-.webp"
+                                                alt="Enable Long-Term Brand Growth Icon"
+                                                class="w-25 h-25 obj-fit-contain">
+                                        </figure>
+                                        <h4>Enable Long-Term Brand Growth</h4>
+                                        <p class="mt-2">
+                                            A scalable logo grows with your business without needing frequent redesigns.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <p class="fade-left">A logo is not just design — it is a long-term brand asset.</p>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Content Marketing Use Cases Across Business Types</h2>
-                                    <p class="fade-left mt-3">
-                                        Our content marketing services are tailored for different business models:
-                                    </p>
+                                    <h2 class="sec-title title-anim">Logo Design Solutions for Different Business Types</h2>
 
                                     <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                    alt="Service-Based Businesses Icon"
+                                                    alt="Startups & New Brands Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Service-Based Businesses</h4>
+                                            <h4>Startups & New Brands</h4>
                                             <p class="mt-2">
-                                                Generate inquiries and leads with SEO-optimised service content.
+                                                Create a strong first impression with a professional logo from day one.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="B2B Companies Icon"
+                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="Small & Growing Businesses Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>B2B Companies</h4>
+                                            <h4>Small & Growing Businesses</h4>
                                             <p class="mt-2">
-                                                Educate decision-makers and build trust with long-form, value-driven content.
+                                                Upgrade branding to compete with established players.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                    alt="E-commerce Brands Icon"
+                                                    alt="Established Companies Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>E-commerce Brands</h4>
+                                            <h4>Established Companies</h4>
                                             <p class="mt-2">
-                                                Drive product discovery and organic traffic through blogs and category content.
+                                                Modernise logos while retaining brand equity and recognition.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                    alt="Startups & Growing Brands Icon"
+                                                    alt="Personal & Professional Brands Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Startups & Growing Brands</h4>
+                                            <h4>Personal & Professional Brands</h4>
                                             <p class="mt-2">
-                                                Build visibility, authority, and credibility from the ground up.
+                                                Build authority and credibility with a clean, professional logo.
                                             </p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Content Marketing & Writing</h2>
+                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Logo Design</h2>
                                     <p class="fade-left mt-3">
-                                        At ABC Designs, we approach content marketing with a balance of strategy, creativity, and SEO intelligence. Our focus is not just on writing content, but on creating content that supports business growth, search visibility, and user engagement. Every piece of content is written with a clear objective — to inform, rank, and convert.
+                                        At ABC Designs, we approach logo design with a balance of strategy, creativity, and brand clarity. Our logo design process starts with understanding your business, not sketching visuals. We design logos that communicate meaning, represent brand values, and connect emotionally with your audience.
                                     </p>
                                     <p class="fade-left">
-                                        Our team of experienced content writers, SEO specialists, and editors works closely with businesses to maintain brand voice, consistency, and quality across all content assets. By combining keyword research, search intent, and conversion-focused writing, we deliver content that performs both for users and search engines.
+                                        Our team of experienced logo designers and brand strategists ensures every logo we create is versatile, scalable, and aligned with long-term branding goals. From concept to final delivery, we focus on quality, originality, and real-world usability — not shortcuts.
                                     </p>
                                     <p class="fade-left mt-3">
-                                        What sets our content marketing services apart:
+                                        What sets our logo design services apart:
                                     </p>
                                     <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                                        <li>Experienced SEO content writers</li>
-                                        <li>Keyword-driven, intent-focused content strategy</li>
-                                        <li>Human-written, high-quality content</li>
-                                        <li>Clear brand voice and messaging</li>
-                                        <li>SEO-friendly structure and optimisation</li>
-                                        <li>Long-term growth-oriented approach</li>
+                                        <li>Strategy-driven logo design approach</li>
+                                        <li>Experienced brand and logo designers</li>
+                                        <li>100% original and custom logo concepts</li>
+                                        <li>Scalable logos for digital & offline use</li>
+                                        <li>Collaborative feedback-driven process</li>
+                                        <li>Long-term brand consistency focus</li>
                                     </ul>
                                     <p class="fade-left mt-3">
-                                        We help businesses turn content into traffic, authority, and measurable conversions.
+                                        We design logos that represent your brand with confidence and clarity.
                                     </p>
                                 </div>
 
@@ -621,14 +632,14 @@
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                         aria-expanded="true" aria-controls="collapseOne">
-                                                        1. What is content marketing?
+                                                        1. What is professional logo design?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing is the process of creating and distributing valuable content to attract, engage, and convert a target audience.
+                                                            Professional logo design involves creating a unique, strategic logo that represents a brand's identity and values.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -640,14 +651,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        2. How does content marketing help SEO?
+                                                        2. Why should I invest in a custom logo?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            SEO-optimised content improves keyword rankings, organic traffic, and search visibility over time.
+                                                            A custom logo builds trust, recognition, and differentiation, unlike generic or template logos.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -659,14 +670,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                        3. Do you write SEO-friendly content?
+                                                        3. Can you redesign my existing logo?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseThree" class="accordion-collapse collapse"
                                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. All our content is written with SEO best practices, keyword optimisation, and readability in mind.
+                                                            Yes. We offer logo redesign and modernisation services while preserving brand recognition.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -678,14 +689,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                         aria-expanded="false" aria-controls="collapseFour">
-                                                        4. Can you write content for existing websites?
+                                                        4. Will I receive all logo file formats?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFour" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Absolutely. We offer content rewriting, optimisation, and expansion services.
+                                                            Yes. We provide logo files suitable for web, print, and social media use.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -697,14 +708,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                                         aria-expanded="false" aria-controls="collapseFive">
-                                                        5. Do you maintain brand tone and voice?
+                                                        5. How long does logo design take?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFive" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We align content with your brand guidelines and communication style.
+                                                            Typically 1-3 weeks depending on revisions and complexity.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -716,14 +727,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSix"
                                                         aria-expanded="false" aria-controls="collapseSix">
-                                                        6. How long does content marketing take to show results?
+                                                        6. Is the logo scalable for future use?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSix" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing typically shows results within 3–6 months, depending on competition and consistency.
+                                                            Yes. All logos are designed to scale across platforms and formats.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -735,14 +746,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSeven"
                                                         aria-expanded="false" aria-controls="collapseSeven">
-                                                        7. Do you provide content strategy as well?
+                                                        7. Do you provide brand guidelines with the logo?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We offer complete content strategy, planning, and execution services.
+                                                            Yes. Logo usage guidance can be included to ensure consistency.
                                                         </p>
                                                     </div>
                                                 </div>
