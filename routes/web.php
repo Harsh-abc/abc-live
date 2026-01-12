@@ -35,37 +35,78 @@ Route::get('/services', function () {
 Route::get('/website-design-and-development/business-website-design-and-development', function () {
     return view('frontend.services.web_solutions.interactive_solutions');
 });
-Route::get('/web-solutions/ecommerce-development', function () {
+
+
+Route::get('/website-design-and-development/ecommerce-development', function () {
     return view('frontend.services.web_solutions.ecommerce_development');
 });
-Route::get('/web-solutions/api-development-and-integration', function () {
-    return view('frontend.services.web_solutions.api_development_and_integration');
-});
-Route::get('/web-solutions/website-maintenance-and-support', function () {
-    return view('frontend.services.web_solutions.website_maintenance_and_support');
-});
-Route::get('/web-solutions/custom-web-development', function () {
+
+Route::get('/website-design-and-development/custom-web-development', function () {
     return view('frontend.services.web_solutions.custom_webdevelopment');
 });
 
+Route::get('/website-design-and-development/website-redesign', function () {
+    return view('frontend.services.web_solutions.website-redesign');
+});
+
+Route::get('/website-design-and-development/api-development-and-integration', function () {
+    return view('frontend.services.web_solutions.api_development_and_integration');
+});
+
+Route::get('/website-design-and-development/website-maintenance-and-support', function () {
+    return view('frontend.services.web_solutions.website_maintenance_and_support');
+});
+
+Route::get('/app-design-and-development/mobile-app-ui-ux-design', function () {
+    return view('frontend.services.app_services.mobile_app_ui_ux_design');
+});
+
+Route::get('/app-design-and-development/android-app-development', function () {
+    return view('frontend.services.app_services.android_app_development');
+});
+
+Route::get('/app-design-and-development/ios-app-development', function () {
+    return view('frontend.services.app_services.ios_app_development');
+});
+
+Route::get('/app-design-and-development/web-app-development', function () {
+    return view('frontend.services.app_services.web_app_development');
+});
+
+Route::get('/app-design-and-development/app-maintainance-and-support', function () {
+    return view('frontend.services.app_services.app_maintainance_and_support');
+});
+
+
+
+// Route::get('/website-design-and-development/ecommerce-development', function () {
+//     return view('frontend.services.web_solutions.ecommerce_development');
+// });
+// Route::get('/web-solutions/api-development-and-integration', function () {
+//     return view('frontend.services.web_solutions.api_development_and_integration');
+// });
+// Route::get('/web-solutions/website-maintenance-and-support', function () {
+//     return view('frontend.services.web_solutions.website_maintenance_and_support');
+// });
+
 
 /* UI/UX Design */
-Route::get('/ui-uxdesign/ui-design', function () {
-    return view('frontend.services.ui_uxdesign.ui_design');
-});
-Route::get('/ui-uxdesign/ux-experience', function () {
-    return view('frontend.services.ui_uxdesign.ux_experience');
-});
-Route::get('/ui-uxdesign/ux-audit', function () {
-    return view('frontend.services.ui_uxdesign.ux_audit');
-});
+// Route::get('/ui-uxdesign/ui-design', function () {
+//     return view('frontend.services.ui_uxdesign.ui_design');
+// });
+// Route::get('/ui-uxdesign/ux-experience', function () {
+//     return view('frontend.services.ui_uxdesign.ux_experience');
+// });
+// Route::get('/ui-uxdesign/ux-audit', function () {
+//     return view('frontend.services.ui_uxdesign.ux_audit');
+// });
 
 
 /* Digital Marketing */
-Route::get('/digital-marketing/social-media', function () {
-    return view('frontend.services.digital_marketing.social_media');
+Route::get('/digital-marketing/performance-marketing', function () {
+    return view('frontend.services.digital_marketing.performance_marketing');
 });
-Route::get('/digital-marketing/content-writing', function () {
+Route::get('/digital-marketing/content-marketing-and-writing', function () {
     return view('frontend.services.digital_marketing.content_writing');
 });
 Route::get('/digital-marketing/search-engine-marketing', function () {
@@ -74,6 +115,31 @@ Route::get('/digital-marketing/search-engine-marketing', function () {
 Route::get('/digital-marketing/search-engine-optimization', function () {
     return view('frontend.services.digital_marketing.seo');
 });
+Route::get('/digital-marketing/social-media-marketing', function () {
+    return view('frontend.services.digital_marketing.social_media');
+});
+
+/* Branding and Creative Solution */
+Route::get('/branding-and-creative-design/branding-solutions', function () {
+    return view('frontend.services.branding_and_creative_design.branding_solutions');
+});
+
+Route::get('/branding-and-creative-design/logo-design', function () {
+    return view('frontend.services.branding_and_creative_design.logo_design');
+});
+
+Route::get('/branding-and-creative-design/social-media-creatives', function () {
+    return view('frontend.services.branding_and_creative_design.social_media_creatives');
+});
+
+Route::get('/branding-and-creative-design/design-and-animation', function () {
+    return view('frontend.services.branding_and_creative_design.design_and_animation');
+});
+
+Route::get('/branding-and-creative-design/marketing-creatives', function () {
+    return view('frontend.services.branding_and_creative_design.marketing_creatives');
+});
+
 
 /* Concept Design */
 Route::get('/concept-design/branding-solutions', function () {

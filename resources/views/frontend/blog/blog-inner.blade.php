@@ -99,7 +99,7 @@
                         </div>
 
                         <!-- BLOG LAYOUT - 3 COLUMNS -->
-                        <div class="blog-detail-area px-5 py-5">
+                        <div class="blog-detail-area px-0 py-5">
                             <div class="blog-layout">
 
                                 <!-- LEFT SIDEBAR - Table of Contents (Desktop Only) -->

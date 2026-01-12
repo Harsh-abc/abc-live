@@ -27,7 +27,7 @@
 		
 		<section class="service__area-3 service-v3 pb-80">
 			<div class="container">  
-				<div class="row pt-80">
+				<div class="row pt-4">
 					<div class="col-xxl-12">
 						<div class="service__list-2 animation__service-2">
 							<div class="service__item-2">

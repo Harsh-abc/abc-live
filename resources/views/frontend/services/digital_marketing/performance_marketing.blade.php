@@ -13,13 +13,13 @@
                         <div class="row justify-content-between px-1 pb-50 blog-header-banner"
                             style="background-image: url(https://www.techmagnate.com/wp-content/themes/techmagnate/images/service-back-img.webp)">
                             <div class="col-lg-7 col-md-12">
-                                <h1 class="sec-title title-anim text-white">Content Marketing & Writing Services That Build Authority, Drive Traffic & Convert Audiences</h1>
+                                <h1 class="sec-title title-anim text-white">Performance Marketing (Meta Ads) Services That Drive Scalable Revenue & Measurable ROI</h1>
 
                                 <div class="mt-3 d-flex flex-column align-items-start text-anim">
                                     <p class="text-white">
-                                       In today's digital landscape, content is the foundation of online visibility, trust, and growth. Businesses that consistently publish valuable, relevant, and well-optimised content attract more traffic, build stronger brand authority, and convert audiences into loyal customers. Content Marketing & Writing is no longer optional — it is a core growth strategy.<br><br>
-                                       At ABC Designs, we provide professional content marketing and writing services that help businesses communicate clearly, rank higher on search engines, and drive meaningful engagement. Our content is not written just to fill pages — it is created with a purpose: to inform, influence, and convert.<br><br>
-                                       Whether you need website content, SEO blogs, landing pages, or long-form marketing assets, our content writing services are designed to support your digital marketing goals and deliver measurable business results.
+                                       In today's competitive digital ecosystem, businesses need marketing strategies that deliver measurable outcomes, not just visibility. Performance Marketing focuses on one core principle — paying for results. Platforms like Meta Ads (Facebook & Instagram Ads) allow brands to reach highly targeted audiences, drive conversions, and scale revenue with precision.<br><br>
+                                       At ABC Designs, we provide performance marketing services using Meta Ads that are built around data, audience behavior, and conversion optimization. Our strategies are designed to generate qualified leads, ecommerce sales, app installs, and measurable ROI — not vanity metrics like likes or impressions.<br><br>
+                                       Whether you are a startup, ecommerce brand, local business, or enterprise, our Meta Ads management services help you scale faster, spend smarter, and convert better.
                                     </p>
                                 </div>
                                 <div class="my-3">
@@ -32,7 +32,7 @@
                             <div class="col-lg-5 col-md-12 w-fit mt-4 mt-lg-0 sss-banner-right">
                                 <figure class="mb-0" id="bounceImage">
                                     <img src="https://www.techmagnate.com/wp-content/uploads/2025/10/SEO-Services.webp"
-                                        alt="Content Marketing & Writing Services" class="img-fluid rounded">
+                                        alt="Performance Marketing Meta Ads Services" class="img-fluid rounded">
                                 </figure>
                             </div>
                         </div>
@@ -48,8 +48,8 @@
                                 <!-- Static content for demonstration -->
                                 <div class="blog-content-inner">
 
-                                    <h2 class="sec-title title-anim">Trusted Content Marketing & Writing Agency in India</h2>
-                                    <p class="fade-left mt-2">Delivering SEO-Driven Content That Performs Across Channels</p>
+                                    <h2 class="sec-title title-anim">Trusted Performance Marketing Agency for Meta Ads</h2>
+                                    <p class="fade-left mt-2">Delivering Data-Driven Growth, Scalable Conversions & Predictable Results</p>
 
                                     <ul class="mt-4 list-unstyled">
 
@@ -61,7 +61,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Proven expertise in content marketing services across industries
+                                                Proven expertise in performance marketing with Meta Ads
                                             </p>
                                         </li>
 
@@ -73,7 +73,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                SEO-friendly, keyword-optimised content strategies
+                                                Experience managing Facebook & Instagram Ads across industries
                                             </p>
                                         </li>
 
@@ -85,7 +85,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Conversion-focused writing for websites and campaigns
+                                                Conversion-focused strategies, not awareness-only campaigns
                                             </p>
                                         </li>
 
@@ -97,7 +97,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Consistent tone, brand voice, and messaging
+                                                Advanced audience targeting and funnel optimization
                                             </p>
                                         </li>
 
@@ -109,13 +109,13 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Transparent process and quality assurance
+                                                Transparent reporting and ROI-driven decision making
                                             </p>
                                         </li>
 
                                     </ul>
 
-                                    <p class="fade-left mt-3">At ABC Designs, we don't believe in generic or AI-generated filler content. We focus on strategic, human-written content that aligns with search intent, user needs, and business objectives.</p>
+                                    <p class="fade-left mt-3">At ABC Designs, we don't run ads for visibility alone. Every campaign is engineered to generate leads, sales, or revenue, depending on your business goal.</p>
 
                                 </div>
 
@@ -207,38 +207,42 @@
 
                         <figure class="float-end ms-4 mb-3" style="max-width: 420px;">
                             <img src="https://www.techmagnate.com/wp-content/uploads/2025/01/Partner-with-the-Best-SEO-Company-for-Business-Growth-1-1.webp"
-                                alt="Content Marketing Agency" class="img-fluid rounded">
+                                alt="Performance Marketing Agency" class="img-fluid rounded">
                         </figure>
 
-                        <h2 class="sec-title title-anim">Partner with a Content Marketing Agency Built for Long-Term Growth</h2>
+                        <h2 class="sec-title title-anim">Partner with a Performance Marketing Agency Built for Growth</h2>
 
                         <p class="fade-left mt-3">
-                            Content marketing is more than writing blogs or website pages. It requires deep understanding of audience intent, keyword research, content structure, storytelling, and conversion psychology. Our team of content strategists, SEO content writers, and editors works collaboratively to create content that performs across search engines and marketing channels.
+                            Running profitable Meta Ads requires more than boosting posts or launching random campaigns. It demands deep understanding of audience psychology, creative strategy, funnel structure, pixel tracking, attribution, and continuous testing.
                         </p>
 
                         <p class="fade-left">
-                            We begin by understanding your business, target audience, and goals. Based on this insight, we develop content that supports SEO rankings, brand authority, and lead generation. Every piece of content is created with clarity, relevance, and purpose.
+                            Our team of performance marketers, media buyers, and growth strategists works closely with businesses to build Meta Ads campaigns that scale profitably. We focus on full-funnel performance marketing — from awareness and consideration to conversion and remarketing.
                         </p>
 
                         <p class="fade-left">
-                            Our content marketing approach ensures:
+                            Our performance marketing approach ensures:
                         </p>
 
                         <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                            <li>Strong search engine visibility</li>
-                            <li>Higher engagement and time on page</li>
-                            <li>Clear brand positioning and messaging</li>
-                            <li>Better lead quality and conversions</li>
-                            <li>Long-term organic growth</li>
+                            <li>High-quality audience targeting</li>
+                            <li>Lower cost per lead (CPL) and cost per acquisition (CPA)</li>
+                            <li>Improved conversion rates</li>
+                            <li>Scalable campaign structures</li>
+                            <li>Strong return on ad spend (ROAS)</li>
                         </ul>
+
+                        <p class="fade-left mt-3">
+                            Every decision we make is backed by data, testing, and performance insights.
+                        </p>
 
                         <!-- Clear float -->
                         <div class="clearfix"></div>
 
                     </div>
 
-                    <h2 class="sec-title title-anim">Content Marketing & Writing Services We Offer</h2>
-                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end content writing and content marketing services tailored to different business needs.</p>
+                    <h2 class="sec-title title-anim">Performance Marketing (Meta Ads) Services We Offer</h2>
+                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end Meta Ads performance marketing services tailored to different business objectives.</p>
 
                     <div class="container-fluid m-0 p-0">
                         <div class="row pt-4">
@@ -249,16 +253,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                alt="Website Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Facebook Ads Campaign Management" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Website Content Writing
+                                                    Facebook Ads Campaign Management
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write clear, compelling, and SEO-friendly website content that communicates your value proposition, builds trust, and guides visitors toward action.
+                                                We create and manage high-performing Facebook Ads campaigns focused on lead generation, conversions, and sales using advanced targeting and creative strategies.
                                             </p>
                                         </div>
                                     </div>
@@ -267,16 +271,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Professional Website Development-.webp"
-                                                alt="SEO Blog Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Instagram Ads Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    SEO Blog Writing
+                                                    Instagram Ads Campaigns
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Our SEO blog writing services help businesses rank for relevant keywords, attract organic traffic, and establish topical authority.
+                                                Reach highly engaged audiences with visually compelling Instagram Ads optimized for engagement, conversions, and brand recall.
                                             </p>
 
                                         </div>
@@ -286,16 +290,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                alt="Landing Page & Sales Copywriting" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Ecommerce Performance Marketing" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Landing Page & Sales Copywriting
+                                                    Ecommerce Performance Marketing
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We create conversion-focused landing page content designed to generate leads, inquiries, and sales.
+                                                Drive product sales through conversion-optimized Meta Ads, catalog ads, dynamic remarketing, and funnel-based campaign structures.
                                             </p>
                                         </div>
                                     </div>
@@ -304,16 +308,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                alt="Product & Service Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Lead Generation Ads" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Product & Service Content Writing
+                                                    Lead Generation Ads
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Clear, persuasive product and service descriptions that highlight benefits, features, and buyer intent.
+                                                Generate high-quality leads using Meta lead forms, landing page campaigns, and conversion-optimized targeting strategies.
                                             </p>
                                         </div>
                                     </div>
@@ -322,16 +326,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Content for Digital Marketing Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Remarketing & Retargeting Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content for Digital Marketing Campaigns
+                                                    Remarketing & Retargeting Campaigns
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write content for ads, email campaigns, and promotional assets that support marketing performance.
+                                                Re-engage users who have visited your website, viewed products, or interacted with your brand to drive conversions.
                                             </p>
                                         </div>
                                     </div>
@@ -340,16 +344,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Social Media Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Ad Creative Strategy & Optimization" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Social Media Content Writing
+                                                    Ad Creative Strategy & Optimization
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Engaging social media captions and content aligned with brand voice and campaign objectives.
+                                                We design and test multiple ad creatives, formats, and messaging to identify what converts best.
                                             </p>
                                         </div>
                                     </div>
@@ -357,17 +361,17 @@
                                     <!-- 7 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Optimization & Refresh"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Pixel Setup & Conversion Tracking"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Optimization & Refresh
+                                                    Pixel Setup & Conversion Tracking
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We optimize existing content for SEO, readability, and relevance to improve rankings and performance.
+                                                We implement Meta Pixel and conversion tracking to accurately measure performance and optimize campaigns.
                                             </p>
                                         </div>
                                     </div>
@@ -375,17 +379,17 @@
                                     <!-- 8 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Strategy & Planning"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="A/B Testing & Funnel Optimization"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Strategy & Planning
+                                                    A/B Testing & Funnel Optimization
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We build structured content marketing strategies, including topic planning, keyword mapping, and publishing calendars.
+                                                We continuously test audiences, creatives, placements, and offers to improve performance and scalability.
                                             </p>
                                         </div>
                                     </div>
@@ -394,8 +398,8 @@
 
 
                                 <div class="sss-colored-box p-4 rounded mt-3 mb-4">
-                                    <h3 class="sec-title title-anim m-0">Our Proven Content Marketing Process</h3>
-                                    <p class="fade-left mt-2">A Strategic, SEO-Driven Content Methodology</p>
+                                    <h3 class="sec-title title-anim m-0">Our Proven Performance Marketing Process for Meta Ads</h3>
+                                    <p class="fade-left mt-2">A Structured, Data-Driven Growth Methodology</p>
 
                                     <ul class="row ga list-unstyled p-0 m-0 mt-5 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
@@ -405,18 +409,18 @@
                                             </figure>
                                             <h4>Discover</h4>
                                             <p class="mt-2">
-                                                We understand your business, industry, audience, competitors, and content goals to define direction and tone.
+                                                We understand your business model, target audience, products/services, goals, and KPIs to define success metrics.
                                             </p>
                                         </li>
 
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Analyze-.webp" alt="Research Icon"
+                                                <img src="/img/icons/icon_Analyze-.webp" alt="Analyze Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Research</h4>
+                                            <h4>Analyze</h4>
                                             <p class="mt-2">
-                                                Our team performs in-depth keyword research, search intent analysis, and competitor content evaluation.
+                                                Our team analyzes market demand, competitors, audience behavior, and funnel gaps to identify growth opportunities.
                                             </p>
                                         </li>
 
@@ -427,37 +431,27 @@
                                             </figure>
                                             <h4>Strategize</h4>
                                             <p class="mt-2">
-                                                We create a content roadmap covering content types, formats, keywords, and publishing priorities.
+                                                We design a full-funnel Meta Ads strategy covering awareness, consideration, conversion, and remarketing stages.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Write & Optimize Icon"
+                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Launch & Optimize Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Write & Optimize</h4>
+                                            <h4>Launch & Optimize</h4>
                                             <p class="mt-2">
-                                                Content is written by experienced writers and optimised for SEO, readability, and conversions.
+                                                Campaigns are launched with continuous optimization of creatives, audiences, placements, and budgets.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Test & Optimize-.webp" alt="Review & Refine Icon"
+                                                <img src="/img/icons/icon_Test & Optimize-.webp" alt="Scale & Improve Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Review & Refine</h4>
+                                            <h4>Scale & Improve</h4>
                                             <p class="mt-2">
-                                                We edit, proofread, and refine content to ensure quality, clarity, and consistency.
-                                            </p>
-                                        </li>
-                                        <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Publish & Improve Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>Publish & Improve</h4>
-                                            <p class="mt-2">
-                                                Post-publish, content is monitored and refined to improve performance over time.
+                                                We scale winning campaigns, control ad fatigue, and improve ROAS through data-driven scaling strategies.
                                             </p>
                                         </li>
 
@@ -465,130 +459,130 @@
 
                                 </div>
 
-                                <h2 class="sec-title title-anim">Why Content Marketing Is Essential for Business Success</h2>
-                                <p class="fade-left mt-2">Content marketing builds long-term visibility and trust that paid advertising alone cannot achieve.</p>
+                                <h2 class="sec-title title-anim">Why Performance Marketing with Meta Ads Is Critical for Business Growth</h2>
+                                <p class="fade-left mt-2">Meta Ads allow businesses to reach users based on interests, behaviors, demographics, and intent, making them one of the most powerful performance marketing platforms.</p>
 
                                 <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Improve Website Performance & Search Visibility-.webp"
-                                                alt="Drive Sustainable Organic Traffic Icon"
+                                                alt="Precise Audience Targeting Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Drive Sustainable Organic Traffic</h4>
+                                        <h4>Precise Audience Targeting</h4>
                                         <p class="mt-2">
-                                            SEO-friendly content attracts users actively searching for information, products, or services.
+                                            Reach users based on interests, actions, demographics, and custom audiences for better conversion quality.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
-                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Educate & Influence Buyers Icon"
+                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Full-Funnel Marketing Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Educate & Influence Buyers</h4>
+                                        <h4>Full-Funnel Marketing</h4>
                                         <p class="mt-2">
-                                            Well-written content guides users through their decision-making journey.
+                                            Engage users at every stage — awareness, consideration, conversion, and retention.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Website Maintenance & Support-.webp"
-                                                alt="Build Brand Authority Icon"
+                                                alt="Budget Control & Scalability Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Build Brand Authority</h4>
+                                        <h4>Budget Control & Scalability</h4>
                                         <p class="mt-2">
-                                            Consistent, high-quality content positions your business as an industry expert.
+                                            Scale budgets gradually based on performance while maintaining profitability.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Strengthen Brand Awareness & Trust-.webp"
-                                                alt="Deliver Long-Term ROI Icon"
+                                                alt="Fast Testing & Optimization Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Deliver Long-Term ROI</h4>
+                                        <h4>Fast Testing & Optimization</h4>
                                         <p class="mt-2">
-                                            Unlike ads, content continues to generate traffic and leads over time.
+                                            Test creatives, offers, and audiences quickly to identify winning combinations.
                                         </p>
                                     </li>
                                 </ul>
-                                <p class="fade-left">A strong content strategy turns your website into a valuable digital asset that works 24/7.</p>
+                                <p class="fade-left">Performance marketing transforms Meta Ads into a predictable and scalable revenue channel.</p>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Content Marketing Use Cases Across Business Types</h2>
+                                    <h2 class="sec-title title-anim">Performance Marketing Use Cases Across Industries</h2>
                                     <p class="fade-left mt-3">
-                                        Our content marketing services are tailored for different business models:
+                                        Our Meta Ads strategies are customized for different business models:
                                     </p>
 
                                     <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                    alt="Service-Based Businesses Icon"
+                                                <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
+                                                    alt="Ecommerce Brands Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Service-Based Businesses</h4>
+                                            <h4>Ecommerce Brands</h4>
                                             <p class="mt-2">
-                                                Generate inquiries and leads with SEO-optimised service content.
+                                                Drive consistent online sales, reduce CPA, and scale ROAS with dynamic product ads.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="B2B Companies Icon"
+                                                <img src="/img/icons/icon_Custom Business Website Design-.webp" alt="Local & Service Businesses Icon"
+                                                    class="w-25 h-25 obj-fit-contain">
+                                            </figure>
+                                            <h4>Local & Service Businesses</h4>
+                                            <p class="mt-2">
+                                                Generate inquiries, calls, and bookings using lead-focused Meta Ads campaigns.
+                                            </p>
+                                        </li>
+                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
+                                            <figure class="mb-3">
+                                                <img src="/img/icons/icon_Professional Website Development-.webp"
+                                                    alt="B2B Companies Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
                                             <h4>B2B Companies</h4>
                                             <p class="mt-2">
-                                                Educate decision-makers and build trust with long-form, value-driven content.
-                                            </p>
-                                        </li>
-                                        <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
-                                            <figure class="mb-3">
-                                                <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                    alt="E-commerce Brands Icon"
-                                                    class="w-25 h-25 obj-fit-contain">
-                                            </figure>
-                                            <h4>E-commerce Brands</h4>
-                                            <p class="mt-2">
-                                                Drive product discovery and organic traffic through blogs and category content.
+                                                Capture high-intent leads using interest-based and lookalike targeting.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                    alt="Startups & Growing Brands Icon"
+                                                    alt="Startups & D2C Brands Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Startups & Growing Brands</h4>
+                                            <h4>Startups & D2C Brands</h4>
                                             <p class="mt-2">
-                                                Build visibility, authority, and credibility from the ground up.
+                                                Build scalable customer acquisition systems with controlled ad spend.
                                             </p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Content Marketing & Writing</h2>
+                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Performance Marketing (Meta Ads)</h2>
                                     <p class="fade-left mt-3">
-                                        At ABC Designs, we approach content marketing with a balance of strategy, creativity, and SEO intelligence. Our focus is not just on writing content, but on creating content that supports business growth, search visibility, and user engagement. Every piece of content is written with a clear objective — to inform, rank, and convert.
+                                        At ABC Designs, we treat performance marketing as a growth engine, not an advertising expense. Our Meta Ads strategies are built around data, experimentation, and continuous optimization to ensure every campaign contributes directly to business growth. We focus on outcomes — leads, sales, and ROI — not surface-level metrics.
                                     </p>
                                     <p class="fade-left">
-                                        Our team of experienced content writers, SEO specialists, and editors works closely with businesses to maintain brand voice, consistency, and quality across all content assets. By combining keyword research, search intent, and conversion-focused writing, we deliver content that performs both for users and search engines.
+                                        Our team of experienced Meta Ads performance marketers works closely with businesses to understand goals, audiences, and unit economics. By combining compelling creatives, advanced targeting, funnel-based strategies, and rigorous testing, we deliver performance marketing campaigns that scale profitably over time.
                                     </p>
                                     <p class="fade-left mt-3">
-                                        What sets our content marketing services apart:
+                                        What sets our Meta Ads performance marketing apart:
                                     </p>
                                     <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                                        <li>Experienced SEO content writers</li>
-                                        <li>Keyword-driven, intent-focused content strategy</li>
-                                        <li>Human-written, high-quality content</li>
-                                        <li>Clear brand voice and messaging</li>
-                                        <li>SEO-friendly structure and optimisation</li>
-                                        <li>Long-term growth-oriented approach</li>
+                                        <li>Experienced performance marketers & media buyers</li>
+                                        <li>Conversion-focused Meta Ads strategies</li>
+                                        <li>Advanced audience targeting & funnel design</li>
+                                        <li>Continuous creative testing & optimization</li>
+                                        <li>Transparent reporting & ROI tracking</li>
+                                        <li>Scalable growth-driven performance frameworks</li>
                                     </ul>
                                     <p class="fade-left mt-3">
-                                        We help businesses turn content into traffic, authority, and measurable conversions.
+                                        We help businesses turn Meta Ads into consistent, scalable revenue systems.
                                     </p>
                                 </div>
 
@@ -621,14 +615,14 @@
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                         aria-expanded="true" aria-controls="collapseOne">
-                                                        1. What is content marketing?
+                                                        1. What is performance marketing?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing is the process of creating and distributing valuable content to attract, engage, and convert a target audience.
+                                                            Performance marketing focuses on measurable results such as leads, sales, or conversions rather than impressions or reach.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -640,14 +634,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        2. How does content marketing help SEO?
+                                                        2. How are Meta Ads different from Google Ads?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            SEO-optimised content improves keyword rankings, organic traffic, and search visibility over time.
+                                                            Meta Ads focus on interest-based and behavioral targeting, while Google Ads target search intent. Both work best together.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -659,14 +653,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                        3. Do you write SEO-friendly content?
+                                                        3. How quickly can Meta Ads generate results?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseThree" class="accordion-collapse collapse"
                                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. All our content is written with SEO best practices, keyword optimisation, and readability in mind.
+                                                            Meta Ads can start generating leads or sales within days, depending on campaign strategy and optimization.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -678,14 +672,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                         aria-expanded="false" aria-controls="collapseFour">
-                                                        4. Can you write content for existing websites?
+                                                        4. Is Meta Ads suitable for small businesses?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFour" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Absolutely. We offer content rewriting, optimisation, and expansion services.
+                                                            Yes. With proper targeting and budget control, Meta Ads are highly effective for small and growing businesses.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -697,14 +691,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                                         aria-expanded="false" aria-controls="collapseFive">
-                                                        5. Do you maintain brand tone and voice?
+                                                        5. Do you manage ad creatives as well?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFive" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We align content with your brand guidelines and communication style.
+                                                            Yes. We handle creative strategy, testing, and optimization as part of performance marketing.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -716,14 +710,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSix"
                                                         aria-expanded="false" aria-controls="collapseSix">
-                                                        6. How long does content marketing take to show results?
+                                                        6. How do you measure performance?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSix" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing typically shows results within 3–6 months, depending on competition and consistency.
+                                                            We track conversions, cost per lead, cost per acquisition, ROAS, and other key performance metrics.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -735,14 +729,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSeven"
                                                         aria-expanded="false" aria-controls="collapseSeven">
-                                                        7. Do you provide content strategy as well?
+                                                        7. Can you scale winning campaigns?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We offer complete content strategy, planning, and execution services.
+                                                            Absolutely. We use structured scaling strategies to increase results while maintaining profitability.
                                                         </p>
                                                     </div>
                                                 </div>

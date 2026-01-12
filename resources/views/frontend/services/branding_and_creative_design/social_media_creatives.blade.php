@@ -13,13 +13,13 @@
                         <div class="row justify-content-between px-1 pb-50 blog-header-banner"
                             style="background-image: url(https://www.techmagnate.com/wp-content/themes/techmagnate/images/service-back-img.webp)">
                             <div class="col-lg-7 col-md-12">
-                                <h1 class="sec-title title-anim text-white">Content Marketing & Writing Services That Build Authority, Drive Traffic & Convert Audiences</h1>
+                                <h1 class="sec-title title-anim text-white">Social Media Creatives That Capture Attention, Build Brands & Drive Engagement</h1>
 
                                 <div class="mt-3 d-flex flex-column align-items-start text-anim">
                                     <p class="text-white">
-                                       In today's digital landscape, content is the foundation of online visibility, trust, and growth. Businesses that consistently publish valuable, relevant, and well-optimised content attract more traffic, build stronger brand authority, and convert audiences into loyal customers. Content Marketing & Writing is no longer optional — it is a core growth strategy.<br><br>
-                                       At ABC Designs, we provide professional content marketing and writing services that help businesses communicate clearly, rank higher on search engines, and drive meaningful engagement. Our content is not written just to fill pages — it is created with a purpose: to inform, influence, and convert.<br><br>
-                                       Whether you need website content, SEO blogs, landing pages, or long-form marketing assets, our content writing services are designed to support your digital marketing goals and deliver measurable business results.
+                                       In today's fast-paced digital world, social media is one of the most powerful platforms for brand visibility, audience engagement, and business growth. However, with endless content flooding users' feeds, only high-quality, visually compelling social media creatives can grab attention and leave a lasting impression. Your brand has just a few seconds to stand out — and design plays a critical role in that moment.<br><br>
+                                       At ABC Designs, we provide professional social media creative design services that help brands communicate clearly, look consistent, and connect emotionally with their audience. Our social media creatives are not just visually attractive — they are strategically designed to support marketing goals such as engagement, reach, brand recall, and conversions.<br><br>
+                                       Whether you're running organic social media campaigns, paid ads, or brand awareness initiatives, our custom social media creatives ensure your brand looks professional, relevant, and impactful across platforms.
                                     </p>
                                 </div>
                                 <div class="my-3">
@@ -32,7 +32,7 @@
                             <div class="col-lg-5 col-md-12 w-fit mt-4 mt-lg-0 sss-banner-right">
                                 <figure class="mb-0" id="bounceImage">
                                     <img src="https://www.techmagnate.com/wp-content/uploads/2025/10/SEO-Services.webp"
-                                        alt="Content Marketing & Writing Services" class="img-fluid rounded">
+                                        alt="Social Media Creatives Services" class="img-fluid rounded">
                                 </figure>
                             </div>
                         </div>
@@ -48,8 +48,8 @@
                                 <!-- Static content for demonstration -->
                                 <div class="blog-content-inner">
 
-                                    <h2 class="sec-title title-anim">Trusted Content Marketing & Writing Agency in India</h2>
-                                    <p class="fade-left mt-2">Delivering SEO-Driven Content That Performs Across Channels</p>
+                                    <h2 class="sec-title title-anim">Trusted Social Media Creatives Design Agency in India</h2>
+                                    <p class="fade-left mt-2">Designing Consistent, Eye-Catching & Brand-Focused Social Media Content</p>
 
                                     <ul class="mt-4 list-unstyled">
 
@@ -61,7 +61,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Proven expertise in content marketing services across industries
+                                                Proven expertise in social media creative design services
                                             </p>
                                         </li>
 
@@ -73,7 +73,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                SEO-friendly, keyword-optimised content strategies
+                                                Platform-specific creatives for Instagram, Facebook, LinkedIn & more
                                             </p>
                                         </li>
 
@@ -85,7 +85,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Conversion-focused writing for websites and campaigns
+                                                Brand-aligned design with consistent visual identity
                                             </p>
                                         </li>
 
@@ -97,7 +97,7 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Consistent tone, brand voice, and messaging
+                                                Creative support for organic posts and paid campaigns
                                             </p>
                                         </li>
 
@@ -109,13 +109,13 @@
                                                         <path fill="#9c0808" d="M56.06 3.645c-7.701 6.668-14.766 13.742-20.733 22.02c-2.632 3.652-4.701 7.709-6.613 11.767c-.899 1.91-1.436 3.897-1.941 5.884c-3.673-3.414-7.248-6.925-11.28-9.96c-2.875-2.163-12.525 4.62-9.155 7.158c6.04 4.544 11.07 10.201 16.94 14.947c2.458 1.983 7.905-2.321 9.181-4.13c4.201-5.95 4.775-13.229 7.838-19.722c4.676-9.929 12.967-18.08 21.15-25.17c6.11-5.288-1.272-6.357-5.385-2.798" />
                                                     </svg>
                                                 </span>
-                                                Transparent process and quality assurance
+                                                Transparent process and timely delivery
                                             </p>
                                         </li>
 
                                     </ul>
 
-                                    <p class="fade-left mt-3">At ABC Designs, we don't believe in generic or AI-generated filler content. We focus on strategic, human-written content that aligns with search intent, user needs, and business objectives.</p>
+                                    <p class="fade-left mt-3">At ABC Designs, we don't design random posts. We create strategic social media creatives that align with your brand identity, marketing goals, and audience behavior.</p>
 
                                 </div>
 
@@ -207,38 +207,37 @@
 
                         <figure class="float-end ms-4 mb-3" style="max-width: 420px;">
                             <img src="https://www.techmagnate.com/wp-content/uploads/2025/01/Partner-with-the-Best-SEO-Company-for-Business-Growth-1-1.webp"
-                                alt="Content Marketing Agency" class="img-fluid rounded">
+                                alt="Social Media Creatives Agency" class="img-fluid rounded">
                         </figure>
 
-                        <h2 class="sec-title title-anim">Partner with a Content Marketing Agency Built for Long-Term Growth</h2>
+                        <h2 class="sec-title title-anim">Partner with a Social Media Creatives Agency Built for Brand Growth</h2>
 
                         <p class="fade-left mt-3">
-                            Content marketing is more than writing blogs or website pages. It requires deep understanding of audience intent, keyword research, content structure, storytelling, and conversion psychology. Our team of content strategists, SEO content writers, and editors works collaboratively to create content that performs across search engines and marketing channels.
+                            Social media design is more than posting attractive graphics. It requires understanding platform behavior, audience psychology, brand tone, and content objectives. Our team of creative designers, brand specialists, and visual strategists works closely with businesses to design creatives that perform.
                         </p>
 
                         <p class="fade-left">
-                            We begin by understanding your business, target audience, and goals. Based on this insight, we develop content that supports SEO rankings, brand authority, and lead generation. Every piece of content is created with clarity, relevance, and purpose.
-                        </p>
-
-                        <p class="fade-left">
-                            Our content marketing approach ensures:
+                            We focus on:
                         </p>
 
                         <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                            <li>Strong search engine visibility</li>
-                            <li>Higher engagement and time on page</li>
-                            <li>Clear brand positioning and messaging</li>
-                            <li>Better lead quality and conversions</li>
-                            <li>Long-term organic growth</li>
+                            <li>Clear visual communication</li>
+                            <li>Strong brand consistency</li>
+                            <li>Platform-specific design standards</li>
+                            <li>Scroll-stopping layouts and messaging</li>
                         </ul>
+
+                        <p class="fade-left mt-3">
+                            Our goal is to ensure your social media presence looks professional, recognisable, and engaging, helping your brand stand out in competitive feeds.
+                        </p>
 
                         <!-- Clear float -->
                         <div class="clearfix"></div>
 
                     </div>
 
-                    <h2 class="sec-title title-anim">Content Marketing & Writing Services We Offer</h2>
-                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end content writing and content marketing services tailored to different business needs.</p>
+                    <h2 class="sec-title title-anim">Social Media Creatives Services We Offer</h2>
+                    <p class="fade-left mt-3">At ABC Designs, we provide end-to-end social media creatives design services for businesses of all sizes.</p>
 
                     <div class="container-fluid m-0 p-0">
                         <div class="row pt-4">
@@ -249,16 +248,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                alt="Website Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Post Creatives for Social Media" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Website Content Writing
+                                                    Post Creatives for Social Media
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write clear, compelling, and SEO-friendly website content that communicates your value proposition, builds trust, and guides visitors toward action.
+                                                Custom-designed creatives for regular social media posts that maintain brand consistency and visual appeal.
                                             </p>
                                         </div>
                                     </div>
@@ -267,16 +266,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Professional Website Development-.webp"
-                                                alt="SEO Blog Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Promotional & Campaign Creatives" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    SEO Blog Writing
+                                                    Promotional & Campaign Creatives
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Our SEO blog writing services help businesses rank for relevant keywords, attract organic traffic, and establish topical authority.
+                                                High-impact creatives for product launches, offers, events, and seasonal campaigns.
                                             </p>
 
                                         </div>
@@ -286,16 +285,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                alt="Landing Page & Sales Copywriting" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Instagram Feed & Story Creatives" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Landing Page & Sales Copywriting
+                                                    Instagram Feed & Story Creatives
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We create conversion-focused landing page content designed to generate leads, inquiries, and sales.
+                                                Platform-optimised designs for Instagram posts, stories, highlights, and reels covers.
                                             </p>
                                         </div>
                                     </div>
@@ -304,16 +303,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                alt="Product & Service Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="LinkedIn Corporate Creatives" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Product & Service Content Writing
+                                                    LinkedIn Corporate Creatives
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Clear, persuasive product and service descriptions that highlight benefits, features, and buyer intent.
+                                                Professional creatives for LinkedIn posts focused on brand authority, B2B communication, and thought leadership.
                                             </p>
                                         </div>
                                     </div>
@@ -322,16 +321,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Content for Digital Marketing Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Ecommerce Social Media Creatives" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content for Digital Marketing Campaigns
+                                                    Ecommerce Social Media Creatives
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We write content for ads, email campaigns, and promotional assets that support marketing performance.
+                                                Product-focused creatives designed to highlight features, benefits, and offers for ecommerce brands.
                                             </p>
                                         </div>
                                     </div>
@@ -340,16 +339,16 @@
                                     <div class="service__item-2">
                                         <div>
                                             <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
-                                                alt="Social Media Content Writing" class="w-25 h-25 obj-fit-contain mb-3">
+                                                alt="Ad Creatives for Paid Campaigns" class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Social Media Content Writing
+                                                    Ad Creatives for Paid Campaigns
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                Engaging social media captions and content aligned with brand voice and campaign objectives.
+                                                Conversion-focused creatives designed specifically for Meta Ads and other paid social campaigns.
                                             </p>
                                         </div>
                                     </div>
@@ -357,17 +356,17 @@
                                     <!-- 7 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Optimization & Refresh"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Branded Templates & Design Systems"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Optimization & Refresh
+                                                    Branded Templates & Design Systems
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We optimize existing content for SEO, readability, and relevance to improve rankings and performance.
+                                                Reusable creative templates that maintain consistency across posts while saving time.
                                             </p>
                                         </div>
                                     </div>
@@ -375,17 +374,17 @@
                                     <!-- 8 -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Content Strategy & Planning"
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Creative Refresh & Redesign"
                                                 class="w-25 h-25 obj-fit-contain mb-3">
 
                                             <h3>
                                                 <span class="service__title-2">
-                                                    Content Strategy & Planning
+                                                    Creative Refresh & Redesign
                                                 </span>
                                             </h3>
 
                                             <p>
-                                                We build structured content marketing strategies, including topic planning, keyword mapping, and publishing calendars.
+                                                Updating existing creatives to match current branding, campaigns, or platform trends.
                                             </p>
                                         </div>
                                     </div>
@@ -394,8 +393,8 @@
 
 
                                 <div class="sss-colored-box p-4 rounded mt-3 mb-4">
-                                    <h3 class="sec-title title-anim m-0">Our Proven Content Marketing Process</h3>
-                                    <p class="fade-left mt-2">A Strategic, SEO-Driven Content Methodology</p>
+                                    <h3 class="sec-title title-anim m-0">Our Proven Social Media Creatives Design Process</h3>
+                                    <p class="fade-left mt-2">A Strategic & Creative Content Design Methodology</p>
 
                                     <ul class="row ga list-unstyled p-0 m-0 mt-5 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
@@ -405,7 +404,7 @@
                                             </figure>
                                             <h4>Discover</h4>
                                             <p class="mt-2">
-                                                We understand your business, industry, audience, competitors, and content goals to define direction and tone.
+                                                We understand your brand, business goals, target audience, platforms, and content objectives.
                                             </p>
                                         </li>
 
@@ -414,50 +413,50 @@
                                                 <img src="/img/icons/icon_Analyze-.webp" alt="Research Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Research</h4>
+                                            <h4>Research & Planning</h4>
                                             <p class="mt-2">
-                                                Our team performs in-depth keyword research, search intent analysis, and competitor content evaluation.
+                                                We analyse competitors, industry trends, and platform-specific best practices.
                                             </p>
                                         </li>
 
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Strategize-.webp" alt="Strategize Icon"
+                                                <img src="/img/icons/icon_Strategize-.webp" alt="Creative Direction Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Strategize</h4>
+                                            <h4>Creative Direction</h4>
                                             <p class="mt-2">
-                                                We create a content roadmap covering content types, formats, keywords, and publishing priorities.
+                                                We define design style, color usage, typography, layouts, and visual tone aligned with your brand.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Write & Optimize Icon"
+                                                <img src="/img/icons/icon_Design & Develop.webp" alt="Design & Development Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Write & Optimize</h4>
+                                            <h4>Design & Development</h4>
                                             <p class="mt-2">
-                                                Content is written by experienced writers and optimised for SEO, readability, and conversions.
+                                                Our designers create social media creatives with attention to clarity, balance, and impact.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Test & Optimize-.webp" alt="Review & Refine Icon"
+                                                <img src="/img/icons/icon_Test & Optimize-.webp" alt="Review & Refinement Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Review & Refine</h4>
+                                            <h4>Review & Refinement</h4>
                                             <p class="mt-2">
-                                                We edit, proofread, and refine content to ensure quality, clarity, and consistency.
+                                                We refine creatives based on feedback to ensure accuracy, consistency, and effectiveness.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-4 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Publish & Improve Icon"
+                                                <img src="/img/icons/icon_Launch, Measure & Improve-.webp" alt="Delivery Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Publish & Improve</h4>
+                                            <h4>Delivery & Support</h4>
                                             <p class="mt-2">
-                                                Post-publish, content is monitored and refined to improve performance over time.
+                                                Final creatives are delivered in platform-ready formats with ongoing creative support if required.
                                             </p>
                                         </li>
 
@@ -465,130 +464,145 @@
 
                                 </div>
 
-                                <h2 class="sec-title title-anim">Why Content Marketing Is Essential for Business Success</h2>
-                                <p class="fade-left mt-2">Content marketing builds long-term visibility and trust that paid advertising alone cannot achieve.</p>
+                                <h2 class="sec-title title-anim">Why Social Media Creatives Are Critical for Business Success</h2>
+                                <p class="fade-left mt-2">Strong visuals directly influence how users perceive and interact with your brand on social platforms.</p>
 
                                 <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Improve Website Performance & Search Visibility-.webp"
-                                                alt="Drive Sustainable Organic Traffic Icon"
+                                                alt="Increase Engagement & Reach Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Drive Sustainable Organic Traffic</h4>
+                                        <h4>Increase Engagement & Reach</h4>
                                         <p class="mt-2">
-                                            SEO-friendly content attracts users actively searching for information, products, or services.
+                                            Eye-catching creatives encourage likes, shares, comments, and saves.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
-                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Educate & Influence Buyers Icon"
+                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Strengthen Brand Identity Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Educate & Influence Buyers</h4>
+                                        <h4>Strengthen Brand Identity</h4>
                                         <p class="mt-2">
-                                            Well-written content guides users through their decision-making journey.
+                                            Consistent design improves recognition and brand recall.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Website Maintenance & Support-.webp"
-                                                alt="Build Brand Authority Icon"
+                                                alt="Communicate Faster Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Build Brand Authority</h4>
+                                        <h4>Communicate Faster</h4>
                                         <p class="mt-2">
-                                            Consistent, high-quality content positions your business as an industry expert.
+                                            Visual content conveys messages faster than text-only posts.
                                         </p>
                                     </li>
                                     <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                         <figure class="mb-3">
                                             <img src="/img/icons/icon_Strengthen Brand Awareness & Trust-.webp"
-                                                alt="Deliver Long-Term ROI Icon"
+                                                alt="Support Marketing & Sales Icon"
                                                 class="w-25 h-25 obj-fit-contain">
                                         </figure>
-                                        <h4>Deliver Long-Term ROI</h4>
+                                        <h4>Support Marketing & Sales</h4>
                                         <p class="mt-2">
-                                            Unlike ads, content continues to generate traffic and leads over time.
+                                            High-quality creatives improve ad performance and conversion rates.
                                         </p>
                                     </li>
                                 </ul>
-                                <p class="fade-left">A strong content strategy turns your website into a valuable digital asset that works 24/7.</p>
+
+                                <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
+                                    <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
+                                        <figure class="mb-3">
+                                            <img src="/img/icons/icon_Improve Website Performance & Search Visibility-.webp"
+                                                alt="Build Trust & Professionalism Icon"
+                                                class="w-25 h-25 obj-fit-contain">
+                                        </figure>
+                                        <h4>Build Trust & Professionalism</h4>
+                                        <p class="mt-2">
+                                            Well-designed creatives make your brand look credible and reliable.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <p class="fade-left">Social media creatives are not decoration — they are a core part of your digital marketing strategy.</p>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Content Marketing Use Cases Across Business Types</h2>
+                                    <h2 class="sec-title title-anim">Social Media Creatives for Different Business Types</h2>
                                     <p class="fade-left mt-3">
-                                        Our content marketing services are tailored for different business models:
+                                        Our creative solutions are tailored to different business models:
                                     </p>
 
                                     <ul class="row list-unstyled p-0 m-0 mt-3 animation__service-2">
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_Custom Business Website Design-.webp"
-                                                    alt="Service-Based Businesses Icon"
+                                                    alt="Startups & New Brands Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Service-Based Businesses</h4>
+                                            <h4>Startups & New Brands</h4>
                                             <p class="mt-2">
-                                                Generate inquiries and leads with SEO-optimised service content.
+                                                Build visibility and credibility with consistent, professional creatives.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
-                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="B2B Companies Icon"
+                                                <img src="/img/icons/icon_Professional Website Development-.webp" alt="Small & Growing Businesses Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>B2B Companies</h4>
+                                            <h4>Small & Growing Businesses</h4>
                                             <p class="mt-2">
-                                                Educate decision-makers and build trust with long-form, value-driven content.
+                                                Maintain a strong social presence without in-house design teams.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
-                                                    alt="E-commerce Brands Icon"
+                                                    alt="Ecommerce Brands Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>E-commerce Brands</h4>
+                                            <h4>Ecommerce Brands</h4>
                                             <p class="mt-2">
-                                                Drive product discovery and organic traffic through blogs and category content.
+                                                Highlight products, offers, and promotions visually.
                                             </p>
                                         </li>
                                         <li class="col-12 col-md-6 col-lg-3 mb-4 process-item service__item-2">
                                             <figure class="mb-3">
                                                 <img src="/img/icons/icon_UI-UX Design for Business Websites-.webp"
-                                                    alt="Startups & Growing Brands Icon"
+                                                    alt="Corporate & B2B Brands Icon"
                                                     class="w-25 h-25 obj-fit-contain">
                                             </figure>
-                                            <h4>Startups & Growing Brands</h4>
+                                            <h4>Corporate & B2B Brands</h4>
                                             <p class="mt-2">
-                                                Build visibility, authority, and credibility from the ground up.
+                                                Communicate authority, updates, and insights through professional designs.
                                             </p>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="my-4">
-                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Content Marketing & Writing</h2>
+                                    <h2 class="sec-title title-anim">Why Choose ABC Designs for Social Media Creatives</h2>
                                     <p class="fade-left mt-3">
-                                        At ABC Designs, we approach content marketing with a balance of strategy, creativity, and SEO intelligence. Our focus is not just on writing content, but on creating content that supports business growth, search visibility, and user engagement. Every piece of content is written with a clear objective — to inform, rank, and convert.
+                                        At ABC Designs, we treat social media creatives as a strategic brand asset, not just visual posts. Our designs are created with a clear understanding of brand identity, platform behavior, and audience engagement. We focus on delivering creatives that look good, communicate clearly, and support your marketing goals.
                                     </p>
                                     <p class="fade-left">
-                                        Our team of experienced content writers, SEO specialists, and editors works closely with businesses to maintain brand voice, consistency, and quality across all content assets. By combining keyword research, search intent, and conversion-focused writing, we deliver content that performs both for users and search engines.
+                                        Our team of experienced creative designers and brand specialists ensures every social media creative aligns with your brand guidelines and campaign objectives. From everyday posts to high-impact ad creatives, we deliver consistent, high-quality designs that help brands stay relevant and competitive.
                                     </p>
                                     <p class="fade-left mt-3">
-                                        What sets our content marketing services apart:
+                                        What sets our social media creatives apart:
                                     </p>
                                     <ul class="fade-left list-style-disc ms-4 mt-2" style="list-style-type: disc !important;">
-                                        <li>Experienced SEO content writers</li>
-                                        <li>Keyword-driven, intent-focused content strategy</li>
-                                        <li>Human-written, high-quality content</li>
-                                        <li>Clear brand voice and messaging</li>
-                                        <li>SEO-friendly structure and optimisation</li>
-                                        <li>Long-term growth-oriented approach</li>
+                                        <li>Brand-aligned and platform-specific designs</li>
+                                        <li>Experienced creative designers</li>
+                                        <li>Consistent visual identity across platforms</li>
+                                        <li>Designs optimised for engagement and ads</li>
+                                        <li>Flexible creative support and quick turnaround</li>
+                                        <li>Focus on long-term brand consistency</li>
                                     </ul>
                                     <p class="fade-left mt-3">
-                                        We help businesses turn content into traffic, authority, and measurable conversions.
+                                        We help businesses turn social media presence into strong brand visibility and engagement.
                                     </p>
                                 </div>
 
@@ -621,14 +635,14 @@
                                                     <button class="accordion-button" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                         aria-expanded="true" aria-controls="collapseOne">
-                                                        1. What is content marketing?
+                                                        1. What are social media creatives?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing is the process of creating and distributing valuable content to attract, engage, and convert a target audience.
+                                                            Social media creatives are visual designs used for posts, ads, stories, and promotions on social platforms.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -640,14 +654,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        2. How does content marketing help SEO?
+                                                        2. Do you design creatives for all platforms?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            SEO-optimised content improves keyword rankings, organic traffic, and search visibility over time.
+                                                            Yes. We design creatives for Instagram, Facebook, LinkedIn, and other platforms.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -659,14 +673,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                        3. Do you write SEO-friendly content?
+                                                        3. Can you create ad creatives for paid campaigns?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseThree" class="accordion-collapse collapse"
                                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. All our content is written with SEO best practices, keyword optimisation, and readability in mind.
+                                                            Yes. We design conversion-focused creatives for paid social media ads.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -678,14 +692,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                                         aria-expanded="false" aria-controls="collapseFour">
-                                                        4. Can you write content for existing websites?
+                                                        4. Will the creatives match my brand guidelines?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFour" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Absolutely. We offer content rewriting, optimisation, and expansion services.
+                                                            Absolutely. All creatives are designed according to your brand identity and tone.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -697,14 +711,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                                         aria-expanded="false" aria-controls="collapseFive">
-                                                        5. Do you maintain brand tone and voice?
+                                                        5. Can you redesign existing social media creatives?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseFive" class="accordion-collapse collapse"
                                                     aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We align content with your brand guidelines and communication style.
+                                                            Yes. We offer creative refresh and redesign services.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -716,14 +730,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSix"
                                                         aria-expanded="false" aria-controls="collapseSix">
-                                                        6. How long does content marketing take to show results?
+                                                        6. How many creatives can you design per month?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSix" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Content marketing typically shows results within 3–6 months, depending on competition and consistency.
+                                                            This depends on the package and requirements. Custom plans are available.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -735,14 +749,14 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSeven"
                                                         aria-expanded="false" aria-controls="collapseSeven">
-                                                        7. Do you provide content strategy as well?
+                                                        7. Do you provide editable creative files?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We offer complete content strategy, planning, and execution services.
+                                                            Yes, editable formats can be provided if required.
                                                         </p>
                                                     </div>
                                                 </div>
