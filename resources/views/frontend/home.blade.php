@@ -40,12 +40,14 @@
                                             <h1 class="hero__title">We Build Digital <br>Growth Through</h1>
                                             <h2 class="mt-3" id="typing-typeit"></h2>
                                             <div class="text-anim w-100">
-                                                <p class="mt-3 w-100 hero-description"> We create <span>digital experience</span> at the
-                                                    intersection between <span>design</span> and <span>technology,</span>
+                                                <p class="mt-3 w-100 hero-description"> We create <span>digital
+                                                        experience</span> at the
+                                                    intersection between <span>design</span> and
+                                                    <span>technology,</span>
                                                     helping our clients to <span>imagine the future,</span> today. </p>
-                                                </div>
-                                                
                                             </div>
+
+                                        </div>
                                         <div class="hero_form_wrapper col-5">
                                             <!-- <div class="img_container">
                                                 <img src="/img/logo_light.png" alt="" class="img-fluid">
@@ -325,7 +327,8 @@
 
                         <div class="service__list-wrapper">
                             <div class="row">
-                                <div class="col-xxl-4 col-xl-4 col-lg-0 col-md-0 sticky-sidebar d-none" id="stickyColumn">
+                                <div class="col-xxl-4 col-xl-4 col-lg-0 col-md-0 sticky-sidebar d-none"
+                                    id="stickyColumn">
                                     <div class="service__img-wrapper">
                                         <img src="/img/service/1.jpg" alt="Service Image"
                                             class="service__img img-1 active" />
@@ -824,7 +827,7 @@
                                 </div>
                             </div>
                         </section>
-
+                    </div>
                 </section>
 
                 <!-- Portfolio area end -->

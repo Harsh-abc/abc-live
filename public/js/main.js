@@ -3933,6 +3933,8 @@
     let lastX = 0;
     let lastTime = 0;
     let animationId = null;
+    
+    // CHANGE: Always set to false for horizontal rotation
     let isVertical = false;
 
     // DOM Elements
@@ -3965,13 +3967,8 @@
             const img = item.photo;
             const pos = img.pos || "50%";
 
-            // *** KEY CHANGE: Use custom URL if provided, otherwise construct Unsplash URL ***
-            const url =
-                img.imgUrl || `https://images.${base}-${img.code}?h=900`;
-
-            // For figcaption link: use custom link if provided, otherwise Unsplash page
-            const linkUrl =
-                img.link || (img.page ? `https://${base}s/${img.page}` : "#");
+            const url = img.imgUrl || `https://images.${base}-${img.code}?h=900`;
+            const linkUrl = img.link || (img.page ? `https://${base}s/${img.page}` : "#");
 
             html += `
                 <article class="circular-gallery-article" data-index="${index}" style="--i: ${index}; --url: url(${url}); --pos: ${pos}">
@@ -3993,7 +3990,7 @@
         return true;
     }
 
-    // Update the gallery rotation
+    // Update the gallery rotation - MODIFIED to always use Y-axis
     function updateRotation(k, animate = false) {
         if (!assembly) return;
 
@@ -4002,9 +3999,9 @@
         const normalizedK = ((k % 1) + 1) % 1;
 
         assembly.style.setProperty("--k", normalizedK);
-
-        isVertical = window.matchMedia("(max-aspect-ratio: 2/3)").matches;
-        assembly.style.setProperty("--dir", isVertical ? 1 : 0);
+        
+        // CHANGE: Always set --dir to 0 for horizontal rotation
+        assembly.style.setProperty("--dir", 0);
 
         const rotation = (normalizedK + 0.5) * -360;
 
@@ -4013,19 +4010,13 @@
                 duration: config.snapDuration,
                 ease: "power2.out",
                 onUpdate: () => {
-                    if (isVertical) {
-                        assembly.style.transform = `translateZ(var(--z)) rotateX(${rotation}deg)`;
-                    } else {
-                        assembly.style.transform = `translateZ(var(--z)) rotateY(${rotation}deg)`;
-                    }
+                    // CHANGE: Always use rotateY for horizontal rotation
+                    assembly.style.transform = `translateZ(var(--z)) rotateY(${rotation}deg)`;
                 },
             });
         } else {
-            if (isVertical) {
-                assembly.style.transform = `translateZ(var(--z)) rotateX(${rotation}deg)`;
-            } else {
-                assembly.style.transform = `translateZ(var(--z)) rotateY(${rotation}deg)`;
-            }
+            // CHANGE: Always use rotateY for horizontal rotation
+            assembly.style.transform = `translateZ(var(--z)) rotateY(${rotation}deg)`;
         }
 
         updateCurrentIndex();
@@ -4107,6 +4098,7 @@
         velocity = 0;
     }
 
+    // MODIFIED: Always use horizontal (X-axis) drag
     function handleDragStart(e) {
         stopMomentum();
         isDragging = true;
@@ -4121,32 +4113,23 @@
         scene.style.cursor = "grabbing";
     }
 
+    // MODIFIED: Always track horizontal movement
     function handleDragMove(e) {
         if (!isDragging) return;
 
         const point = e.touches ? e.touches[0] : e;
         const currentX = point.clientX;
-        const currentY = point.clientY;
 
-        let delta;
-        if (isVertical) {
-            delta = (currentY - startY) * config.dragSensitivity;
-        } else {
-            delta = (currentX - startX) * config.dragSensitivity;
-        }
+        // CHANGE: Always use horizontal delta (X-axis)
+        const delta = (currentX - startX) * config.dragSensitivity;
 
         const now = Date.now();
         const dt = now - lastTime;
         if (dt > 0) {
-            if (isVertical) {
-                velocity =
-                    (((currentY - lastX) * config.dragSensitivity) / dt) * 16;
-            } else {
-                velocity =
-                    (((currentX - lastX) * config.dragSensitivity) / dt) * 16;
-            }
+            // CHANGE: Always calculate velocity based on X movement
+            velocity = (((currentX - lastX) * config.dragSensitivity) / dt) * 16;
         }
-        lastX = isVertical ? currentY : currentX;
+        lastX = currentX;
         lastTime = now;
 
         const newK = dragStartK + delta;
@@ -4180,19 +4163,15 @@
         }
     }
 
+    // MODIFIED: Always use horizontal detection for double-click
     function handleDoubleClick(e) {
         stopMomentum();
 
         const rect = scene.getBoundingClientRect();
         const centerX = rect.left + rect.width / 2;
-        const centerY = rect.top + rect.height / 2;
 
-        let direction;
-        if (isVertical) {
-            direction = e.clientY < centerY ? -1 : 1;
-        } else {
-            direction = e.clientX > centerX ? 1 : -1;
-        }
+        // CHANGE: Always check X position for direction
+        const direction = e.clientX > centerX ? 1 : -1;
 
         if (direction > 0) {
             goNext();
@@ -4260,14 +4239,13 @@
             nextBtn.addEventListener("click", goNext);
         }
 
+        // MODIFIED: Resize handler - always keep horizontal
         let resizeTimeout;
         window.addEventListener("resize", () => {
             clearTimeout(resizeTimeout);
             resizeTimeout = setTimeout(() => {
-                isVertical = window.matchMedia(
-                    "(max-aspect-ratio: 2/3)"
-                ).matches;
-                assembly.style.setProperty("--dir", isVertical ? 1 : 0);
+                // CHANGE: Always set to 0 for horizontal rotation
+                assembly.style.setProperty("--dir", 0);
                 updateRotation(currentK);
             }, 100);
         });
@@ -4279,42 +4257,15 @@
         });
     }
 
-    // function init() {
-    //     const success = generateGallery();
-    //     if (!success) return;
-
-    //     requestAnimationFrame(() => {
-    //         initEventListeners();
-
-    //         updateRotation(0);
-
-    //         if (typeof gsap !== 'undefined') {
-    //             gsap.from(assembly, {
-    //                 duration: 1,
-    //                 // scale: 0.8,
-    //                 scale: 1,
-    //                 opacity: 0,
-    //                 ease: 'power2.out'
-    //             });
-    //         }
-    //     });
-    // }
     function init() {
         const success = generateGallery();
         if (!success) return;
 
-        // Initialize event listeners first
         initEventListeners();
-
-        // Set initial rotation immediately (not in requestAnimationFrame)
         updateRotation(0);
-
-        // Force a reflow to ensure styles are applied
         assembly.offsetHeight;
 
-        // Only run GSAP animation after ensuring base transform is set
         if (typeof gsap !== "undefined") {
-            // Use a small delay to ensure initial state is rendered
             requestAnimationFrame(() => {
                 gsap.from(assembly, {
                     duration: 1,
