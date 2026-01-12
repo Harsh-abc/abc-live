@@ -773,7 +773,7 @@
                         <div class="row flex-items-center">
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                 <div class="sec-title-wrapper wrap">
-                                    <h2 class="sec-title title-anim text-white fs-1 mb-3">Work</h2>
+                                    <h2 class="sec-title title-anim text-white fs-1 mb-4">Work</h2>
                                     {{-- <h3 class="sec-title title-anim">Solution we <br>provide</h3> --}}
                                 </div>
                             </div>
