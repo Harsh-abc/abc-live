@@ -4949,6 +4949,13 @@ $(document).ready(function () {
         direction: "rtl",
         pauseOnHover: true,
     });
+    
+    // Right to Left Marquee
+    $("#marquee-rtll").gsapMarquee({
+        speed: 60,
+        direction: "rtl",
+        pauseOnHover: true,
+    });
 });
 
 gsap.to("#bounceImage", {

@@ -1,4 +1,3 @@
-<!-- Footer area start -->
 <footer class="footer__area">
     {{-- <div class="footer__top">
         <div class="container footer-line"></div>

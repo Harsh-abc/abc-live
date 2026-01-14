@@ -1158,7 +1158,7 @@
                                     <form id="subscribeForm" method="POST" action="{{ route('Subscribes.store') }}">
                                         @csrf
                                         <div
-                                            class="mt-3 w-100 row height-100 d-flex justify-content-center align-items-center">
+                                            class="mt-3 w-100 row mx-0 height-100 d-flex justify-content-center align-items-center">
                                             <div class="col-md-10">
                                                 <div class="subscribe-btn position-relative">
                                                     <input class="form-control" name="email"
@@ -1186,28 +1186,28 @@
                         <div class="row justify-content-center align-items-center g-4">
 
                             <div class="col-6 col-sm-4 col-md-2">
-                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000"
-                                    alt="Google Partner" class="verified-logo img-fluid">
+                                <img src="/img/verified/adobe.png"
+                                    alt="Adobe" class="verified-logo img-fluid">
                             </div>
 
                             <div class="col-6 col-sm-4 col-md-2">
-                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000"
-                                    alt="Meta Business Partner" class="verified-logo img-fluid">
+                                <img src="/img/verified/trustpilot-seeklogo.svg"
+                                    alt="Trust pilot" class="verified-logo img-fluid">
                             </div>
 
                             <div class="col-6 col-sm-4 col-md-2">
-                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000"
-                                    alt="Clutch Agency" class="verified-logo img-fluid">
+                                <img src="/img/verified/ubersuggest-logo.svg"
+                                    alt="ubersuggest" class="verified-logo img-fluid">
                             </div>
 
                             <div class="col-6 col-sm-4 col-md-2">
-                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000"
-                                    alt="Top Digital Marketing Company" class="verified-logo img-fluid">
+                                <img src="/img/verified/google-partner.png"
+                                    alt="Google partner" class="verified-logo img-fluid">
                             </div>
 
                             <div class="col-6 col-sm-4 col-md-2">
-                                <img src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000"
-                                    alt="Sortlist Verified Agency" class="verified-logo img-fluid">
+                                <img src="/img/verified/meta-business-partner.jpg"
+                                    alt="meta business partner" class="verified-logo img-fluid">
                             </div>
 
                         </div>

@@ -6,7 +6,7 @@
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
-            <main class="overflow-hidden">
+            <main class="overflow-hidden blog-listing-page">
                 <!-- Blog area start -->
                 <section class="blog__area-6 blog__animation">
                     <div class="container g-0 pt-110 pb-110">
@@ -124,7 +124,7 @@
                 </script>
 
                 <!-- -->
-                <section class="pt-100">
+                <section class="cta-section">
                     @include('frontend.layout.cta')
                 </section>
 

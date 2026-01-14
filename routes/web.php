@@ -26,6 +26,9 @@ Route::get('/about', function () {
 
 
 /* ==== Services Section ==== */
+Route::get('/website-design-and-development', function () {
+    return view('frontend.services.website_design_and_development');
+});
 Route::get('/services', function () {
     return view('frontend.services.index');
 });

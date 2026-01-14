@@ -5,17 +5,17 @@
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
-            <main>
+            <main class="career-page">
 
-                <section class="service__area-2 service-v3 pb-80 pt-100">
-                    <div class="container">
+                <section class="service__area-2 service-v3 pb-60 pt-100">
+                    <div class="container-fluid">
                         <div class="row pb-60">
                             <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-9">
                                 <div class="sec-title-wrapper">
                                     <h2 class="sec-title title-anim"> Join our team & <br /> let's work together </h2>
                                 </div>
                             </div>
-                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3 mt-4">
                                 <div class="btn_wrapper" style="margin-top:-50px;">
                                     <a href="#job_list" class="wc-btn-secondary btn-hover btn-item"><span></span>
                                         Explore job
@@ -29,7 +29,7 @@
 
                 <!-- Career gallery start -->
                 <section class="career__gallery">
-                    <div class="container g-0 pt-80 pb-80">
+                    <div class="container-fluid g-0 pt-80 pb-80">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -49,7 +49,7 @@
                         </div>
 
 
-                        <div class="row">
+                        <div class="row justify-content-center mt-4">
                             <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                                 <div class="career__gallery-img"> <img src="/img/office/IMG_6555.PNG" alt="Career" />
                                 </div>
@@ -148,7 +148,7 @@
 
                 <!-- Career area start -->
                 <section class="job__area pt-130 pb-150" id="job_list">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="sec-title-wrapper">
@@ -532,7 +532,7 @@
                                                 <span id="captchaErr" class="error-message"><?php //echo $captchaErr;
                                                 ?></span>
                                             </div>
-                                            <div class="col-12 form-group required">
+                                            <div class="col-12 form-group required submit-btn-wrapper">
                                                 <!-- <input type="submit" name="submit" class="btn btn-dark w-100" value="Submit"> -->
                                                 <div class="btn_wrapper">
                                                     <button class="wc-btn-primary btn-hover btn-item"
