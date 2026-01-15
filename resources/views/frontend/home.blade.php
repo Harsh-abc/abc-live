@@ -32,141 +32,148 @@
                                         <a href="https://www.trustpilot.com/review/abcdesigns.in" target="_blank"
                                             rel="noopener">Trustpilot</a>
                                     </div> -->
-                                    <a href="/services">Strategy, Design, Solution Development <span> <i
-                                                class="fa-solid fa-arrow-right"></i></span></a>
-                                    <div class="hero__title-wrapper">
-                                        <h1 class="hero__title">Digital experiences that inspire</h1>
-                                        <p class="hero__sub-title"> We create <span>digital experience</span> at the
-                                            intersection between <span>design</span> and <span>technology,</span>
-                                            helping our clients to <span>imagine the future,</span> today. </p>
+                                    {{-- <a href="/services">Strategy, Design, Solution Development <span> <i
+                                                class="fa-solid fa-arrow-right"></i></span></a> --}}
+                                    <div class="hero__title-wrapper row">
+                                        <div class="col-7 d-flex flex-column justify-content-center align-items-start">
+                                            <h1 class="hero__title">We Build Digital <br>Growth Through</h1>
+                                            <h2 class="mt-3" id="typing-typeit"></h2>
+                                            <div class="text-anim w-100">
+                                                <p class="mt-3 w-100 hero-description"> We create <span>digital
+                                                        experience</span> at the
+                                                    intersection between <span>design</span> and
+                                                    <span>technology,</span>
+                                                    helping our clients to <span>imagine the future,</span> today.
+                                                </p>
+                                            </div>
 
-                                        <div class="hero_form_wrapper">
-                                            <!-- <div class="img_container">
+                                            <div class="hero_form_wrapper">
+                                                <!-- <div class="img_container">
                                                 <img src="/img/logo_light.png" alt="" class="img-fluid">
                                             </div> -->
-                                            <h4 class="hero_form_heading">Let's Connect With Us!</h4>
-                                            <p class="hero_form_para">We create digital experiences that shape the
-                                                future, today! Helping
-                                                clients imagine & innovate.</p>
-                                            <form method="post" action="/contact-us" id="contactforms"
-                                               >
-                                                @csrf
-                                                <div class="form-row">
-                                                    <div class="form-floating mb-3">
-                                                        <input type="text"
-                                                            class="form-control @error('name') is-invalid @enderror"
-                                                            id="name" name="name" placeholder="Name*"
-                                                            value="{{ old('name') }}">
-                                                        @error('name')
+                                                <h4 class="hero_form_heading">Let's Connect With Us!</h4>
+                                                <p class="hero_form_para">We create digital experiences that shape the
+                                                    future, today! Helping
+                                                    clients imagine & innovate.</p>
+                                                <form method="post" action="/contact-us" id="contactforms">
+                                                    @csrf
+                                                    <div class="form-row">
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text"
+                                                                class="form-control @error('name') is-invalid @enderror"
+                                                                id="name" name="name" placeholder="Name*"
+                                                                value="{{ old('name') }}">
+                                                            @error('name')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
-                                                        @enderror
-                                                        <label for="name">Name</label>
+                                                            @enderror
+                                                            <label for="name">Name</label>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="form-row row d-flex ">
-                                                    <div class="form-floating mb-3 col-md-6">
-                                                        <input type="email"
-                                                            class="form-control @error('email') is-invalid @enderror"
-                                                            id="email" name="email" placeholder="Email"
-                                                            value="{{ old('email') }}">
-                                                        @error('email')
+                                                    <div class="form-row row d-flex ">
+                                                        <div class="form-floating mb-3 col-md-6">
+                                                            <input type="email"
+                                                                class="form-control @error('email') is-invalid @enderror"
+                                                                id="email" name="email" placeholder="Email"
+                                                                value="{{ old('email') }}">
+                                                            @error('email')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
-                                                        @enderror
-                                                        <label for="email">Email*</label>
-                                                    </div>
-                                                    <div class="form-floating mb-3 col-md-6">
-                                                        <input type="number" minlength="10" maxlength="12"
-                                                            class="form-control @error('contact') is-invalid @enderror"
-                                                            id="contact" name="contact" placeholder="Contact*"
-                                                            value="{{ old('contact') }}" required="required">
-                                                        @error('contact')
+                                                            @enderror
+                                                            <label for="email">Email*</label>
+                                                        </div>
+                                                        <div class="form-floating mb-3 col-md-6">
+                                                            <input type="number" minlength="10" maxlength="12"
+                                                                class="form-control @error('contact') is-invalid @enderror"
+                                                                id="contact" name="contact" placeholder="Contact*"
+                                                                value="{{ old('contact') }}" required="required">
+                                                            @error('contact')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
-                                                        @enderror
-                                                        <label for="contact">Contact*</label>
+                                                            @enderror
+                                                            <label for="contact">Contact*</label>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <!-- <div class="form-row">
+                                                    <!-- <div class="form-row">
                                                     <div class="form-floating mb-3">
                                                         <input type="text" class="form-control" id="subject"
                                                             placeholder="name@example.com">
                                                         <label for="subject">Subject</label>
                                                     </div>
                                                 </div> -->
-                                                <div class="form-row">
-                                                    <div class="form-floating mb-3">
-                                                        <textarea type="textbox"
-                                                            class="form-control @error('message') is-invalid @enderror"
-                                                            id="message" name="message" placeholder="Message*" value=""
-                                                            required>{{ old('message') }}</textarea>
-                                                        @error('message')
+                                                    <div class="form-row">
+                                                        <div class="form-floating mb-3">
+                                                            <textarea type="textbox"
+                                                                class="form-control @error('message') is-invalid @enderror"
+                                                                id="message" name="message" placeholder="Message*" value=""
+                                                                required>{{ old('message') }}</textarea>
+                                                            @error('message')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
-                                                        @enderror
-                                                        <label for="subject">Message</label>
+                                                            @enderror
+                                                            <label for="subject">Message</label>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                    <div class="g-recaptcha"
-                                                        data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
-                                                    <span id="captchaErr"
-                                                        class="error-message"><?php //echo $captchaErr;?></span>
-                                                </div>
-                                                <div class="form-group submit">
-                                                    <input type="submit" id="submitBtns" class="btn btn-dark w-100"
-                                                        value="Submit">
-                                                </div>
-                                            </form>
+                                                    <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                                                        <div class="g-recaptcha"
+                                                            data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
+                                                        <span id="captchaErr"
+                                                            class="error-message"><?php //echo $captchaErr;
+                                                                                    ?></span>
+                                                    </div>
+                                                    <div class="form-group submit">
+                                                        <input type="submit" id="submitBtns" class="btn btn-dark w-100"
+                                                            value="Submit">
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="btn_conatiner">
-                                        <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon">
+                                        <div class="btn_conatiner">
+                                            <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon">
 
 
-                                    </div>
-<!-- SOFIYAAA -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const form1 = document.getElementById("contactforms");
-    const submitBtn1 = document.getElementById("submitBtns");
+                                        </div>
+                                        <!-- SOFIYAAA -->
+                                        <script>
+                                            document.addEventListener("DOMContentLoaded", function() {
+                                                const form1 = document.getElementById("contactforms");
+                                                const submitBtn1 = document.getElementById("submitBtns");
 
-    form1.addEventListener("submit", function() {
-        submitBtn1.value = "Sending...";   // Change button text
-        submitBtn1.disabled = true;        // Disable button
-    });
+                                                form1.addEventListener("submit", function() {
+                                                    submitBtn1.value = "Sending..."; // Change button text
+                                                    submitBtn1.disabled = true; // Disable button
+                                                });
 
-    // Re-enable button if form submission fails or validation blocks it
-    form1.addEventListener("ajax:error", function() {
-        submitBtn1.value = "Submit";
-        submitBtn1.disabled = false;
-    });
-});
-</script>
+                                                // Re-enable button if form submission fails or validation blocks it
+                                                form1.addEventListener("ajax:error", function() {
+                                                    submitBtn1.value = "Submit";
+                                                    submitBtn1.disabled = false;
+                                                });
+                                            });
+                                        </script>
 
-                                    <!-- <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon"> -->
-                                    <div class="experience">
-                                        <h2 class="title">10k+</h2>
-                                        <p>Projects completed <br>successfully</p>
+                                        <!-- <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon"> -->
+                                        <div class="experience">
+                                            <h2 class="title">10k+</h2>
+                                            <p>Projects completed <br>successfully</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--<img src="/imgs/hero/1/1-bg.png" alt="image" class="hero1_bg"> -->
-                    <!--
+                        <!--<img src="/imgs/hero/1/1-bg.png" alt="image" class="hero1_bg"> -->
+                        <!--
     <img src="/imgs/hero/02.jpg" alt="image" class="hero1_bg">
     -->
-                    <video id="home-video" autoplay muted loop>
-                        <source src="/video/home_4.mp4" type="video/mp4">
-                        <source src="/video/home_4.ogg" type="video/ogg">
-                        Your browser does not support HTML5 video.
-                    </video>
+                        <video id="home-video" autoplay muted loop>
+                            <source src="/video/home_4.mp4" type="video/mp4">
+                            <source src="/video/home_4.ogg" type="video/ogg">
+                            Your browser does not support HTML5 video.
+                        </video>
                 </section>
                 <!-- Hero area end -->
 
@@ -335,7 +342,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
                         <div class="service__list-wrapper">
                             <div class="row">
-                                <div class="col-xxl-4 col-xl-4 col-lg-0 col-md-0">
+
+                                <div class="col-xxl-4 col-xl-4 col-lg-0 col-md-0 sticky-sidebar d-none"
+                                    id="stickyColumn">
                                     <div class="service__img-wrapper">
                                         <img src="/img/service/1.jpg" alt="Service Image"
                                             class="service__img img-1 active" />
@@ -599,6 +608,68 @@ document.addEventListener("DOMContentLoaded", function() {
                             </div>
                         </div>
                     </div>
+                </section>
+                <section class="portfolio__area pt-80 pb-80 overflow-hidden">
+                    <div class="container">
+                        <div class="row flex-items-center">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                <div class="sec-title-wrapper wrap">
+                                    <h2 class="sec-title title-anim text-white fs-1 mb-4">Work</h2>
+                                    {{-- <h3 class="sec-title title-anim">Solution we <br>provide</h3> --}}
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-5">
+                                <div class="service__top-text text-anim">
+                                    <p>We partner with brands to create impactful digital experiences that drive growth,
+                                        engagement, and measurable results. Our work reflects a strategic blend of
+                                        creativity, technology, and performance marketing built to scale in a
+                                        fast-evolving digital landscape.</p>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
+                                <div class="service__top-btn">
+                                    <div class="btn_wrapper">
+                                        <a href="/services" class="btn-item wc-btn-secondary btn-hover"><span></span>
+                                            View <br>all services <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add this section where you want the gallery -->
+                        <section class="circular-gallery-section" id="circularGallerySection">
+                            <div class="circular-gallery-container">
+
+                                <!-- Gallery Scene -->
+                                <div class="circular-gallery-scene" id="galleryScene">
+                                    <div class="circular-gallery-assembly" id="galleryAssembly">
+                                        <!-- Articles will be dynamically inserted here -->
+                                    </div>
+                                </div>
+
+                                <!-- Navigation Controls -->
+                                <div class="circular-gallery-controls">
+                                    <button class="circular-gallery-btn circular-gallery-btn-prev" id="galleryPrev"
+                                        aria-label="Previous">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2">
+                                            <polyline points="15 18 9 12 15 6"></polyline>
+                                        </svg>
+                                    </button>
+                                    <div class="circular-gallery-counter">
+                                        <span id="currentIndex">1</span> / <span id="totalCount">18</span>
+                                    </div>
+                                    <button class="circular-gallery-btn circular-gallery-btn-next" id="galleryNext"
+                                        aria-label="Next">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2">
+                                            <polyline points="9 18 15 12 9 6"></polyline>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    >>>>>>> 3c61cbd247d4fda48641e1f49dee31d69375027f
                 </section>
                 <!-- Portfolio area end -->
 
