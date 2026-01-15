@@ -107,6 +107,21 @@
 													@endif
 												</select>
 											</div>
+											<div class="form-group">
+												<label>Time To Read (minutes) : <span>*</span></label>
+												<input type="number" name="time_to_read" value="{{ $blog->time_to_read ?? '' }}" 
+													   class="form-control" min="1" placeholder="Enter time to read in minutes" required>
+											</div>
+
+												<div class="form-group">
+												<label>Highlight Color</label>
+												<input
+													type="color"
+													name="highlight_color"
+													value="{{ old('highlight_color', $blog->highlight_color ?? '#ffa500') }}"
+												>
+												</div>
+
 											<div class="card shade">
 												<h5> SEO </h5>
 												
@@ -132,12 +147,12 @@
 											</div> <!-- --> 
 										</div> <!-- -->
 										<div class="col-xl-3 col-lg-3 col-md-3">
-											<div class="form-group">
+											<!-- <div class="form-group">
 												<div class="card shade">  
 													<label class="text-left"> Upload Image For Blog Content </label> 
 													<a href="#" id="AddImage" data-toggle="modal" data-target="#ServerImageModal" class="btn ripple btn-primary">Upload For Blog Content </a>  
 												</div>
-											</div>
+											</div> --!>
 											<div class="form-group">
 												<div class="card shade">  
 													<div class="image-upload"> 
@@ -176,16 +191,34 @@
 													<label>Alt_Text_Banner : <span>*</span></label>
 													<input name="Alt_Text_Banner" id="Alt_Text_Banner" value="{{$blog->Alt_Text_Banner}}" required="" class="form-control" placeholder="Alt_Text_Banner" onkeypress="ArticleNameurl();" onblur="ArticleNameurl();" type="text">
 												</div>
+												
+												<div class="form-group">
+												<div class="card shade">  
+													<div id="choose-thumbnail-1">
+														<label> Choose Left Banner Image  </label> 
+														<div id="img-preview-1"></div> 
+														<input type="file" accept="image/*" id="choose-file-1" value="" name="banner_image_1" />
+														<label for="choose-file-1">Choose Left Banner</label>
+														<img src="{{$blog->banner_image_1}}" class="img-thumbnail" width="200px" height="auto"/>
+													</div>
+												</div>
+											</div> 
+
+												<div class="col-lg-9 col-md-9 form-group">
+													<label>Alt_Text_Banner_1 : <span>*</span></label>
+													<input name="alt_text_banner_1" id="alt_text_banner_1" value="{{$blog->alt_text_banner_1}}" required="" class="form-control" placeholder="Alt_Text_Banner" onkeypress="ArticleNameurl();" onblur="ArticleNameurl();" type="text">
+												</div>
 
 											<div class="form-group">
 												<div class="card shade">  
 													<label> Publish Date : {{$blog->publish_date}}</label>
-													<input name="publish_date" value="" class="form-control" type="date" id="publish_date">
+													<input name="publish_date" value="{{ $blog->publish_date }}" class="form-control" type="date" id="publish_date">
 												</div>
 											</div> 
 																
 											<input type="hidden" name="edit_banner_image" value="{{$blog->banner_image}}"/>
 											<input type="hidden" name="edit_thumb_image" value="{{$blog->thumb_image}}"/>
+											<input type="hidden" name="edit_banner_image1" value="{{$blog->banner_image_1}}"/>
 											<input type="hidden" name="prv_publish_date" value="{{$blog->publish_date}}"/>
 											
 											<div class="card shade d-none">
@@ -266,6 +299,29 @@ function getImgData() {
   }
 }
 </script>
+
+<script>
+const chooseFile1 = document.getElementById("choose-file-1");
+const imgPreview1 = document.getElementById("img-preview-1");
+
+chooseFile1.addEventListener("change", function () {
+  getImgData();
+});
+
+function getImgData() {
+  const files = chooseFile1.files[0];
+  if (files) {
+    const fileReader = new FileReader();
+    fileReader.readAsDataURL(files);
+    fileReader.addEventListener("load", function () {
+      imgPreview1.style.display = "block";
+      imgPreview1.innerHTML = '<img src="' + this.result + '" />';
+    });    
+  }
+}
+</script>
+
+
 <link href="/admin/css/tagsinput.css" rel="stylesheet" type="text/css">
 <script src="/admin/js/typeahead.bundle.min.js"></script> 
 <script src="/admin/js/tagsinput.js"></script>

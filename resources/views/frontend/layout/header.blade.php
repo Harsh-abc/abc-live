@@ -59,7 +59,7 @@ $seodata = CommonController::SeoDetails($url);
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&amp;display=swap"
 		rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
 	<!-- include('sweetalert::alert') -->
 	<link rel="stylesheet" href="/css/master.css?ver=0.1">

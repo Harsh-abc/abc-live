@@ -13,10 +13,10 @@
                         <!-- Blog Header Banner -->
                         <div class="row px-1 pb-50 blog-header-banner"
                             style="background-image: url('{{ !empty($blog->banner_image) ? asset($blog->banner_image) : 'https://moz.com/images/blog/banners/04-local-seo-blog-banner-BGs/local-seo-category-blog-banner-BGs-E.png?w=1920&auto=compress%2Cformat&fit=crop&dm=1757708764&s=eaab989823d1473e80127bcf56a0b06f' }}');">
-                            <div class="col-lg-7 col-md-12">
-                                @php
-                                $category = \App\Models\Categories::find($blog->category_id);
-                                @endphp
+                            <div class="col-lg-7 col-md-12"> 
+							@php
+        $category = \App\Models\Categories::find($blog->category_id);
+    @endphp
                                 <h3 class="text-capitalize" style="color: {{ $blog->highlight_color ?? '#ffc107' }}">{{ $category->name }}</h3>
                                 <h1 class="text-white">{{ $blog->blog_title }}</h1>
                                 <div class="py-2 d-flex gap-4 mt-3">
@@ -30,7 +30,7 @@
                                                 d="M19 4h-1v3a1 1 0 0 1-2 0V4H8v3a1 1 0 0 1-2 0V4H5a3 3 0 0 0-3 3v3h20V7a3 3 0 0 0-3-3" />
                                         </svg>
                                         <span class="ms-2">{{ \Carbon\Carbon::parse($blog->publish_date)->format('M d, Y') }}</span>
-                                        <!-- <span class="ms-2">Jan 15, 2024</span> --!>
+										<!-- <span class="ms-2">Jan 15, 2024</span> --!>
                                     </div>
                                     <div class="text-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -62,158 +62,158 @@
                         </div>
 
                         <!-- MOBILE TOC - Collapsible Accordion (Shows only on mobile/tablet) -->
-                                        <div class="container-fluid px-5 d-lg-none mt-4">
-                                            <div class="accordion" id="mobileTocAccordion">
-                                                <div class="accordion-item border rounded">
-                                                    <h2 class="accordion-header" id="mobileTocHeading">
-                                                        <button class="accordion-button collapsed" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#mobileTocContent"
-                                                            aria-expanded="false" aria-controls="mobileTocContent">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                                stroke-width="2" class="me-2">
-                                                                <line x1="8" y1="6" x2="21" y2="6">
-                                                                </line>
-                                                                <line x1="8" y1="12" x2="21" y2="12">
-                                                                </line>
-                                                                <line x1="8" y1="18" x2="21" y2="18">
-                                                                </line>
-                                                                <line x1="3" y1="6" x2="3.01" y2="6">
-                                                                </line>
-                                                                <line x1="3" y1="12" x2="3.01" y2="12">
-                                                                </line>
-                                                                <line x1="3" y1="18" x2="3.01" y2="18">
-                                                                </line>
-                                                            </svg>
-                                                            <strong>Table of Contents</strong>
-                                                        </button>
-                                                    </h2>
-                                                    <div id="mobileTocContent" class="accordion-collapse collapse"
-                                                        aria-labelledby="mobileTocHeading" data-bs-parent="#mobileTocAccordion">
-                                                        <div class="accordion-body">
-                                                            <nav class="toc-nav">
-                                                                <ul class="toc-list list-unstyled mb-0" id="mobile-toc-list">
-                                                                    <!-- TOC items will be generated by JavaScript -->
-                                                                </ul>
-                                                            </nav>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                        <div class="container-fluid px-5 d-lg-none mt-4">
+                            <div class="accordion" id="mobileTocAccordion">
+                                <div class="accordion-item border rounded">
+                                    <h2 class="accordion-header" id="mobileTocHeading">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#mobileTocContent"
+                                            aria-expanded="false" aria-controls="mobileTocContent">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" class="me-2">
+                                                <line x1="8" y1="6" x2="21" y2="6">
+                                                </line>
+                                                <line x1="8" y1="12" x2="21" y2="12">
+                                                </line>
+                                                <line x1="8" y1="18" x2="21" y2="18">
+                                                </line>
+                                                <line x1="3" y1="6" x2="3.01" y2="6">
+                                                </line>
+                                                <line x1="3" y1="12" x2="3.01" y2="12">
+                                                </line>
+                                                <line x1="3" y1="18" x2="3.01" y2="18">
+                                                </line>
+                                            </svg>
+                                            <strong>Table of Contents</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="mobileTocContent" class="accordion-collapse collapse"
+                                        aria-labelledby="mobileTocHeading" data-bs-parent="#mobileTocAccordion">
+                                        <div class="accordion-body">
+                                            <nav class="toc-nav">
+                                                <ul class="toc-list list-unstyled mb-0" id="mobile-toc-list">
+                                                    <!-- TOC items will be generated by JavaScript -->
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BLOG LAYOUT - 3 COLUMNS -->
+                        <div class="blog-detail-area px-5 py-5">
+                            <div class="blog-layout">
+
+                                <!-- LEFT SIDEBAR - Table of Contents (Desktop Only) -->
+                                <aside class="blog-sidebar blog-sticky-left d-none d-lg-block">
+                                    <div class="sticky-wrapper">
+                                        <div class="sidebar-box toc-sidebar">
+                                            <div class="toc-header d-flex align-items-center mb-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" class="me-2">
+                                                    <line x1="8" y1="6" x2="21"
+                                                        y2="6"></line>
+                                                    <line x1="8" y1="12" x2="21"
+                                                        y2="12"></line>
+                                                    <line x1="8" y1="18" x2="21"
+                                                        y2="18"></line>
+                                                    <line x1="3" y1="6" x2="3.01"
+                                                        y2="6"></line>
+                                                    <line x1="3" y1="12" x2="3.01"
+                                                        y2="12"></line>
+                                                    <line x1="3" y1="18" x2="3.01"
+                                                        y2="18"></line>
+                                                </svg>
+                                                <h4 class="mb-0">Table of Contents</h4>
                                             </div>
+                                            <nav class="toc-nav">
+                                                <ul class="toc-list list-unstyled mb-0" id="desktop-toc-list">
+                                                    <!-- TOC items will be generated by JavaScript -->
+                                                </ul>
+                                            </nav>
                                         </div>
 
-                                        <!-- BLOG LAYOUT - 3 COLUMNS -->
-                                        <div class="blog-detail-area px-0 py-5">
-                                            <div class="blog-layout">
+                                        <div class="sidebar-box mt-4">
+                                            <h4 class="mb-3">Follow Us</h4>
+                                            <div class="social-links d-flex gap-2">
+                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
+                                                    <i class="fab fa-linkedin-in"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aside>
 
-                                                <!-- LEFT SIDEBAR - Table of Contents (Desktop Only) -->
-                                                <aside class="blog-sidebar blog-sticky-left d-none d-lg-block">
-                                                    <div class="sticky-wrapper">
-                                                        <div class="sidebar-box toc-sidebar">
-                                                            <div class="toc-header d-flex align-items-center mb-3">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                                    stroke-width="2" class="me-2">
-                                                                    <line x1="8" y1="6" x2="21"
-                                                                        y2="6"></line>
-                                                                    <line x1="8" y1="12" x2="21"
-                                                                        y2="12"></line>
-                                                                    <line x1="8" y1="18" x2="21"
-                                                                        y2="18"></line>
-                                                                    <line x1="3" y1="6" x2="3.01"
-                                                                        y2="6"></line>
-                                                                    <line x1="3" y1="12" x2="3.01"
-                                                                        y2="12"></line>
-                                                                    <line x1="3" y1="18" x2="3.01"
-                                                                        y2="18"></line>
-                                                                </svg>
-                                                                <h4 class="mb-0">Table of Contents</h4>
-                                                            </div>
-                                                            <nav class="toc-nav">
-                                                                <ul class="toc-list list-unstyled mb-0" id="desktop-toc-list">
-                                                                    <!-- TOC items will be generated by JavaScript -->
-                                                                </ul>
-                                                            </nav>
-                                                        </div>
-
-                                                        <div class="sidebar-box mt-4">
-                                                            <h4 class="mb-3">Follow Us</h4>
-                                                            <div class="social-links d-flex gap-2">
-                                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
-                                                                    <i class="fab fa-facebook-f"></i>
-                                                                </a>
-                                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
-                                                                    <i class="fab fa-twitter"></i>
-                                                                </a>
-                                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
-                                                                    <i class="fab fa-linkedin-in"></i>
-                                                                </a>
-                                                                <a href="#" class="btn btn-outline-dark btn-sm rounded-circle">
-                                                                    <i class="fab fa-instagram"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </aside>
-
-                                                <!-- CENTER - Main Blog Content -->
-                                                <article class="blog-center-content" id="blog-content-area">
-                                                    {{-- Dynamic content from database --}}
-                                                    {{-- @if ($blog->banner_image)
+                                <!-- CENTER - Main Blog Content -->
+                                <article class="blog-center-content" id="blog-content-area">
+                                    {{-- Dynamic content from database --}}
+                                    {{-- @if ($blog->banner_image)
                                         <div class="blog-banner mb-4">
                                             <img src="{{ asset($blog->banner_image) }}" class="img-fluid"
-                                                    alt="{{ $blog->blog_title }}">
-                                            </div>
-                                            @endif
+                                                alt="{{ $blog->blog_title }}">
+                                        </div>
+                                    @endif
 
-                                            <div class="blog-meta mb-3">
-                                                <span class="text-muted">
-                                                    {{ optional($blog->category)->name ?? 'Uncategorized' }} |
-                                                    {{ \Carbon\Carbon::parse($blog->publish_date)->format('d M Y') }}
-                                                </span>
-                                            </div>
+                                    <div class="blog-meta mb-3">
+                                        <span class="text-muted">
+                                            {{ optional($blog->category)->name ?? 'Uncategorized' }} |
+                                            {{ \Carbon\Carbon::parse($blog->publish_date)->format('d M Y') }}
+                                        </span>
+                                    </div>
 
-                                            <h1 class="blog-title mb-3">{{ $blog->blog_title }}</h1>
-                                            <h5 class="blog-author mb-4">{{ $blog->post_author }}</h5>
+                                    <h1 class="blog-title mb-3">{{ $blog->blog_title }}</h1>
+                                    <h5 class="blog-author mb-4">{{ $blog->post_author }}</h5>
 
-                                            <div class="blog-content">
-                                                {!! $blog->blog_content !!}
-                                            </div>
+                                    <div class="blog-content">
+                                        {!! $blog->blog_content !!}
+                                    </div>
 
-                                            @if (!empty($activeTags))
-                                            <div class="blog-tags mt-4">
-                                                <strong>Tags:</strong>
-                                                @foreach ($activeTags as $tag)
+                                    @if (!empty($activeTags))
+                                        <div class="blog-tags mt-4">
+                                            <strong>Tags:</strong>
+                                            @foreach ($activeTags as $tag)
                                                 <span class="badge bg-secondary">{{ trim($tag) }}</span>
-                                                @endforeach
-                                            </div>
-                                            @endif --}}
-                                            <style>
-                                                .blog-content-inner ul {
-                                                    list-style-type: disc !important;
-                                                    padding-left: 24px;
-                                                    margin-bottom: 16px;
-                                                }
+                                            @endforeach
+                                        </div>
+                                    @endif --}}
+<style>
+.blog-content-inner ul {
+    list-style-type: disc !important;
+    padding-left: 24px;
+    margin-bottom: 16px;
+}
 
-                                                .blog-content-inner ol {
-                                                    list-style-type: decimal !important;
-                                                    padding-left: 24px;
-                                                    margin-bottom: 16px;
-                                                }
+.blog-content-inner ol {
+    list-style-type: decimal !important;
+    padding-left: 24px;
+    margin-bottom: 16px;
+}
 
-                                                .blog-content-inner li {
-                                                    margin-bottom: 8px;
-                                                }
+.blog-content-inner li {
+    margin-bottom: 8px;
+}
 
-                                                .blog-content-inner li::marker {
-                                                    color: #000;
-                                                }
-                                            </style>
-                                            <!-- Static content for demonstration -->
-                                            <div class="blog-content-inner ck-content">
-                                                {!! $blog->blog_content !!}
+.blog-content-inner li::marker {
+    color: #000;
+}
+</style>
+                                    <!-- Static content for demonstration -->
+                                    <div class="blog-content-inner ck-content">
+									{!! $blog->blog_content !!}
 
-                                                <!-- <h2>Help! My Google Business Profile Local Search Visibility is Dropping</h2>
+                                       <!-- <h2>Help! My Google Business Profile Local Search Visibility is Dropping</h2>
                                         <p>Managing a Google Business Profile (GBP) that is suddenly not driving the
                                             leads
                                             or traffic it once did can be stressful. A loss of ranking in Google Maps
@@ -322,142 +322,142 @@
                                 </article>
 
                                 <!-- RIGHT SIDEBAR - Form & Recent Posts -->
-                                                <aside class="blog-sidebar blog-sticky-right">
-                                                    <div class="sticky-wrapper">
-                                                        <div class="sidebar-box">
-                                                            <h4 class="">Schedule a Callback</h4>
-                                                            <form method="post" action="/contact-us" id=""
-                                                                class="blog-form-row mt-3">
-                                                                @csrf
-                                                                <div class="form-row">
-                                                                    <div class="form-floating">
-                                                                        <input type="text"
-                                                                            class="form-control border-dark @error('name') is-invalid @enderror"
-                                                                            id="name" name="name" placeholder="Name*"
-                                                                            value="{{ old('name') }}">
-                                                                        @error('name')
-                                                                        <span class="invalid-feedback" role="alert">
-                                                                            <strong>{{ $message }}</strong>
-                                                                        </span>
-                                                                        @enderror
-                                                                        <label for="name">Name</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="form-row row d-flex ">
-                                                                    <div class="form-floating mb-3 col-md-12">
-                                                                        <input type="email"
-                                                                            class="form-control border-dark @error('email') is-invalid @enderror"
-                                                                            id="email" name="email" placeholder="Email"
-                                                                            value="{{ old('email') }}">
-                                                                        @error('email')
-                                                                        <span class="invalid-feedback" role="alert">
-                                                                            <strong>{{ $message }}</strong>
-                                                                        </span>
-                                                                        @enderror
-                                                                        <label for="email">Email*</label>
-                                                                    </div>
-                                                                    <div class="form-floating mb-3 col-md-12">
-                                                                        <input type="number" minlength="10" maxlength="12"
-                                                                            class="form-control border-dark @error('contact') is-invalid @enderror"
-                                                                            id="contact" name="contact" placeholder="Contact*"
-                                                                            value="{{ old('contact') }}" required="required">
-                                                                        @error('contact')
-                                                                        <span class="invalid-feedback" role="alert">
-                                                                            <strong>{{ $message }}</strong>
-                                                                        </span>
-                                                                        @enderror
-                                                                        <label for="contact">Contact*</label>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- <div class="form-row">
+                                <aside class="blog-sidebar blog-sticky-right">
+                                    <div class="sticky-wrapper">
+                                        <div class="sidebar-box">
+                                            <h4 class="">Schedule a Callback</h4>
+                                            <form method="post" action="/contact-us" id=""
+                                                class="blog-form-row mt-3">
+                                                @csrf
+                                                <div class="form-row">
+                                                    <div class="form-floating">
+                                                        <input type="text"
+                                                            class="form-control border-dark @error('name') is-invalid @enderror"
+                                                            id="name" name="name" placeholder="Name*"
+                                                            value="{{ old('name') }}">
+                                                        @error('name')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
+                                                        <label for="name">Name</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row row d-flex ">
+                                                    <div class="form-floating mb-3 col-md-12">
+                                                        <input type="email"
+                                                            class="form-control border-dark @error('email') is-invalid @enderror"
+                                                            id="email" name="email" placeholder="Email"
+                                                            value="{{ old('email') }}">
+                                                        @error('email')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
+                                                        <label for="email">Email*</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3 col-md-12">
+                                                        <input type="number" minlength="10" maxlength="12"
+                                                            class="form-control border-dark @error('contact') is-invalid @enderror"
+                                                            id="contact" name="contact" placeholder="Contact*"
+                                                            value="{{ old('contact') }}" required="required">
+                                                        @error('contact')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
+                                                        <label for="contact">Contact*</label>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="form-row">
                                                         <div class="form-floating mb-3">
                                                             <input type="text" class="form-control" id="subject"
                                                                 placeholder="name@example.com">
                                                             <label for="subject">Subject</label>
                                                         </div>
                                                     </div> -->
-                                                                <div class="form-row">
-                                                                    <div class="form-floating mb-3">
-                                                                        <textarea type="textbox" class="form-control border-dark @error('message') is-invalid @enderror" id="message"
-                                                                            name="message" placeholder="Message*" value="" required>{{ old('message') }}</textarea>
-                                                                        @error('message')
-                                                                        <span class="invalid-feedback" role="alert">
-                                                                            <strong>{{ $message }}</strong>
-                                                                        </span>
-                                                                        @enderror
-                                                                        <label for="subject">Message</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                                    <div class="g-recaptcha"
-                                                                        data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
-                                                                    <span id="captchaErr"
-                                                                        class="error-message"><?php //echo $captchaErr;
-                                                                                                ?></span>
-                                                                </div>
-                                                                <div class="form-group submit">
-                                                                    <input type="submit" id="submitBtn"
-                                                                        class="btn btn-dark w-100 submitBtn" value="Submit">
-                                                                </div>
-                                                            </form>
-                                                        </div>
+                                                <div class="form-row">
+                                                    <div class="form-floating mb-3">
+                                                        <textarea type="textbox" class="form-control border-dark @error('message') is-invalid @enderror" id="message"
+                                                            name="message" placeholder="Message*" value="" required>{{ old('message') }}</textarea>
+                                                        @error('message')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
+                                                        <label for="subject">Message</label>
                                                     </div>
-                                                </aside>
-
-                                            </div>
-                                        </div>
-                                        <section class="related-blogs pt-5">
-                                            <div class="container">
-                                                <h3 class="mb-3">Latest Blogs</h3>
-                                                <div class="row reset-grid blog_listing">
-
-                                                    @foreach ($relatedBlogs as $rBlog)
-                                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                                                        <article class="blog__item">
-                                                            <div class="blog__img-wrapper">
-                                                                <a href="{{ url('/blog/' . $rBlog->blog_url) }}">
-                                                                    <div class="img-box">
-                                                                        <img class="image-box__item" src="{{ asset($rBlog->thumb_image) }}"
-                                                                            alt="{{ $rBlog->blog_title }}" />
-                                                                        <img class="image-box__item" src="{{ asset($rBlog->thumb_image) }}"
-                                                                            alt="{{ $rBlog->blog_title }}" />
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            @php
-                                                            $category = \App\Models\Categories::find($rBlog->category_id);
-                                                            @endphp
-                                                            <h4 class="blog__meta">
-                                                                <a href="{{ url('/blog/' . $rBlog->blog_url) }}">
-                                                                    {{ $category->name  ?? '' }}
-                                                                    {{ $rBlog->post_author ?? '' }}
-                                                                </a>
-                                                                . {{ \Carbon\Carbon::parse($rBlog->created_at)->format('d M Y') }}
-                                                            </h4>
-                                                            <h5>
-                                                                <a href="{{ url('/blog/' . $rBlog->blog_url) }}" class="blog__title">
-                                                                    {{ $rBlog->blog_title }}
-                                                                </a>
-                                                            </h5>
-                                                            <p>
-                                                                {{ Str::limit(strip_tags($rBlog->blog_content), 250, '...') }}
-
-                                                            </p>
-
-                                                            <div class="mt-3">
-                                                                <a href="{{ url('/blog/' . $rBlog->blog_url) }}" class="blog__btn border rounded-pill cus-url-btn float-end me-4">
-                                                                    Read More <span><i class="fa-solid fa-arrow-right"></i></span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-
-                                                    </div>
-                                                    @endforeach
-
                                                 </div>
-                                            </div>
-                                        </section>
+                                                <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                                                    <div class="g-recaptcha"
+                                                        data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
+                                                    <span id="captchaErr"
+                                                        class="error-message"><?php //echo $captchaErr;
+                                                        ?></span>
+                                                </div>
+                                                <div class="form-group submit">
+                                                    <input type="submit" id="submitBtn"
+                                                        class="btn btn-dark w-100 submitBtn" value="Submit">
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
+                                </aside>
+
+                            </div>
+                        </div>
+    <section class="related-blogs pt-5">
+        <div class="container">
+            <h3 class="mb-3">Latest Blogs</h3>
+<div class="row reset-grid blog_listing">
+
+                             @foreach ($relatedBlogs as $rBlog)
+                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                                    <article class="blog__item">
+                                        <div class="blog__img-wrapper">
+                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}">
+                                                <div class="img-box">
+                                                    <img class="image-box__item" src="{{ asset($rBlog->thumb_image) }}"
+                                                        alt="{{ $rBlog->blog_title }}" />
+                                                    <img class="image-box__item" src="{{ asset($rBlog->thumb_image) }}"
+                                                        alt="{{ $rBlog->blog_title }}" />
+                                                </div>
+                                            </a>
+                                        </div>
+										@php
+        $category = \App\Models\Categories::find($rBlog->category_id);
+    @endphp
+                                        <h4 class="blog__meta">
+                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}">
+                                                {{ $category->name  ?? '' }}
+                                                {{ $rBlog->post_author ?? '' }}
+                                            </a>
+                                            . {{ \Carbon\Carbon::parse($rBlog->created_at)->format('d M Y') }}
+                                        </h4>
+                                        <h5>
+                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}" class="blog__title">
+                                                {{ $rBlog->blog_title }}
+                                            </a>
+                                        </h5>
+                                        <p>
+                                            {{ Str::limit(strip_tags($rBlog->blog_content), 250, '...') }}
+
+                                        </p>
+
+                                        <div class="mt-3">
+                                            <a href="{{ url('/blog/' . $rBlog->blog_url) }}" class="blog__btn border rounded-pill cus-url-btn float-end me-4">
+                                                Read More <span><i class="fa-solid fa-arrow-right"></i></span>
+                                            </a>
+                                        </div>
+                                    </article>
+
+                                </div>
+                            @endforeach
+                           
+                        </div>
+        </div>
+    </section>
+                    </div>
                 </section>
                 <!-- Blog area end -->
 
