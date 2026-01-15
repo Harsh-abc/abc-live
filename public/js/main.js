@@ -3719,7 +3719,7 @@
             common: "Custom Design",
             binomial: "ABC Designs Portfolio",
             photo: {
-                imgUrl: "https://abcdesigns.in/img/portfolio/49.jpg", // <-- Your custom imgUrl here
+                imgUrl: "/img/case-study/case-study-1.png", // <-- Your custom imgUrl here
                 text: "Custom portfolio image",
                 pos: "50%",
                 by: "ABC Designs",

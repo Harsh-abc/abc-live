@@ -52,7 +52,7 @@
                                     <span class="text-white">Written by: <span style="color: {{ $blog->highlight_color ?? '#ffc107' }}">{{ $blog->post_author }}</span></span>
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-12 mt-4 mt-lg-0">
+                            <div class="col-lg-4 col-md-12 mt-4 mt-lg-0">
                                 <figure class="mb-0">
                                     <img src="{{ asset($blog->banner_image_1 ?? 'https://moz.com/images/blog/insets/Local-SEO.png?w=1360&h=900&auto=compress%2Cformat&fit=crop&dm=1757710396&s=8a42f69376c6267d1cc2c65929cb88b1') }}"
                  alt="{{ $blog->alt_text_banner_1 ?? $blog->blog_title }}"
