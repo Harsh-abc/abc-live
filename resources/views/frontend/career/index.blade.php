@@ -1,7 +1,7 @@
 @include('frontend.layout.header')
 
 <body>
-    @include('frontend.layout.nav')
+  @include('frontend.layout.nav')
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                  </a>
 
 
                 <!-- Career gallery start -->
@@ -64,86 +64,31 @@
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- Career gallery end -->
-
-                <section class="marquee-container-wrapper">
-                    <div class="pause-indicator" id="pauseIndicator">Paused</div>
-
-                    <!-- Marquee Left to Right -->
-                    <div class="marquee-section">
-                        <div class="marquee-wrapper">
-                            <div class="marquee-container" id="marquee-ltr">
-                                <div class="marquee-content">
-                                    <div class="marquee-item">
-                                        <img src="/img/office/001.webp"  class="w-100 h-100 object-fit-contain" alt="Image 1">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/002.webp"  class="w-100 h-100 object-fit-contain" alt="Image 2">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/003.webp"  class="w-100 h-100 object-fit-contain" alt="Image 3">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/004.webp"  class="w-100 h-100 object-fit-contain" alt="Image 4">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/005.webp"  class="w-100 h-100 object-fit-contain" alt="Image 5">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/006.webp"  class="w-100 h-100 object-fit-contain" alt="Image 6">
-                                    </div>
-                                     <div class="marquee-item">
-                                        <img src="/img/office/007.webp"  class="w-100 h-100 object-fit-contain" alt="Image 7">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/008.webp"  class="w-100 h-100 object-fit-contain" alt="Image 8">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/009.webp"  class="w-100 h-100 object-fit-contain" alt="Image 9">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  </a>
+                  <!--
+                  <a href="/career/frontend-developer">
+                    <div class="job__item">
+                      <p class="job__no">02</p>
+                      <h3 class="job__title">Frontend Developer</h3>
+                      <h4 class="job__open">(02 Open Roles)</h4>
+                      <div class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></div>
                     </div>
-
-                    <!-- Marquee Right to Left -->
-                    <div class="marquee-section">
-                        <div class="marquee-wrapper">
-                            <div class="marquee-container" id="marquee-rtl">
-                                <div class="marquee-content">
-                                    <div class="marquee-item">
-                                        <img src="/img/office/010.webp" class="w-100 h-100 object-fit-contain"  alt="Image 10">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/011.webp" class="w-100 h-100 object-fit-contain"  alt="Image 11">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/012.webp" class="w-100 h-100 object-fit-contain"  alt="Image 12">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/013.webp" class="w-100 h-100 object-fit-contain"  alt="Image 12">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/014.webp" class="w-100 h-100 object-fit-contain"  alt="Image 12">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/015.webp" class="w-100 h-100 object-fit-contain"  alt="Image 12">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/016.webp" class="w-100 h-100 object-fit-contain"  alt="Image 12">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/017.webp" class="w-100 h-100 object-fit-contain"  alt="Image 12">
-                                    </div>
-                                    <div class="marquee-item">
-                                        <img src="/img/office/018.webp" class="w-100 h-100 object-fit-contain"  alt="Image 12">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  </a>
+                  <a href="/career/backend-developer">
+                    <div class="job__item">
+                      <p class="job__no">03</p>
+                      <h3 class="job__title">Backend Developer</h3>
+                      <h4 class="job__open">(03 Open Roles)</h4>
+                      <div class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></div>
                     </div>
-                </section>
+                  </a>
+					-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Career area end -->
 
 
                 <!-- Career area start -->
@@ -401,130 +346,116 @@
             </div>
           </div>
         </section> -->
-                <!-- Career benifit area end -->
+        <!-- Career benifit area end -->
 
 
+        <!-- Career benifit area start -->
+        <section class="career__benefits">
+          <div class="container g-0 pb-90">
+            <span class="line-3"></span>
 
-
-                <!-- Career benifit area start -->
-                <section class="career__benefits">
-                    <div class="container g-0 pb-90">
-                        <span class="line-3"></span>
-
-                        <div class="row justify-content-center contact__btm" id="contact-form">
-                            <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-9">
-                                <div class="sec-title-wrapper text-center">
-                                    <h2 class="sec-title-2 animation__char_come">Wanna work with us?</h2>
-                                </div>
-                            </div>
-                            <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 pt-100">
-                                <div class="contact__form contact_form">
-                                    <form name="contactform" method="post" action="/career-add"
-                                        enctype="multipart/form-data" id="contactform" onsubmit="loader_load()">
-                                        @csrf
-                                        <div class="row">
-                                            <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                {{-- <input type="text" class="form-control" id="name" name="name" placeholder="Name"
-                          value="<?php //echo $name;
-                          ?>" required="required">
+            <div class="row justify-content-center contact__btm">
+              <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-9">
+                <div class="sec-title-wrapper text-center">
+                  <h2 class="sec-title-2 animation__char_come">Wanna work with us?</h2>
+                </div>
+              </div>
+              <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 pt-100">
+                <div class="contact__form contact_form">
+                  <form name="contactform" method="post" action="/career-add" enctype="multipart/form-data"
+                    id="contactform" onsubmit="loader_load()">
+                    @csrf
+                    <div class="row">
+                      <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                        {{-- <input type="text" class="form-control" id="name" name="name" placeholder="Name"
+                          value="<?php //echo $name;?>" required="required">
                         <span id="nameErr" class="error-message">
-                          <?php //echo $nameErr;
-                          ?>
+                          <?php //echo $nameErr;?>
                         </span> --}}
-                                                <input type="text"
-                                                    class="form-control @error('name') is-invalid @enderror"
-                                                    id="name" name="name" placeholder="Name"
-                                                    value="{{ old('name') }}" required="required">
-                                                @error('name')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
+                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
+                          name="name" placeholder="Name" value="{{ old('name') }}" required="required">
+                        @error('name')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror
+                      </div>
 
-                                            <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                {{-- <input type="text" class="form-control" id="contact" name="contact"
-                          placeholder="Phone Number" value="<?php //echo $contact;
-                          ?>" required="required">
+                      <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                        {{-- <input type="text" class="form-control" id="contact" name="contact"
+                          placeholder="Phone Number" value="<?php //echo $contact;?>" required="required">
                         <span id="contactErr" class="error-message">
-                          <?php //echo $contactErr;
-                          ?>
+                          <?php //echo $contactErr;?>
                         </span> --}}
 
-                                                <input type="number"
-                                                    class="form-control @error('contact') is-invalid @enderror"
-                                                    id="contact" name="contact" placeholder="Phone Number"
-                                                    value="{{ old('contact') }}" required="required">
-                                                @error('contact')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
+                        <input type="number" class="form-control @error('contact') is-invalid @enderror" id="contact"
+                          name="contact" placeholder="Phone Number" value="{{ old('contact') }}" required="required">
+                        @error('contact')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror
+                      </div>
 
-                                            <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                <input type="email"
-                                                    class="form-control @error('email') is-invalid @enderror"
-                                                    id="email" name="email" placeholder="Email Address"
-                                                    value="{{ old('email') }}" required="required">
-                                                @error('email')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
+                      <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                        <input type="email" class="form-control @error('email') is-invalid @enderror" id="email"
+                          name="email" placeholder="Email Address" value="{{ old('email') }}" required="required">
+                        @error('email')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror
+                      </div>
 
-                                            <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                <input type="location"
-                                                    class="form-control @error('location') is-invalid @enderror"
-                                                    id="location" name="location" placeholder="Location"
-                                                    value="{{ old('location') }}" required="required">
-                                                @error('location')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
+                      <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                        <input type="location" class="form-control @error('location') is-invalid @enderror"
+                          id="location" name="location" placeholder="Location" value="{{ old('location') }}"
+                          required="required">
+                        @error('location')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror
+                      </div>
 
-                                            <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                <select class="form-select" name="job_role">
-                                                    <option selected> Select Job Role </option>
-                                                    <option value="UI/UX Designer"> UI/UX Designer </option>
-                                                    <option value="Frontend Developer">Frontend Developer </option>
-                                                    <option value="Backend Developer"> Backend Developer </option>
-                                                    <option value="App Developer"> App Developer </option>
-                                                    <option value="Graphic Designer"> Graphic Designer </option>
-                                                    <option value="Other"> Other </option>
-                                                </select>
-                                                @error('job_role')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
+                      <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                        <select class="form-select" name="job_role">
+                          <option selected> Select Job Role </option>
+                          <option value="UI/UX Designer"> UI/UX Designer </option>
+                          <option value="Frontend Developer">Frontend Developer </option>
+                          <option value="Backend Developer"> Backend Developer </option>
+                          <option value="App Developer"> App Developer </option>
+                          <option value="Graphic Designer"> Graphic Designer </option>
+                          <option value="Other"> Other </option>
+                        </select>
+                        @error('job_role')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror
+                      </div>
 
-                                            <div class="col-xxl-6 col-xl-6 col-12 form-group fileUpload required">
-                                                <input name="attachment" type="file" id="attachment"
-                                                    name="attachment" class="inputfile inputfile-3 upload_file"
-                                                    required="required" accept="application/pdf" />
-                                                <label for="attachment"><img src="/img/icons/upload.png"
-                                                        alt="image"><span>Attach Your
-                                                        CV&hellip;</span></label>
-                                                @error('attachment')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
+                      <div class="col-xxl-6 col-xl-6 col-12 form-group fileUpload required">
+                        <input name="attachment" type="file" id="attachment" name="attachment"
+                          class="inputfile inputfile-3 upload_file" required="required" accept="application/pdf" />
+                        <label for="attachment"><img src="/img/icons/upload.png" alt="image"><span>Attach Your
+                            CV&hellip;</span></label>
+                        @error('attachment')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror
+                      </div>
 
-                                            <div class="col-12 form-group required">
-                                                <textarea type="textbox" class="form-control" id="message" name="message" placeholder="Message..." required></textarea>
-                                                @error('message')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
+                      <div class="col-12 form-group required">
+                        <textarea type="textbox" class="form-control" id="message" name="message"
+                          placeholder="Message..." required></textarea>
+                        @error('message')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror
+                      </div>
 
                                             <div class="col-12 form-group required">
                                                 <div class="g-recaptcha"
@@ -545,17 +476,23 @@
                                 </div>
                             </div>
                         </div>
+                      </div>
                     </div>
-                </section>
-                <!-- Career benifit area end -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Career benifit area end -->
 
 
-            </main>
+      </main>
 
 
-            @include('frontend.layout.footer')
+      @include('frontend.layout.footer')
 
-        </div>
     </div>
+  </div>
 
-    <script src="/js/custom-file-input.js"></script>
+  <script src="/js/custom-file-input.js"></script>

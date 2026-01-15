@@ -34427,6 +34427,12 @@ main > .service-sub-sec {
     padding-top: 30px !important;
 }
 
+.blog__area-6 .img-box img{
+    object-fit: cover;
+.blog__area-6 .img-box img{
+    object-fit: cover;
+}
+
 @media (max-width: 767px) {
     .brand__item {
         border-left: 1px solid var(--white-3);

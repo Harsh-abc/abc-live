@@ -25,15 +25,15 @@
 			</div>
 		</section>
 		
-		<section class="service__area-3 service-v3 pb-80">
+		<section class="service__area-3 service-v3 pb-150">
 			<div class="container">  
-				<div class="row pt-4">
+				<div class="row pt-140">
 					<div class="col-xxl-12">
 						<div class="service__list-2 animation__service-2">
 							<div class="service__item-2">
 								<div>
-									<img src="/img/icons/3d-designing.png" alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
-									<h3><a href="/web-solutions/interactive-solutions" class="service__title-2">Website Design & Development</a></h3>
+									<img src="/img/1.png" alt="Service Icon">
+									<h3><a href="/web-solutions/interactive-solutions" class="service__title-2"> Interactive  <br />Solutions </a></h3>
 									
 									<p> In today's digital world, the need for engaging and interactive experiences has never been greater. At ABC Designs, we specialize in providing tailored <b>interactive solutions</b> that captivate users and elevate brands. </p> 
 									
@@ -42,8 +42,8 @@
 							</div> <!-- -->
 							<div class="service__item-2">
 								<div>
-									<img src="/img/icons/app-development.png" alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
-									<h3><a href="/web-solutions/custom-web-development" class="service__title-2">App Design & Development</a></h3>
+									<img src="/img/2.png" alt="Service Icon">
+									<h3><a href="/web-solutions/custom-web-development" class="service__title-2"> Web Design & Development </a></h3>
 									
 									<p> We are passionate about creating exceptional web experiences that make a lasting impact. Our web design and development services combine cutting-edge technology, creativity, and user-centric design principles to build websites that not only look stunning but also drive results.</p>
 									
@@ -52,8 +52,8 @@
 							</div> <!-- -->
 							<div class="service__item-2">
 								<div>
-									<img src="/img/icons/web-design.png" alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
-									<h3><a href="/web-solutions/ecommerce-development" class="service__title-2">UI/UX Design</a></h3>
+									<img src="/img/3.png" alt="Service Icon">
+									<h3><a href="/web-solutions/ecommerce-development" class="service__title-2">E-Commerce <br>Development</a></h3>
 									
 									<p>  We specialize in creating robust and user-friendly e-commerce solutions that empower businesses to thrive in the digital marketplace. Our e-commerce development services combine cutting-edge technology, strategic planning, and a deep understanding of user behavior to build seamless and engaging online shopping experiences. </p>
 									
@@ -63,8 +63,8 @@
 							
 							<div class="service__item-2">
 								<div>
-									<img src="/img/icons/brand-identity.png" alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
-									<h3 class=""><a href="/digital-marketing/social-media" class="service__title-3">Digital Marketing Services</a></h3> 
+									<img src="/img/1.png" alt="Service Icon">
+									<h3 class=""><a href="/digital-marketing/social-media" class="service__title-3"> Social Media </a></h3> 
 									<p> In today's digital age, social media has become an integral part of any successful marketing strategy. We specialize in harnessing the power of social media to help businesses build strong online communities, drive engagement, and amplify their brand influence. Our social media services encompass strategic planning, content creation, community management, and data-driven insights. </p> 
 									
 									<a href="/digital-marketing/social-media" class="service_view"> View Details </a> 
@@ -72,13 +72,32 @@
 							</div> <!-- -->
 							<div class="service__item-2">
 								<div>
-									<img src="/img/icons/branding.png" alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
-									<h3 class=""><a href="/digital-marketing/search-engine-optimization" class="service__title-2">Branding & Creative Design</a> </h3> 
+									<img src="/img/2.png" alt="Service Icon">
+									<h3 class=""><a href="/digital-marketing/search-engine-optimization" class="service__title-2"> SEO <small>( Search Engine Optimization )</small>  </a> </h3> 
 									<p> In the highly competitive digital landscape, having a strong online presence is essential for businesses to succeed. We specialize in Search Engine Optimization (SEO), a strategic approach that helps businesses improve their website's visibility in search engine results. </p>
 									
 									<a href="/digital-marketing/search-engine-optimization" class="service_view"> View Details </a>  
 								</div>
-							</div>
+							</div> <!-- -->
+							<div class="service__item-2">
+								<div>
+									<img src="/img/3.png" alt="Service Icon">
+									<h3 class=""><a href="/digital-marketing/search-engine-marketing" class="service__title-3"> SEM <small>( Search Engine Marketing )</small>  </a> </h3> 
+									<p> In the highly competitive digital landscape, having a strong online presence is essential for businesses to succeed. We specialize in Search Engine Optimization (SEO), a strategic approach that helps businesses improve their website's visibility in search engine results. </p>
+									
+									<a href="/digital-marketing/search-engine-marketing" class="service_view"> View Details </a> 
+								</div>
+							</div> <!-- --> 
+							
+							<div class="service__item-2">
+								<div>
+									<img src="/img/3.png" alt="Service Icon">
+									<h3 class=""><a href="/digital-marketing/content-writing" class="service__title-3"> Content Writing  </a> </h3> 
+									<p>  In the highly competitive digital landscape, having a strong online presence is essential for businesses to succeed. We specialize in Search Engine Optimization (SEO), a strategic approach that helps businesses improve their website's visibility in search engine results. </p>
+									
+									<a href="/digital-marketing/content-writing" class="service_view"> View Details </a> 
+								</div>
+							</div> <!-- -->    
 						</div>
 					</div>
 				</div>
