@@ -1,0 +1,186 @@
+[
+    {
+        "id": "01",
+        "title": "Google",
+        "logo": "/img/clients/google.webp",
+        "show": "1"
+    },
+    {
+        "id": "02",
+        "title": "Facebook",
+        "logo": "/img/clients/facebook.webp",
+        "show": "1"
+    },
+    {
+        "id": "03",
+        "title": "Unilever Case Studies",
+        "logo": "/img/clients/unilever.webp",
+        "show": "1"
+    },
+    {
+        "id": "04",
+        "title": "Amazon Prime",
+        "logo": "/img/clients/amazon_prime.webp",
+        "show": "1"
+    },
+    {
+        "id": "05",
+        "title": "Aditya Birla",
+        "logo": "/img/clients/aditya_birla.webp",
+        "show": "1"
+    },
+    {
+        "id": "06",
+        "title": "JW Marriott",
+        "logo": "/img/clients/jw-marriot.webp",
+        "show": "1"
+    },
+
+    {
+        "id": "07",
+        "title": "Jaguar",
+        "logo": "/img/clients/jagquar.webp",
+        "show": "1"
+    },
+    {
+        "id": "08",
+        "title": "The Times of India",
+        "logo": "/img/clients/the-times-of-india.webp",
+        "show": "1"
+    },
+    {
+        "id": "09",
+        "title": "MTV",
+        "logo": "/img/clients/mtv.webp",
+        "show": "1"
+    },
+    {
+        "id": "10",
+        "title": "Duracell",
+        "logo": "/img/clients/duracell.webp",
+        "show": "1"
+    },
+    {
+        "id": "11",
+        "title": "Godrej",
+        "logo": "/img/clients/godrej.webp",
+        "show": "1"
+    },
+    {
+        "id": "12",
+        "title": "Volkswagen",
+        "logo": "/img/clients/volkswagen.webp",
+        "show": "1"
+    },
+
+    {
+        "id": "13",
+        "title": "Intel",
+        "logo": "/img/clients/intel.webp",
+        "show": "1"
+    },
+    {
+        "id": "14",
+        "title": "SBI",
+        "logo": "/img/clients/sbi_life.webp",
+        "show": "1"
+    },
+    {
+        "id": "15",
+        "title": "HP PAY",
+        "logo": "/img/clients/hp_pay.webp",
+        "show": "1"
+    },
+    {
+        "id": "16",
+        "title": "Nestle",
+        "logo": "/img/clients/nestle.webp",
+        "show": "1"
+    },
+    {
+        "id": "17",
+        "title": "YouTube",
+        "logo": "/img/clients/youtube.webp",
+        "show": "1"
+    },
+    {
+        "id": "18",
+        "title": "Audi",
+        "logo": "/img/clients/audi.webp",
+        "show": "1"
+    },
+
+    {
+        "id": "19",
+        "title": "TATA",
+        "logo": "/img/clients/tata.webp",
+        "show": "1"
+    },
+    {
+        "id": "20",
+        "title": "Nasscom",
+        "logo": "/img/clients/nasscom.webp",
+        "show": "1"
+    },
+    {
+        "id": "21",
+        "title": "Colors",
+        "logo": "/img/clients/colors.webp",
+        "show": "1"
+    },
+    {
+        "id": "22",
+        "title": "Mahindra",
+        "logo": "/img/clients/mahindra.webp",
+        "show": "1"
+    },
+    {
+        "id": "23",
+        "title": "Deloitte",
+        "logo": "/img/clients/deloitte.webp",
+        "show": "1"
+    },
+    {
+        "id": "24",
+        "title": "Renault",
+        "logo": "/img/clients/renault.webp",
+        "show": "1"
+    },
+
+    {
+        "id": "25",
+        "title": "Skoda",
+        "logo": "/img/clients/skoda.webp",
+        "show": "1"
+    },
+    {
+        "id": "26",
+        "title": "Raymond",
+        "logo": "/img/clients/raymond.webp",
+        "show": "1"
+    },
+    {
+        "id": "27",
+        "title": "DHL",
+        "logo": "/img/clients/dhl.webp",
+        "show": "1"
+    },
+    {
+        "id": "28",
+        "title": "HSBC",
+        "logo": "/img/clients/hsbc.webp",
+        "show": "1"
+    },
+    {
+        "id": "29",
+        "title": "VIVA ACP",
+        "logo": "/img/clients/viva.webp",
+        "show": "1"
+    },
+    {
+        "id": "30",
+        "title": "Sun Pharma",
+        "logo": "/img/clients/sunpharma.webp",
+        "show": "1"
+    }
+]
