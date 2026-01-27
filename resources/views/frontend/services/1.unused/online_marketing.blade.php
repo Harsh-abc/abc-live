@@ -183,14 +183,6 @@ $page_head = ucwords($page_head);
           </div>
         </section>
         <!-- FAQ area end -->
-
-
-        <!-- CTA area start -->
-        <section class="pt-30">
-			@include('frontend.layout.cta')
-		</section>
-        <!-- CTA area end -->
-
       </main>
 
 		@include('frontend.layout.footer')

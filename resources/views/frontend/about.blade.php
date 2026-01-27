@@ -2,6 +2,27 @@
 
 <body>
   @include('frontend.layout.nav')
+  <!-- ========== LOADER - Place immediately after body ========== -->
+    <div id="page-loader" class="loader-wrapper">
+        <div class="loader-content">
+            <!-- Replace with your company logo -->
+            <div class="logo-container">
+                <img src="/img/abc-loader.webp" alt="Company Logo" class="loader-logo">
+            </div>
+
+            <!-- Spinner animation around/below logo -->
+            <div class="spinner"></div>
+
+            {{-- Optional: Loading text
+            <p class="loading-text">Loading<span class="dots"></span></p> --}}
+
+            <!-- Optional: Progress bar -->
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== END LOADER ========== -->
 
 
   <div id="smooth-wrapper">
@@ -92,20 +113,20 @@
 
               </div>
             </div>
-            <div class="row">
+            <div class="row pb-100">
               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                 <div class="story__img-wrapper">
-                  <img src="/img/office/IMG_6555.PNG" alt="Story Thumbnail" class="w-100">
+                  <img src="/img/office/IMG_6555.webp" alt="Story Thumbnail" class="w-100">
                 </div>
               </div>
               <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                 <div class="story__img-wrapper img-anim">
-                  <img src="/img/office/IMG_6559.PNG" alt="Story Thumbnail" data-speed="auto">
+                  <img src="/img/office/IMG_6559.webp" alt="Story Thumbnail" data-speed="auto">
                 </div>
               </div>
               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                 <div class="story__img-wrapper">
-                  <img src="/img/office/IMG_6560.PNG" alt="Story Thumbnail" class="w-100">
+                  <img src="/img/office/IMG_6560.webp" alt="Story Thumbnail" class="w-100">
                 </div>
               </div>
               <!-- <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -258,10 +279,6 @@
           </div>
         </section>
         <!-- Team area end -->
-
-        <section class="pt-100">
-          @include('frontend.layout.cta')
-        </section>
 
       </main>
       @include('frontend.layout.footer')

@@ -1,17 +1,38 @@
 @include('frontend.layout.header')
 
-<body>
+<body class="">
     @include('frontend.layout.nav')
+
+    <!-- ========== LOADER - Place immediately after body ========== -->
+    <div id="page-loader" class="loader-wrapper">
+        <div class="loader-content">
+            <!-- Replace with your company logo -->
+            <div class="logo-container">
+                <img src="/img/abc-loader.webp" alt="Company Logo" class="loader-logo">
+            </div>
+
+            <!-- Spinner animation around/below logo -->
+            <div class="spinner"></div>
+
+            {{-- Optional: Loading text
+            <p class="loading-text">Loading<span class="dots"></span></p> --}} --}}
+
+            <!-- Optional: Progress bar -->
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== END LOADER ========== -->
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
-            <main>
+            <main class="survices-sub-sec">
 
                 <!-- Development area start -->
                 <section class="development__area service-sub-sec">
                     <div class="container-fluid g-0 overflow-hidden" style="overflow-x: hidden !important">
-                        <div class="row justify-content-between px-1 pb-50 blog-header-banner"
-                            style="background-image: url(https://www.techmagnate.com/wp-content/themes/techmagnate/images/service-back-img.webp)">
+                        <div class="row justify-content-between px-1 pb-50 blog-header-banner">
                             <div class="col-lg-7 col-md-12">
                                 <h1 class="sec-title title-anim text-white">Marketing Creatives That Drive Attention, Engagement & Conversions</h1>
 
@@ -23,7 +44,7 @@
                                     </p>
                                 </div>
                                 <div class="my-3">
-                                    <a href="#contact-form"
+                                    <a href="/contact-us"
                                         class="blog__btn border rounded-pill cus-url-btn px-4 py-3 me-4 text-white">
                                         Speak to an Expert <span><i class="fa-solid fa-arrow-right"></i></span>
                                     </a>
@@ -31,7 +52,7 @@
                             </div>
                             <div class="col-lg-5 col-md-12 w-fit mt-4 mt-lg-0 sss-banner-right">
                                 <figure class="mb-0" id="bounceImage">
-                                    <img src="https://www.techmagnate.com/wp-content/uploads/2025/10/SEO-Services.webp"
+                                    <img src="/img/service/branding/marketing-creatives-header.webp"
                                         alt="Marketing Creatives Services" class="img-fluid rounded">
                                 </figure>
                             </div>
@@ -206,7 +227,7 @@
                     <div class="my-4">
 
                         <figure class="float-end ms-4 mb-3" style="max-width: 420px;">
-                            <img src="https://www.techmagnate.com/wp-content/uploads/2025/01/Partner-with-the-Best-SEO-Company-for-Business-Growth-1-1.webp"
+                            <img src="/img/service/branding/marketing-creatives-bg.webp"
                                 alt="Marketing Creatives Agency" class="img-fluid rounded">
                         </figure>
 
@@ -586,13 +607,15 @@
                     <div class="container g-0 pb-140">
                         <div class="line-3"></div>
                         <div class="row">
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                            <div class="col-6">
                                 <div class="faq__img">
                                     <img src="/img/service/interactivesolutions_4.jpg" alt="FAQ Image"
-                                        data-speed="auto">
+                                        data-speed="auto" class="faq-img-paral">
+                                    <img src="/img/service/interactivesolutions_4.jpg" alt="FAQ Image"
+                                        class="faq-img-noparal">
                                 </div>
                             </div>
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                            <div class="col-6">
                                 <div class="faq__content">
                                     <h2 class="faq__title title-anim">Frequently Asked Questions</h2>
                                     <div class="faq__list">
@@ -721,14 +744,6 @@
                     </div>
                 </section>
                 <!-- FAQ area end -->
-
-
-                <!-- CTA area start -->
-                <section class="pt-30">
-                    @include('frontend.layout.cta')
-                </section>
-                <!-- CTA area end -->
-
             </main>
 
             @include('frontend.layout.footer')

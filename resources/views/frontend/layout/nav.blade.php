@@ -33,19 +33,19 @@
 <div class="phone_connect effect-8">
     <a href="tel:918433303188" class="whatsapp" aria-label="Whatsapp" title="Whatsapp" target="_blank"
         style="color:#fff;line-height:16px;">
-        <img src="/img/call_cta_1.png" alt="">
+        <img src="/img/call_cta_1.webp" alt="call" loading="lazy">
     </a>
 </div>
 <div class="email_connect effect-8">
     <a href="mailto:info@abcdesigns.in" class="whatsapp" aria-label="Whatsapp" title="Whatsapp" target="_blank"
         style="color:#fff;line-height:16px;">
-        <img src="/img/gmail_cta.png" alt="">
+        <img src="/img/gmail_cta.webp" alt="gmail" loading="lazy">
     </a>
 </div>
 <div class="whatsapp_connect effect-8">
     <a href="https://wa.me/918433303188" class="whatsapp" aria-label="Whatsapp" title="Whatsapp" target="_blank"
         style="color:#fff;line-height:16px;">
-        <img src="/img/whatsapp.png" alt="">
+        <img src="/img/whatsapp.png" alt="whatsapp" loading="lazy">
     </a>
 </div>
 
@@ -96,7 +96,7 @@
                                 <!-- <li> <a href="/services/cms-development"> CMS Development </a></li> &#128898;-->
                             </ul>
                         </li>
-                        <li> <a href="#">App Design & Development<span class="drop-down-icon"></span></a>
+                        <li> <a href="/app-design-and-development">App Design & Development<span class="drop-down-icon"></span></a>
                             <ul class="drop-down-ul">
                                 <li> <a href="/app-design-and-development/mobile-app-ui-ux-design">Mobile App UI/UX
                                         Design</a></li>
@@ -110,7 +110,7 @@
                                         & Support</a></li>
                             </ul>
                         </li>
-                        <li> <a href="#">UI/UX Design<span class="drop-down-icon"></span></a>
+                        <li> <a href="/ui-ux-design">UI/UX Design<span class="drop-down-icon"></span></a>
                             {{-- <ul class="drop-down-ul">
 								<li> <a href="/digital-marketing/search-engine-optimization"> Search Engine Optimization (SEO) Services </a>
 								</li>
@@ -119,7 +119,7 @@
 								<li> <a href="/digital-marketing/content-writing"> Content Marketing & Content Writing Services </a></li>
 							</ul> --}}
                         </li>
-                        <li> <a href="#">Digital Marketing Services<span class="drop-down-icon"></span></a>
+                        <li> <a href="/digital-marketing-services">Digital Marketing Services<span class="drop-down-icon"></span></a>
                             <ul class="drop-down-ul">
                                 <li> <a href="/digital-marketing/search-engine-optimization">Search Engine Optimization
                                         (SEO)</a></li>
@@ -135,7 +135,7 @@
                                 <!-- <li> <a href="#"> Brand Guidelines </a></li>  -->
                             </ul>
                         </li>
-                        <li> <a href="#">Branding & Creative Design<span class="drop-down-icon"></span></a>
+                        <li> <a href="/branding-and-creative-design">Branding & Creative Design<span class="drop-down-icon"></span></a>
                             <ul class="drop-down-ul">
                                 <li> <a href="/branding-and-creative-design/branding-solutions">Branding Solutions</a>
                                 </li>
@@ -221,7 +221,7 @@
                                                 Maintenance & Support</a></li>
                                     </ul>
                                 </li>
-                                <li> <a href="#"> App Design & Development </a>
+                                <li> <a href="/app-design-and-development"> App Design & Development </a>
                                     <ul>
                                         <li> <a href="/app-design-and-development/mobile-app-ui-ux-design">Mobile App
                                                 UI/UX Design</a></li>
@@ -235,7 +235,7 @@
                                                 Maintenance & Support</a></li>
                                     </ul>
                                 </li>
-                                <li> <a href="#"> UI/UX Design </a>
+                                <li> <a href="/ui-ux-design"> UI/UX Design </a>
                                     {{-- <ul>
                                         <li> <a href="/digital-marketing/search-engine-optimization"> SEO Service </a>
                                         </li>
@@ -245,7 +245,7 @@
                                         <li> <a href="/digital-marketing/content-writing"> Content Writing </a></li>
                                     </ul> --}}
                                 </li>
-                                <li> <a href="#"> Digital Marketing Services </a>
+                                <li> <a href="/digital-marketing-services"> Digital Marketing Services </a>
                                     <ul>
                                         <li> <a href="/digital-marketing/search-engine-optimization">Search Engine
                                                 Optimization (SEO)</a></li>
@@ -260,7 +260,7 @@
                                                 Marketing & Writing</a></li>
                                     </ul>
                                 </li>
-                                <li> <a href="#"> Branding & Creative Design </a>
+                                <li> <a href="/branding-and-creative-design"> Branding & Creative Design </a>
                                     <ul>
                                         <li> <a href="/branding-and-creative-design/branding-solutions">Branding
                                                 Solutions</a>

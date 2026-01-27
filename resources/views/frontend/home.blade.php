@@ -1,18 +1,29 @@
 @include('frontend.layout.header')
 
-<body class="video_start">
+<body class="">
+    {{-- video_start --}}
     @include('frontend.layout.nav')
-    <!--
- <div class="page-loader">
-    <div class="clock" id="clock"> </div> 
-  <video id="loading-video" autoplay muted>
-   <source src="/video/intro.mp4?ver=0.1" type="video/mp4">
-   <source src="/video/intro.ogg?ver=0.1" type="video/ogg">
-   Your browser does not support HTML5 video.
-  </video>
- </div>
- -->
+    <!-- ========== LOADER - Place immediately after body ========== -->
+    <div id="page-loader" class="loader-wrapper">
+        <div class="loader-content">
+            <!-- Replace with your company logo -->
+            <div class="logo-container">
+                <img src="/img/abc-loader.webp" alt="Company Logo" class="loader-logo">
+            </div>
 
+            <!-- Spinner animation around/below logo -->
+            <div class="spinner"></div>
+
+            {{-- Optional: Loading text
+            <p class="loading-text">Loading<span class="dots"></span></p> --}}
+
+            <!-- Optional: Progress bar -->
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== END LOADER ========== -->
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
@@ -24,16 +35,6 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="hero__content animation__hero_one">
-                                    <!-- <div class="trustpilot-widget" data-locale="en-US"
-                                        data-template-id="56278e9abfbbba0bdcd568bc"
-                                        data-businessunit-id="68d3d6ac3839e04f85ec2415" data-style-height="52px"
-                                        data-style-width="" data-token="68811fad-954f-4a4f-ab9b-35d1b151467d"
-                                        style="margin-left: -60px;">
-                                        <a href="https://www.trustpilot.com/review/abcdesigns.in" target="_blank"
-                                            rel="noopener">Trustpilot</a>
-                                    </div> -->
-                                    {{-- <a href="/services">Strategy, Design, Solution Development <span> <i
-                                                class="fa-solid fa-arrow-right"></i></span></a> --}}
                                     <div class="hero__title-wrapper row">
                                         <div class="col-7 d-flex flex-column justify-content-center align-items-start">
                                             <h1 class="hero__title">We Build Digital <br>Growth Through</h1>
@@ -47,133 +48,132 @@
                                                 </p>
                                             </div>
 
-                                            <div class="hero_form_wrapper">
-                                                <!-- <div class="img_container">
+                                        </div>
+                                        <div class="hero_form_wrapper col-5">
+                                            <!-- <div class="img_container">
                                                 <img src="/img/logo_light.png" alt="" class="img-fluid">
                                             </div> -->
-                                                <h4 class="hero_form_heading">Let's Connect With Us!</h4>
-                                                <p class="hero_form_para">We create digital experiences that shape the
-                                                    future, today! Helping
-                                                    clients imagine & innovate.</p>
-                                                <form method="post" action="/contact-us" id="contactforms">
-                                                    @csrf
-                                                    <div class="form-row">
-                                                        <div class="form-floating mb-3">
-                                                            <input type="text"
-                                                                class="form-control @error('name') is-invalid @enderror"
-                                                                id="name" name="name" placeholder="Name*"
-                                                                value="{{ old('name') }}">
-                                                            @error('name')
+                                            <h4 class="hero_form_heading">Let's Connect With Us!</h4>
+                                            <p class="hero_form_para">We create digital experiences that shape the
+                                                future, today! Helping
+                                                clients imagine & innovate.</p>
+                                            <form method="post" action="/contact-us" id="contactforms">
+                                                @csrf
+                                                <div class="form-row">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text"
+                                                            class="form-control @error('name') is-invalid @enderror"
+                                                            id="name" name="name" placeholder="Name*"
+                                                            value="{{ old('name') }}">
+                                                        @error('name')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
-                                                            @enderror
-                                                            <label for="name">Name</label>
-                                                        </div>
+                                                        @enderror
+                                                        <label for="name">Name</label>
                                                     </div>
-                                                    <div class="form-row row d-flex ">
-                                                        <div class="form-floating mb-3 col-md-6">
-                                                            <input type="email"
-                                                                class="form-control @error('email') is-invalid @enderror"
-                                                                id="email" name="email" placeholder="Email"
-                                                                value="{{ old('email') }}">
-                                                            @error('email')
+                                                </div>
+                                                <div class="form-row row d-flex ">
+                                                    <div class="form-floating mb-3 col-md-6">
+                                                        <input type="email"
+                                                            class="form-control @error('email') is-invalid @enderror"
+                                                            id="email" name="email" placeholder="Email"
+                                                            value="{{ old('email') }}">
+                                                        @error('email')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
-                                                            @enderror
-                                                            <label for="email">Email*</label>
-                                                        </div>
-                                                        <div class="form-floating mb-3 col-md-6">
-                                                            <input type="number" minlength="10" maxlength="12"
-                                                                class="form-control @error('contact') is-invalid @enderror"
-                                                                id="contact" name="contact" placeholder="Contact*"
-                                                                value="{{ old('contact') }}" required="required">
-                                                            @error('contact')
-                                                            <span class="invalid-feedback" role="alert">
-                                                                <strong>{{ $message }}</strong>
-                                                            </span>
-                                                            @enderror
-                                                            <label for="contact">Contact*</label>
-                                                        </div>
+                                                        @enderror
+                                                        <label for="email">Email*</label>
                                                     </div>
-                                                    <!-- <div class="form-row">
+                                                    <div class="form-floating mb-3 col-md-6">
+                                                        <input type="number" minlength="10" maxlength="12"
+                                                            class="form-control @error('contact') is-invalid @enderror"
+                                                            id="contact" name="contact" placeholder="Contact*"
+                                                            value="{{ old('contact') }}" required="required">
+                                                        @error('contact')
+                                                            <span class="invalid-feedback" role="alert">
+                                                                <strong>{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
+                                                        <label for="contact">Contact*</label>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="form-row">
                                                     <div class="form-floating mb-3">
                                                         <input type="text" class="form-control" id="subject"
                                                             placeholder="name@example.com">
                                                         <label for="subject">Subject</label>
                                                     </div>
                                                 </div> -->
-                                                    <div class="form-row">
-                                                        <div class="form-floating mb-3">
-                                                            <textarea type="textbox"
-                                                                class="form-control @error('message') is-invalid @enderror"
-                                                                id="message" name="message" placeholder="Message*" value=""
-                                                                required>{{ old('message') }}</textarea>
-                                                            @error('message')
+                                                <div class="form-row">
+                                                    <div class="form-floating mb-3">
+                                                        <textarea type="textbox" class="form-control @error('message') is-invalid @enderror" id="message" name="message"
+                                                            placeholder="Message*" value="" required>{{ old('message') }}</textarea>
+                                                        @error('message')
                                                             <span class="invalid-feedback" role="alert">
                                                                 <strong>{{ $message }}</strong>
                                                             </span>
-                                                            @enderror
-                                                            <label for="subject">Message</label>
-                                                        </div>
+                                                        @enderror
+                                                        <label for="subject">Message</label>
                                                     </div>
-                                                    <div class="col-xxl-6 col-xl-6 col-12 form-group required">
-                                                        <div class="g-recaptcha"
-                                                            data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
-                                                        <span id="captchaErr"
-                                                            class="error-message"><?php //echo $captchaErr;
-                                                                                    ?></span>
-                                                    </div>
-                                                    <div class="form-group submit">
-                                                        <input type="submit" id="submitBtns" class="btn btn-dark w-100"
-                                                            value="Submit">
-                                                    </div>
-                                                </form>
-                                            </div>
+                                                </div>
+                                                <div class="col-xxl-6 col-xl-6 col-12 form-group required">
+                                                    <div class="g-recaptcha"
+                                                        data-sitekey="6Le627sUAAAAAIHEu5jf2bYOoaOIkuO_dOC2NJd5"></div>
+                                                    <span id="captchaErr"
+                                                        class="error-message"><?php //echo $captchaErr;
+                                                        ?></span>
+                                                </div>
+                                                <div class="form-group submit">
+                                                    <input type="submit" id="submitBtns" class="btn btn-dark w-100"
+                                                        value="Submit">
+                                                </div>
+                                            </form>
                                         </div>
-                                        <div class="btn_conatiner">
-                                            <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon">
+                                    </div>
+                                    <div class="btn_conatiner">
+                                        <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon">
 
 
-                                        </div>
-                                        <!-- SOFIYAAA -->
-                                        <script>
-                                            document.addEventListener("DOMContentLoaded", function() {
-                                                const form1 = document.getElementById("contactforms");
-                                                const submitBtn1 = document.getElementById("submitBtns");
+                                    </div>
+                                    <!-- SOFIYAAA -->
+                                    <script>
+                                        document.addEventListener("DOMContentLoaded", function() {
+                                            const form1 = document.getElementById("contactforms");
+                                            const submitBtn1 = document.getElementById("submitBtns");
 
-                                                form1.addEventListener("submit", function() {
-                                                    submitBtn1.value = "Sending..."; // Change button text
-                                                    submitBtn1.disabled = true; // Disable button
-                                                });
-
-                                                // Re-enable button if form submission fails or validation blocks it
-                                                form1.addEventListener("ajax:error", function() {
-                                                    submitBtn1.value = "Submit";
-                                                    submitBtn1.disabled = false;
-                                                });
+                                            form1.addEventListener("submit", function() {
+                                                submitBtn1.value = "Sending..."; // Change button text
+                                                submitBtn1.disabled = true; // Disable button
                                             });
-                                        </script>
 
-                                        <!-- <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon"> -->
-                                        <div class="experience">
-                                            <h2 class="title">10k+</h2>
-                                            <p>Projects completed <br>successfully</p>
-                                        </div>
+                                            // Re-enable button if form submission fails or validation blocks it
+                                            form1.addEventListener("ajax:error", function() {
+                                                submitBtn1.value = "Submit";
+                                                submitBtn1.disabled = false;
+                                            });
+                                        });
+                                    </script>
+
+                                    <!-- <img src="/imgs/icon/arrow-down-big.png" alt="Arrow Down Icon"> -->
+                                    <div class="experience">
+                                        <h2 class="title">10k+</h2>
+                                        <p>Projects completed <br>successfully</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--<img src="/imgs/hero/1/1-bg.png" alt="image" class="hero1_bg"> -->
-                        <!--
+                    </div>
+                    <!--<img src="/imgs/hero/1/1-bg.png" alt="image" class="hero1_bg"> -->
+                    <!--
     <img src="/imgs/hero/02.jpg" alt="image" class="hero1_bg">
     -->
-                        <video id="home-video" autoplay muted loop>
-                            <source src="/video/home_4.mp4" type="video/mp4">
-                            <source src="/video/home_4.ogg" type="video/ogg">
-                            Your browser does not support HTML5 video.
-                        </video>
+                    <video id="home-video" autoplay muted loop>
+                        <source src="/video/home_4.webm" type="video/mp4">
+                        <source src="/video/home_4.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                    </video>
                 </section>
                 <!-- Hero area end -->
 
@@ -200,61 +200,34 @@
       <div class="swiper-slide roll__slide"> <h2>DIgital SOlution </h2> </div>
       -->
                             <div class="swiper-slide roll__slide">
-                                <h2> Digital Agency </h2>
+                                <h2> BRAND STRATEGY </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> Web Design </h2>
+                                <h2> WEBSITE DESIGN & UI/UX </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> Web Development </h2>
+                                <h2> WEBSITE DEVELOPMENT </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> Digital Solutions </h2>
+                                <h2> E-COMMERCE SOLUTIONS </h2>
+                            </div>
+                            <div class="swiper-slide roll__slide" style="width: 500px !important; display: block;">
+                                <h2> Search Engine Optimisation </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> Marketing Strategy </h2>
+                                <h2> PAID ADS (GOOGLE & META) </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> Business Growth </h2>
+                                <h2> SOCIAL MEDIA MANAGEMENT </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> SEO Development </h2>
+                                <h2> CONTENT & COPYWRITING </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> Web Solutions </h2>
+                                <h2> MARKETING AUTOMATION </h2>
                             </div>
                             <div class="swiper-slide roll__slide">
-                                <h2> UX Design </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Development Company </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Digital Agency </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Branding Solutions </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Digital Landscape </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Design Experts </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Strategy Consulting </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Web Design </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Business Solutions </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Web Developers </h2>
-                            </div>
-                            <div class="swiper-slide roll__slide">
-                                <h2> Innovation Agency </h2>
+                                <h2> DATA & ANALYTICS </h2>
                             </div>
                         </div>
                     </div>
@@ -264,7 +237,8 @@
 
                 <!-- About area start -->
                 <section class="about__area">
-                    <div class="container g-0 pt-140 pb-130">
+                    {{-- <div class="container g-0 pt-140 pb-130"> --}}
+                    <div class="container g-0 pt-80 pb-80">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -274,19 +248,6 @@
                                 </div>
 
                                 <div class="about__content-wrapper" style="position:relative;">
-                                    <div class="about__img">
-                                        <div class="img-anim"> <img src="/img/office/IMG_6555.PNG" alt="About Image"
-                                                data-speed="0.3"> </div>
-                                        <div class="about__img-right">
-                                            <img src="/img/office/image_02.png" alt="About Image Right"
-                                                data-speed="0.5">
-                                            <div class="shape">
-                                                <div class="secondary" data-speed="0.9"></div>
-                                                <div class="primary"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
                                     <div class="about__content text-anim">
                                         <p> At our digital agency, we combine creativity, design, and emotion to connect
                                             businesses with their target audiences. We specialize in custom web design,
@@ -296,12 +257,23 @@
                                             create user-centric experiences that deliver impactful results.</p>
 
                                         <h4>Ready to transform your online presence?</h4>
-                                        <p> Contact us today for a free consultation and let’s grow your business
+                                        <p> Contact us today for a free consultation and let's grow your business
                                             together! </p>
 
                                         <div class="cursor-btn btn_wrapper">
                                             <a class="btn-item wc-btn-primary btn-hover" href="/about"><span></span>
                                                 Explore Us <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="about__img">
+                                            <div class="img-anim"> <img src="/img/office/IMG_6555.webp"
+                                                    alt="About Image" data-speed="0.3"> </div>
+                                        </div>
+                                        <div class="about__img">
+                                            <div class=""> <img src="/img/office/IMG_6555.webp"
+                                                    alt="About Image" data-speed="0.3"> </div>
                                         </div>
                                     </div>
                                 </div>
@@ -313,7 +285,7 @@
 
 
                 <!-- Service area start -->
-                <section class="service__area pt-110 pb-150">
+                <section class="service__area pt-80 pb-80">
                     <div class="container">
                         <div class="row">
                             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
@@ -324,10 +296,11 @@
                             </div>
                             <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-5">
                                 <div class="service__top-text text-anim">
-                                    <p> As we look towards the future, we are excited to continue pushing boundaries,
-                                        exploring new technologies, and expanding our capabilities to meet the
-                                        ever-changing needs of the digital world. With our passion, expertise, and
-                                        client-centric approach.</p>
+                                    <p> We craft end-to-end digital solutions that help brands grow, engage, and scale
+                                        in a competitive digital landscape. <br>
+                                        From strategy and design to development and performance marketing, our team
+                                        delivers results-driven solutions tailored to your business goals.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
@@ -342,15 +315,17 @@
 
                         <div class="service__list-wrapper">
                             <div class="row">
-
                                 <div class="col-xxl-4 col-xl-4 col-lg-0 col-md-0 sticky-sidebar d-none"
                                     id="stickyColumn">
                                     <div class="service__img-wrapper">
                                         <img src="/img/service/1.jpg" alt="Service Image"
                                             class="service__img img-1 active" />
-                                        <img src="/img/service/2.jpg" alt="Service Image" class="service__img img-2" />
-                                        <img src="/img/service/3.jpg" alt="Service Image" class="service__img img-3" />
-                                        <img src="/img/service/4.jpg" alt="Service Image" class="service__img img-4" />
+                                        <img src="/img/service/2.webp" alt="Service Image"
+                                            class="service__img img-2" />
+                                        <img src="/img/service/3.webp" alt="Service Image"
+                                            class="service__img img-3" />
+                                        <img src="/img/service/4.webp" alt="Service Image"
+                                            class="service__img img-4" />
 
                                         <span class="shape-box-1 current"></span>
                                         <span class="shape-box-2"></span>
@@ -360,69 +335,285 @@
                                 </div>
                                 <div class="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                                     <div class="service__list">
-                                        <a href="/services">
-                                            <div class="service__item animation_home1_service" data-service="1">
-                                                <div class="service__number"><span>01</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title"> Web Solutions </h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p> At ABC Designs, we create engaging, interactive web solutions
-                                                        that captivate users and elevate brands, helping you thrive in
-                                                        today’s digital world. </p>
-                                                </div>
-                                                <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
+                                        {{-- <a href="/services"> --}}
+                                        <div class="service__item animation_home1_service" data-service="1">
+                                            <div class="service__number"><span>01</span></div>
+                                            <div class="service__title-wrapper">
+                                                <h4 class="service__title">
+                                                    <a href="/website-design-and-development" class="text-gray2">
+                                                        Website Design & Development
+                                                    </a>
+                                                </h4>
                                             </div>
-                                        </a>
-                                        <a href="/services">
-                                            <div class="service__item  animation_home1_service" data-service="2">
-                                                <div class="service__number"><span>02</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title"> UI/UX Design</h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p> At ABC Designs, we craft intuitive UI/UX designs that enhance
-                                                        user experiences and drive engagement, helping your brand stand
-                                                        out in the digital world. </p>
-                                                </div>
-                                                <div class="service__link">
-                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
+                                            <div class="service__text">
+                                                <p>We build fast, secure, and scalable websites that deliver seamless
+                                                    user experiences and drive business growth.</p>
+                                                <ul class="mt-2 d-flex gap-2 flex-wrap">
+
+                                                    <li>
+                                                        <a href="/website-design-and-development/business-website-design-and-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Business Website Design & Development
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/website-design-and-development/custom-web-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Custom Website Development
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/website-design-and-development/ecommerce-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            E-commerce Website Development
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/website-design-and-development/api-development-and-integration"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            API Development & Integration
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/website-design-and-development/website-redesign"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Website Redesign
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/website-design-and-development/website-maintenance-and-support"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Website Maintenance & Support
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </a>
-                                        <a href="/services">
-                                            <div class="service__item  animation_home1_service" data-service="3">
-                                                <div class="service__number"><span>03</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title">Digital <br>Maketing</h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p> At ABC Designs, we offer result-driven digital marketing
-                                                        services that boost your online presence, engage audiences, and
-                                                        drive business growth. </p>
-                                                </div>
-                                                <div class="service__link">
+                                            <div class="service__link">
+                                                <a href="/website-design-and-development" class="text-gray2">
                                                     <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
+                                                </a>
                                             </div>
-                                        </a>
-                                        <a href="/services">
-                                            <div class="service__item  animation_home1_service" data-service="4">
-                                                <div class="service__number"><span>04</span></div>
-                                                <div class="service__title-wrapper">
-                                                    <h4 class="service__title"> Concept Design </h4>
-                                                </div>
-                                                <div class="service__text">
-                                                    <p> At ABC Designs, we offer creative concept design, branding
-                                                        solutions, social media post designs, and dynamic animations to
-                                                        elevate your brand. </p>
-                                                </div>
-                                                <div class="service__link">
+                                        </div>
+                                        {{-- </a> --}}
+                                        {{-- <a href="/app-design-and-development"> --}}
+                                        <div class="service__item  animation_home1_service" data-service="2">
+                                            <div class="service__number"><span>02</span></div>
+                                            <div class="service__title-wrapper">
+                                                <h4 class="service__title">
+                                                    <a href="/app-design-and-development" class="text-gray2">
+                                                        App Design & Development
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div class="service__text">
+                                                <p>We design and develop high-performance mobile and web
+                                                    applications that enhance engagement and scale with your
+                                                    business.</p>
+                                                <ul class="mt-2 d-flex gap-2 flex-wrap">
+
+                                                    <li>
+                                                        <a href="/app-design-and-development/mobile-app-ui-ux-design"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Mobile App UI/UX Design
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/app-design-and-development/android-app-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Android App Development
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/app-design-and-development/ios-app-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            iOS App Development
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/app-design-and-development/web-app-development"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Web App Development
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/app-design-and-development/app-maintainance-and-support"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            App Maintenance & Support
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="service__link">
+                                                <a href="/app-design-and-development" class="text-gray2">
                                                     <p><i class="fa-solid fa-arrow-right"></i></p>
-                                                </div>
+                                                </a>
                                             </div>
+                                        </div>
+                                        {{-- </a> --}}
+                                        {{-- <a href="/services"> --}}
+                                        <div class="service__item  animation_home1_service" data-service="3">
+                                            <div class="service__number"><span>03</span></div>
+                                            <div class="service__title-wrapper">
+                                                <h4 class="service__title">
+                                                    <a href="/ui-ux-design" class="text-gray2">
+                                                        UI/UX Design
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div class="service__text">
+                                                <p>We create intuitive, user-centric UI/UX designs that improve
+                                                    usability, engagement, and conversion rates.</p>
+                                                {{-- <ul class="mt-2 d-flex gap-2 flex-wrap">
+                                                        <li>
+                                                            <a href="/digital-marketing/search-engine-optimization"
+                                                                class="border rounded-pill cus-url-btn fade_left">SEO
+                                                                Service</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/search-engine-marketing"
+                                                                class="border rounded-pill cus-url-btn fade_left">SEM
+                                                                Service</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/social-media"
+                                                                class="border rounded-pill cus-url-btn fade_left">Social
+                                                                Media</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/digital-marketing/content-writing"
+                                                                class="border rounded-pill cus-url-btn fade_left">Content
+                                                                Writing</a>
+                                                        </li>
+                                                    </ul> --}}
+                                            </div>
+                                            <div class="service__link">
+                                                <a href="/ui-ux-design" class="text-gray2">
+                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        {{-- </a>
+                                        <a href="/services"> --}}
+                                        <div class="service__item  animation_home1_service" data-service="4">
+                                            <div class="service__number"><span>04</span></div>
+                                            <div class="service__title-wrapper">
+                                                <h4 class="service__title">
+                                                    <a href="/digital-marketing-services" class="text-gray2">Digital
+                                                        Marketing
+                                                        Services</a>
+                                                </h4>
+                                            </div>
+                                            <div class="service__text">
+                                                <p>We deliver result-driven digital marketing strategies that boost
+                                                    visibility, generate leads, and maximize ROI.</p>
+                                                <ul class="mt-2 d-flex gap-2 flex-wrap">
+
+                                                    <li>
+                                                        <a href="/digital-marketing/search-engine-optimization"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Search Engine Optimization (SEO)
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/digital-marketing/search-engine-marketing"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Search Engine Marketing (Google Ads)
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/digital-marketing/performance-marketing"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Performance Marketing (Meta Ads)
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/digital-marketing/content-marketing-and-writing"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Content Marketing & Writing
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="service__link">
+                                                <a href="/digital-marketing-services" class="text-gray2">
+                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        {{-- </a>
+                                        <a href=""> --}}
+                                        <div class="service__item  animation_home1_service" data-service="4">
+                                            <div class="service__number"><span>05</span></div>
+                                            <div class="service__title-wrapper">
+                                                <h4 class="service__title">
+                                                    <a href="/branding-and-creative-design"
+                                                        class="text-gray2">Branding & Creative
+                                                        Design</a>
+                                                </h4>
+                                            </div>
+                                            <div class="service__text">
+                                                <p>We craft impactful brand identities and creative designs that
+                                                    help businesses stand out and connect with their audience.</p>
+                                                <ul class="mt-2 d-flex gap-2 flex-wrap">
+
+                                                    <li>
+                                                        <a href="/branding-and-creative-design/branding-solutions"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Branding Solutions
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/branding-and-creative-design/logo-design"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Logo Design
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/branding-and-creative-design/social-media-creatives"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Social Media Creatives
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/branding-and-creative-design/design-and-animation"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Design & Animation
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="/branding-and-creative-design/marketing-creatives"
+                                                            class="border rounded-pill cus-url-btn fade_left">
+                                                            Marketing Creatives
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                            <div class="service__link">
+                                                <a href="/branding-and-creative-design" class="text-gray2">
+                                                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                                                </a>
+                                            </div>
+                                        </div>
                                         </a>
                                     </div>
                                 </div>
@@ -435,7 +626,7 @@
 
                 <!-- Counter area start -->
                 <section class="counter__area">
-                    <div class="container g-0 pt-150">
+                    <div class="container g-0 pt-80">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -475,7 +666,7 @@
 
                 <!-- Workflow area start -->
                 <section class="workflow__area">
-                    <div class="container g-0 pt-140 pb-140">
+                    <div class="container g-0 pt-80 pb-80">
                         <div class="line-3"></div>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -491,38 +682,40 @@
                                         <div class="swiper-slide workflow__slide fade_left">
                                             <h4 class="workflow__step">step 01</h4>
                                             <h5 class="workflow__number">01</h5>
-                                            <h6 class="workflow__title">Planning & Sketch</h6>
-                                            <p>Having these the marketplace to your business</p>
+                                            <h6 class="workflow__title">Research</h6>
+                                            {{-- <p>Having these the marketplace to your business</p> --}}
                                         </div>
 
                                         <div class="swiper-slide workflow__slide fade_left">
                                             <h4 class="workflow__step">step 02</h4>
                                             <h5 class="workflow__number">02</h5>
-                                            <h6 class="workflow__title">Development</h6>
-                                            <p>Creating brand identities for the digital experiences</p>
+                                            <h6 class="workflow__title">Plan</h6>
+                                            {{-- <p>Creating brand identities for the digital experiences</p> --}}
                                         </div>
 
                                         <div class="swiper-slide workflow__slide fade_left">
                                             <h4 class="workflow__step">step 03</h4>
                                             <h5 class="workflow__number">03</h5>
-                                            <h6 class="workflow__title">User Testing</h6>
-                                            <p>We look forward to engage with beyond the conventional</p>
+                                            <h6 class="workflow__title">Execute</h6>
+                                            {{-- <p>We look forward to engage with beyond the conventional</p> --}}
                                         </div>
 
                                         <div class="swiper-slide workflow__slide fade_left">
                                             <h4 class="workflow__step">step 04</h4>
                                             <h5 class="workflow__number">04</h5>
-                                            <h6 class="workflow__title">Deploying</h6>
-                                            <p>We look forward to engage with beyond the conventional</p>
+                                            <h6 class="workflow__title">Optimize</h6>
+                                            {{-- <p>We look forward to engage with beyond the conventional</p> --}}
                                         </div>
 
                                         <div class="swiper-slide workflow__slide fade_left">
                                             <h4 class="workflow__step">step 05</h4>
                                             <h5 class="workflow__number">05</h5>
-                                            <h6 class="workflow__title">Monitoring</h6>
-                                            <p>We look forward to engage with beyond the conventional</p>
+                                            <h6 class="workflow__title">Grow</h6>
+                                            {{-- <p>We look forward to engage with beyond the conventional</p> --}}
                                         </div>
                                     </div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
                                 </div>
                             </div>
                         </div>
@@ -532,7 +725,7 @@
 
 
                 <!-- Portfolio area start -->
-                <section class="portfolio__area pb-140">
+                {{-- <section class="portfolio__area pb-140">
                     <div class="container">
                         <div class="row top_row">
                             <h2 class="portfolio__text">work</h2>
@@ -608,7 +801,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> --}}
                 <section class="portfolio__area pt-80 pb-80 overflow-hidden">
                     <div class="container">
                         <div class="row flex-items-center">
@@ -669,14 +862,14 @@
                             </div>
                         </section>
                     </div>
-                    >>>>>>> 3c61cbd247d4fda48641e1f49dee31d69375027f
                 </section>
+
                 <!-- Portfolio area end -->
 
 
                 <!-- Brand area start -->
                 <section class="brand__area">
-                    <div class="container g-0 pt-140 pb-130">
+                    <div class="container g-0 pt-80 pb-80">
                         <span class="line-3"></span>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -687,7 +880,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xxl-12">
+                            <div class="col-xxl-12 brand-showcase-contanier">
                                 <div class="d-none loadr text-center"> <img src="/img/loading_2.gif" width="40px"
                                         class="img-fluid" /> </div>
                                 <div class="brand__list" id="home_client_list">
@@ -991,20 +1184,21 @@
                                                 d="M216 82h-34V48a14 14 0 0 0-14-14H40a14 14 0 0 0-14 14v128a6 6 0 0 0 3.42 5.41A5.86 5.86 0 0 0 32 182a6 6 0 0 0 3.77-1.33L73.71 150H74v34a14 14 0 0 0 14 14h94.29l37.94 30.67A6 6 0 0 0 224 230a5.86 5.86 0 0 0 2.58-.59A6 6 0 0 0 230 224V96a14 14 0 0 0-14-14M71.58 138a6 6 0 0 0-3.77 1.33L38 163.43V48a2 2 0 0 1 2-2h128a2 2 0 0 1 2 2v88a2 2 0 0 1-2 2ZM218 211.43l-29.81-24.1a6 6 0 0 0-3.77-1.33H88a2 2 0 0 1-2-2v-34h82a14 14 0 0 0 14-14V94h34a2 2 0 0 1 2 2Z" />
                                         </svg>
                                     </div>
-                                    @if(session('success'))
-                                    <p class="text-success mt-2">{{ session('success') }}</p>
+                                    @if (session('success'))
+                                        <p class="text-success mt-2">{{ session('success') }}</p>
                                     @endif
 
                                     <h2 class="mt-3 text-center">Do you have more questions?</h2>
                                     <form id="subscribeForm" method="POST" action="{{ route('Subscribes.store') }}">
                                         @csrf
                                         <div
-                                            class="mt-3 w-100 row mx-0 height-100 d-flex justify-content-center align-items-center">
+                                            class="mt-3 mx-0 w-100 row height-100 d-flex justify-content-center align-items-center">
                                             <div class="col-md-10">
                                                 <div class="subscribe-btn position-relative">
-                                                    <input class="form-control" name="email"
-                                                        type="email" placeholder="Your email address">
-                                                    <button id="subscribeBtn" class="btn position-absolute" type="submit">Send</button>
+                                                    <input class="form-control" name="email" type="email"
+                                                        placeholder="Your email address">
+                                                    <button id="subscribeBtn" class="btn position-absolute"
+                                                        type="submit">Send</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -1026,29 +1220,28 @@
                         <!-- Logos -->
                         <div class="row justify-content-center align-items-center g-4">
 
-                            <div class="col-6 col-sm-4 col-md-2">
-                                <img src="/img/verified/adobe.png"
-                                    alt="Adobe" class="verified-logo img-fluid">
+                            <div class="col-2 col-sm-4 col-md-2">
+                                <img src="/img/verified/adobe.png" alt="adobe" class="verified-logo img-fluid">
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
-                                <img src="/img/verified/trustpilot-seeklogo.svg"
-                                    alt="Trust pilot" class="verified-logo img-fluid">
+                            <div class="col-2 col-sm-4 col-md-2">
+                                <img src="/img/verified/google-partner.png" alt="Google Partner"
+                                    class="verified-logo img-fluid">
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
-                                <img src="/img/verified/ubersuggest-logo.svg"
-                                    alt="ubersuggest" class="verified-logo img-fluid">
+                            <div class="col-2 col-sm-4 col-md-2">
+                                <img src="/img/verified/meta-business-partner.jpg" alt="meta business partner"
+                                    class="verified-logo img-fluid">
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
-                                <img src="/img/verified/google-partner.png"
-                                    alt="Google partner" class="verified-logo img-fluid">
+                            <div class="col-2 col-sm-4 col-md-2">
+                                <img src="/img/verified/trustpilot-seeklogo.svg" alt="Top Digital Marketing Company"
+                                    class="verified-logo img-fluid">
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
-                                <img src="/img/verified/meta-business-partner.jpg"
-                                    alt="meta business partner" class="verified-logo img-fluid">
+                            <div class="col-2 col-sm-4 col-md-2">
+                                <img src="/img/verified/ubersuggest-logo.svg" alt="Sortlist Verified Agency"
+                                    class="verified-logo img-fluid">
                             </div>
 
                         </div>
@@ -1064,7 +1257,6 @@
                 </script>
 
                 {{-- @include('frontend.layout.cta') --}}
-                @include('frontend.layout.cta')
 
             </main>
 

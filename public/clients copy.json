@@ -1,0 +1,356 @@
+[
+    {
+        "id": "01",
+        "title": "AALPHA",
+        "logo": "/img/clients/aalpha.webp",
+        "show": "1"
+    },
+    {
+        "id": "02",
+        "title": "Abbott",
+        "logo": "/img/clients/abbott.webp",
+        "show": "1"
+    },
+    {
+        "id": "03",
+        "title": "Aditya Birla",
+        "logo": "/img/clients/aditya_birla.webp",
+        "show": "1"
+    },
+    {
+        "id": "04",
+        "title": "Amazon Prime",
+        "logo": "/img/clients/amazon_prime.webp",
+        "show": "1"
+    },
+    {
+        "id": "05",
+        "title": "Audi",
+        "logo": "/img/clients/audi.webp",
+        "show": "1"
+    },
+    {
+        "id": "06",
+        "title": "Axis Bank",
+        "logo": "/img/clients/axis_bank.webp",
+        "show": "1"
+    },
+    {
+        "id": "07",
+        "title": "Blue Rise",
+        "logo": "/img/clients/blue_rise.webp",
+        "show": "1"
+    },
+    {
+        "id": "08",
+        "title": "Celebinas",
+        "logo": "/img/clients/celebinas.webp",
+        "show": "1"
+    },
+    {
+        "id": "09",
+        "title": "CIIE",
+        "logo": "/img/clients/ciie.webp",
+        "show": "1"
+    },
+    {
+        "id": "10",
+        "title": "Citroen",
+        "logo": "/img/clients/citroen.webp",
+        "show": "1"
+    },
+    {
+        "id": "11",
+        "title": "Colors",
+        "logo": "/img/clients/colors.webp",
+        "show": "1"
+    },
+    {
+        "id": "12",
+        "title": "Confluence Carnival",
+        "logo": "/img/clients/confluence_carnival.webp",
+        "show": "1"
+    },
+    {
+        "id": "13",
+        "title": "Cummins",
+        "logo": "/img/clients/cummins.webp",
+        "show": "1"
+    },
+    {
+        "id": "14",
+        "title": "DBS - Digital Banking Summit",
+        "logo": "/img/clients/dbs.webp",
+        "show": "1"
+    },
+    {
+        "id": "15",
+        "title": "Deloitte",
+        "logo": "/img/clients/deloitte.webp",
+        "show": "1"
+    },
+    {
+        "id": "16",
+        "title": "Dibella",
+        "logo": "/img/clients/dibella.webp",
+        "show": "1"
+    },
+    {
+        "id": "17",
+        "title": "Dhoom Dhaam",
+        "logo": "/img/clients/dhoom_dhaam.webp",
+        "show": "1"
+    },
+    {
+        "id": "18",
+        "title": "E-Smart",
+        "logo": "/img/clients/esmart.webp",
+        "show": "1"
+    },
+    {
+        "id": "19",
+        "title": "Facebook",
+        "logo": "/img/clients/facebook.webp",
+        "show": "1"
+    },
+    {
+        "id": "20",
+        "title": "Ficci Frames",
+        "logo": "/img/clients/ficci_frames.webp",
+        "show": "1"
+    },
+    {
+        "id": "21",
+        "title": "Game Night",
+        "logo": "/img/clients/game_night.webp",
+        "show": "1"
+    },
+    {
+        "id": "22",
+        "title": "Godrej",
+        "logo": "/img/clients/godrej.webp",
+        "show": "1"
+    },
+    {
+        "id": "23",
+        "title": "Google",
+        "logo": "/img/clients/google.webp",
+        "show": "1"
+    },
+    {
+        "id": "24",
+        "title": "HP PAY",
+        "logo": "/img/clients/hp_pay.webp",
+        "show": "1"
+    },
+    {
+        "id": "25",
+        "title": "HRI Healthcare",
+        "logo": "/img/clients/hri_healthcare.webp",
+        "show": "1"
+    },
+    {
+        "id": "26",
+        "title": "HSBC",
+        "logo": "/img/clients/hsbc.webp",
+        "show": "1"
+    },
+    {
+        "id": "27",
+        "title": "ICICI Prudential",
+        "logo": "/img/clients/icici_prudential.webp",
+        "show": "1"
+    },
+    {
+        "id": "28",
+        "title": "IIFL Securities",
+        "logo": "/img/clients/iifl_securities.webp",
+        "show": "1"
+    },
+    {
+        "id": "29",
+        "title": "Intel",
+        "logo": "/img/clients/intel.webp",
+        "show": "1"
+    },
+    {
+        "id": "30",
+        "title": "Live IKF",
+        "logo": "/img/clients/ikf.webp",
+        "show": "1"
+    },
+    {
+        "id": "31",
+        "title": "Mahindra",
+        "logo": "/img/clients/mahindra.webp",
+        "show": "1"
+    },
+    {
+        "id": "32",
+        "title": "Mariafe",
+        "logo": "/img/clients/mariafe.webp",
+        "show": "1"
+    },
+    {
+        "id": "33",
+        "title": "Michael Page",
+        "logo": "/img/clients/michael_page.webp",
+        "show": "1"
+    },
+    {
+        "id": "34",
+        "title": "Micasa",
+        "logo": "/img/clients/micasa.webp",
+        "show": "1"
+    },
+    {
+        "id": "35",
+        "title": "Ministry of Information and Broadcasting",
+        "logo": "/img/clients/ministry_information.webp",
+        "show": "1"
+    },
+    {
+        "id": "36",
+        "title": "MTV",
+        "logo": "/img/clients/mtv.webp",
+        "show": "1"
+    },
+    {
+        "id": "37",
+        "title": "Nasscom",
+        "logo": "/img/clients/nasscom.webp",
+        "show": "1"
+    },
+    {
+        "id": "38",
+        "title": "Nexon",
+        "logo": "/img/clients/nexon.webp",
+        "show": "1"
+    },
+    {
+        "id": "39",
+        "title": "Nutristrike",
+        "logo": "/img/clients/nutristrike.webp",
+        "show": "1"
+    },
+    {
+        "id": "40",
+        "title": "Park Avenue",
+        "logo": "/img/clients/park_avenue.webp",
+        "show": "1"
+    },
+    {
+        "id": "41",
+        "title": "People Matters",
+        "logo": "/img/clients/people_matters.webp",
+        "show": "1"
+    },
+    {
+        "id": "42",
+        "title": "Radio City",
+        "logo": "/img/clients/radio_city.webp",
+        "show": "1"
+    },
+    {
+        "id": "43",
+        "title": "Raymond",
+        "logo": "/img/clients/raymond.webp",
+        "show": "1"
+    },
+    {
+        "id": "44",
+        "title": "Ricron",
+        "logo": "/img/clients/ricron.webp",
+        "show": "1"
+    },
+    {
+        "id": "45",
+        "title": "Renault",
+        "logo": "/img/clients/renault.webp",
+        "show": "1"
+    },
+    {
+        "id": "46",
+        "title": "SBI Life",
+        "logo": "/img/clients/sbi_life.webp",
+        "show": "1"
+    },
+    {
+        "id": "47",
+        "title": "Skoda",
+        "logo": "/img/clients/skoda.webp",
+        "show": "1"
+    },
+    {
+        "id": "48",
+        "title": "Sun Pharma",
+        "logo": "/img/clients/sunpharma.webp",
+        "show": "1"
+    },
+    {
+        "id": "49",
+        "title": "Tech HR 24",
+        "logo": "/img/clients/techhr.webp",
+        "show": "1"
+    },
+    {
+        "id": "50",
+        "title": "The Indian Institute of Architects",
+        "logo": "/img/clients/iia.webp",
+        "show": "1"
+    },
+    {
+        "id": "51",
+        "title": "Unilever Case Studies",
+        "logo": "/img/clients/unilever.webp",
+        "show": "1"
+    },
+    {
+        "id": "52",
+        "title": "Unistar",
+        "logo": "/img/clients/unistar.webp",
+        "show": "1"
+    },
+    {
+        "id": "53",
+        "title": "VIVA ACP",
+        "logo": "/img/clients/viva.webp",
+        "show": "1"
+    },
+    {
+        "id": "54",
+        "title": "Viacom18",
+        "logo": "/img/clients/viacom18.webp",
+        "show": "1"
+    },
+    {
+        "id": "55",
+        "title": "VOC - Virtual Orthopaedic Club",
+        "logo": "/img/clients/voc.webp",
+        "show": "1"
+    },
+    {
+        "id": "56",
+        "title": "Volkswagen",
+        "logo": "/img/clients/volkswagen.webp",
+        "show": "1"
+    },
+    {
+        "id": "57",
+        "title": "Voot Select",
+        "logo": "/img/clients/voot_select.webp",
+        "show": "1"
+    },
+    {
+        "id": "58",
+        "title": "YouTube",
+        "logo": "/img/clients/youtube.webp",
+        "show": "1"
+    },
+    {
+        "id": "59",
+        "title": "Zinnov",
+        "logo": "/img/clients/zinnov.webp",
+        "show": "1"
+    }
+]

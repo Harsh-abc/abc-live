@@ -3,16 +3,28 @@
 <body class="">
     {{-- video_start --}}
     @include('frontend.layout.nav')
-    <!--
- <div class="page-loader">
-    <div class="clock" id="clock"> </div>
-  <video id="loading-video" autoplay muted>
-   <source src="/video/intro.mp4?ver=0.1" type="video/mp4">
-   <source src="/video/intro.ogg?ver=0.1" type="video/ogg">
-   Your browser does not support HTML5 video.
-  </video>
- </div>
- -->
+
+    <!-- ========== LOADER - Place immediately after body ========== -->
+    <div id="page-loader" class="loader-wrapper">
+        <div class="loader-content">
+            <!-- Replace with your company logo -->
+            <div class="logo-container">
+                <img src="/img/abc-loader.webp" alt="Company Logo" class="loader-logo">
+            </div>
+
+            <!-- Spinner animation around/below logo -->
+            <div class="spinner"></div>
+
+            {{-- Optional: Loading text
+            <p class="loading-text">Loading<span class="dots"></span></p> --}}
+
+            <!-- Optional: Progress bar -->
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== END LOADER ========== -->
 
 
     <div id="smooth-wrapper">
@@ -24,56 +36,6 @@
                 <section class="service__area-2 service-v3">
                     <div class="container msp-header">
                         <div class="pb-4">
-                            {{-- <div class="container">
-                                <div class="sec-title-wrapper">
-                                    <h2 class="title-anim"> Elevate Your Online Presence with Stunning Web Experiences.
-                                    </h2>
-                                </div>
-                            
-                                <div class="text-anim mt-3">
-                                    <p> Unlock your digital potential with our comprehensive range of digital agency
-                                        services, tailored to drive growth and success for your business. </p>
-                                </div>
-                            </div> --}}
-                            {{-- <div class="container-fluid">
-                                <div class="row pb-60">
-                                    <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-9">
-                                        <div class="sec-title-wrapper">
-                                            <h2 class="sec-title title-anim"> Elevate Your Online Presence with Stunning Web Experiences
-                                            </h2>
-                                            <div class="text-anim mt-3">
-                                    <p> Unlock your digital potential with our comprehensive range of digital agency
-                                        services, tailored to drive growth and success for your business</p>
-                                </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3 mt-4">
-                                        <div class="btn_wrapper" style="margin-top:-50px;">
-                                            <a href="#job_list"
-                                                class="wc-btn-secondary btn-hover btn-item"><span></span>
-                                                Explore job
-                                                <br>vacancies <i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-4">
-                                <form id="msp-subscript-form" method="POST" action="{{ route('Subscribes.store') }}">
-                                    @csrf
-                                    <div
-                                        class="mt-3 w-100 row mx-0 height-100 d-flex justify-content-center align-items-center">
-                                        <div class="col-md-10">
-                                            <div class="subscribe-btn position-relative">
-                                                <input class="form-control" name="email" type="email"
-                                                    placeholder="Your email address">
-                                                <button id="subscribeBtn" class="btn position-absolute"
-                                                    type="submit">Send</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div> --}}
-
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xxl-12">
@@ -81,13 +43,11 @@
                                             <div class="hero__title-wrapper row">
                                                 <div
                                                     class="col-7 d-flex flex-column justify-content-center align-items-start">
-                                                    <h1 class="hero__title mt-0">We Build Digital <br>Growth Through
-                                                    </h1>
+                                                    <h1 class="hero__title animation__word_come mb-1">Website Design & Development That Drives Real Business Growth</h1>
                                                     <div class="text-anim w-100">
-                                                        <p class="mt-3 w-100 hero-description">Lorem ipsum dolor sit
-                                                            amet consectetur adipisicing elit. Aliquam ipsa officiis
-                                                            ipsam necessitatibus doloremque facere magni aliquid
-                                                            explicabo quas nam.
+                                                        <p class="mt-5 w-100 hero-description">We design and develop high-performing, conversion-focused websites that help
+businesses build credibility, attract the right audience, and turn visitors into
+customers.
                                                         </p>
                                                     </div>
 
@@ -300,8 +260,8 @@
                                                 alt="CIIE">
                                         </div>
                                         <div class="marquee-item">
-                                            <img src="/img/clients/citroen.webp" class="w-100 h-100 object-fit-contain"
-                                                alt="Citroen">
+                                            <img src="/img/clients/citroen.webp"
+                                                class="w-100 h-100 object-fit-contain" alt="Citroen">
                                         </div>
                                         <div class="marquee-item">
                                             <img src="/img/clients/colors.webp" class="w-100 h-100 object-fit-contain"
@@ -322,8 +282,8 @@
                                 <div class="marquee-container" id="marquee-rtll">
                                     <div class="marquee-content mb-0">
                                         <div class="marquee-item">
-                                            <img src="/img/clients/cummins.webp" class="w-100 h-100 object-fit-contain"
-                                                alt="Cummins">
+                                            <img src="/img/clients/cummins.webp"
+                                                class="w-100 h-100 object-fit-contain" alt="Cummins">
                                         </div>
                                         <div class="marquee-item">
                                             <img src="/img/clients/dbs.webp" class="w-100 h-100 object-fit-contain"
@@ -334,8 +294,8 @@
                                                 class="w-100 h-100 object-fit-contain" alt="Deloitte">
                                         </div>
                                         <div class="marquee-item">
-                                            <img src="/img/clients/dibella.webp" class="w-100 h-100 object-fit-contain"
-                                                alt="Dibella">
+                                            <img src="/img/clients/dibella.webp"
+                                                class="w-100 h-100 object-fit-contain" alt="Dibella">
                                         </div>
                                         <div class="marquee-item">
                                             <img src="/img/clients/dhoom_dhaam.webp"
@@ -384,16 +344,22 @@
                                 <div class="service__list-2 animation__service-2">
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Professional Website Development-.webp" alt="Service Icon"
-                                                class="w-75 h-75 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Professional Website Development-.webp"
+                                                alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
                                             <h3><a href="/web-solutions/interactive-solutions"
                                                     class="service__title-2">Business Website Design & Development</a>
                                             </h3>
 
-                                            <p> In today's digital world, the need for engaging and interactive
-                                                experiences has never been greater. At ABC Designs, we specialize in
-                                                providing tailored <b>interactive solutions</b> that captivate users and
-                                                elevate brands. </p>
+                                            <p>In today’s digital-first world, your website is often the first
+                                                impression of your business. At ABC Designs, we design and develop
+                                                professional business websites that communicate trust, clarity, and
+                                                credibility. <br>
+                                                Our business website solutions focus on clean UI/UX design, responsive
+                                                layouts, and SEO-friendly development, ensuring your brand looks
+                                                professional across all devices. Whether you’re a startup, SME, or
+                                                corporate organization, we build websites that support lead generation,
+                                                brand visibility, and long-term growth.
+                                            </p>
 
                                             <a href="/web-solutions/interactive-solutions" class="service_view"> View
                                                 Details </a>
@@ -401,15 +367,19 @@
                                     </div> <!-- -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Custom Business Website Design-.webp" alt="Service Icon"
-                                                class="w-75 h-75 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Custom Business Website Design-.webp"
+                                                alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
                                             <h3><a href="/web-solutions/custom-web-development"
                                                     class="service__title-2">Custom Website Development</a></h3>
 
-                                            <p> We are passionate about creating exceptional web experiences that make a
-                                                lasting impact. Our web design and development services combine
-                                                cutting-edge technology, creativity, and user-centric design principles
-                                                to build websites that not only look stunning but also drive results.
+                                            <p>Every business is unique — and your website should be too. Our custom
+                                                website development services are tailored to your specific business
+                                                needs, workflows, and growth plans. <br>
+                                                We build scalable, secure, and high-performance websites using modern
+                                                technologies and frameworks. From custom CMS solutions to complex web
+                                                functionalities, our development approach ensures flexibility,
+                                                performance, and future readiness — without relying on one-size-fits-all
+                                                templates.
                                             </p>
 
                                             <a href="/web-solutions/custom-web-development" class="service_view"> View
@@ -418,16 +388,20 @@
                                     </div> <!-- -->
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp" alt="Service Icon"
-                                                class="w-75 h-75 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Ecommerce Website Design & Development-.webp"
+                                                alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
                                             <h3><a href="/web-solutions/ecommerce-development"
                                                     class="service__title-2">E-commerce Website Development</a></h3>
 
-                                            <p> We specialize in creating robust and user-friendly e-commerce solutions
-                                                that empower businesses to thrive in the digital marketplace. Our
-                                                e-commerce development services combine cutting-edge technology,
-                                                strategic planning, and a deep understanding of user behavior to build
-                                                seamless and engaging online shopping experiences. </p>
+                                            <p>We specialize in building robust, conversion-driven e-commerce websites
+                                                that deliver seamless shopping experiences and maximize online sales.
+                                                <br>
+                                                Our e-commerce website development services focus on user experience,
+                                                secure payment integration, product scalability, and performance
+                                                optimization. Whether it’s a startup store or a large online
+                                                marketplace, we develop e-commerce platforms that are easy to manage,
+                                                mobile-friendly, and designed to convert visitors into loyal customers.
+                                            </p>
 
                                             <a href="/web-solutions/ecommerce-development" class="service_view"> View
                                                 Details </a>
@@ -436,16 +410,19 @@
 
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp" alt="Service Icon"
-                                                class="w-75 h-75 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Website Redesign & Modernization-.webp"
+                                                alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
                                             <h3 class=""><a href="/digital-marketing/social-media"
-                                                    class="service__title-3">Website Redesign</a></h3>
-                                            <p> In today's digital age, social media has become an integral part of any
-                                                successful marketing strategy. We specialize in harnessing the power of
-                                                social media to help businesses build strong online communities, drive
-                                                engagement, and amplify their brand influence. Our social media services
-                                                encompass strategic planning, content creation, community management,
-                                                and data-driven insights. </p>
+                                                    class="service__title-2">Website Redesign</a></h3>
+                                            <p>If your website looks outdated or isn’t delivering results, it’s time for
+                                                a redesign. Our website redesign services transform underperforming
+                                                websites into modern, high-converting digital assets. <br>
+                                                We analyze your existing website’s design, performance, and user
+                                                behavior to create a fresh, modern, and conversion-optimized design.
+                                                From UI/UX improvements to performance and SEO enhancements, we ensure
+                                                your redesigned website aligns with your current business goals and
+                                                market expectations.
+                                            </p>
 
                                             <a href="/digital-marketing/social-media" class="service_view"> View
                                                 Details </a>
@@ -457,10 +434,14 @@
                                                 class="w-75 h-75 obj-fit-contain mb-3">
                                             <h3 class=""><a href="/digital-marketing/search-engine-optimization"
                                                     class="service__title-2">API Development & Integration</a> </h3>
-                                            <p> In the highly competitive digital landscape, having a strong online
-                                                presence is essential for businesses to succeed. We specialize in Search
-                                                Engine Optimization (SEO), a strategic approach that helps businesses
-                                                improve their website's visibility in search engine results. </p>
+                                            <p>Our API development and integration services help businesses connect
+                                                websites with third-party platforms, tools, and systems for seamless
+                                                data flow and automation. <br>
+                                                We build and integrate secure, scalable, and high-performance APIs that
+                                                enhance functionality and operational efficiency. From payment gateways
+                                                and CRMs to ERPs and external software, we ensure smooth integration
+                                                without compromising performance or security.
+                                            </p>
 
                                             <a href="/digital-marketing/search-engine-optimization"
                                                 class="service_view"> View Details </a>
@@ -468,14 +449,18 @@
                                     </div>
                                     <div class="service__item-2">
                                         <div>
-                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp" alt="Service Icon"
-                                                class="w-75 h-75 obj-fit-contain mb-3">
+                                            <img src="/img/icons/icon_Website Maintenance & Support-.webp"
+                                                alt="Service Icon" class="w-75 h-75 obj-fit-contain mb-3">
                                             <h3 class=""><a href="/digital-marketing/search-engine-optimization"
                                                     class="service__title-2">Website Maintenance & Support</a> </h3>
-                                            <p> In the highly competitive digital landscape, having a strong online
-                                                presence is essential for businesses to succeed. We specialize in Search
-                                                Engine Optimization (SEO), a strategic approach that helps businesses
-                                                improve their website's visibility in search engine results. </p>
+                                            <p>A website needs continuous care to stay secure, fast, and up-to-date. Our
+                                                website maintenance and support services ensure your website runs
+                                                smoothly at all times. <br>
+                                                We handle regular updates, security monitoring, performance
+                                                optimization, backups, and technical support, so you can focus on
+                                                running your business. Whether it’s minor updates or ongoing website
+                                                management, our team ensures reliability and peace of mind.
+                                            </p>
 
                                             <a href="/digital-marketing/search-engine-optimization"
                                                 class="service_view"> View Details </a>
@@ -494,9 +479,9 @@
                         <div class="row">
                             <div class="col-xxl-12">
                                 <div class="sec-title-wrapper">
-                                    <h2 class="sec-sub-title title-anim">NATIONAL & INTERNATIONAL BRANDS</h2>
-                                    <h3 class="sec-title title-anim">We are happy to work with global <br> largest
-                                        brands</h3>
+                                    <h2 class="sec-sub-title title-anim">Tools & Technologies We Use</h2>
+                                    <h3 class="sec-title title-anim">We work with modern and proven technologies to
+                                        ensure the best results for our clients: </h3>
                                 </div>
                             </div>
 
@@ -505,87 +490,98 @@
                                         class="img-fluid"> </div>
                                 <div class="serv_tech_list" id="">
 
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/angular.webp" title="Angular" alt="Angular"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/bootstrap.webp" title="Bootstrap" alt="Bootstrap"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/express.webp" title="Express JS" alt="Express JS"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/javascript.webp" title="JavaScript" alt="JavaScript"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/flutter.webp" title="Flutter" alt="Flutter"
-                                            class="img-fluid">
-                                    </div>
-
+                                    <!-- HTML5 -->
                                     <div class="brand__item fade_bottom">
                                         <img src="/img/technology/html.webp" title="HTML5" alt="HTML5"
                                             class="img-fluid">
                                     </div>
 
+                                    <!-- CSS3 -->
                                     <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/jquery.webp" title="jQuery" alt="jQuery"
+                                        <img src="/img/technology/css.webp" title="CSS3" alt="CSS3"
                                             class="img-fluid">
                                     </div>
 
+                                    <!-- JavaScript -->
                                     <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/laravel.webp" title="Laravel" alt="Laravel"
+                                        <img src="/img/technology/javascript.webp" title="JavaScript"
+                                            alt="JavaScript" class="img-fluid">
+                                    </div>
+
+                                    <!-- Bootstrap -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/bootstrap.webp" title="Bootstrap" alt="Bootstrap"
                                             class="img-fluid">
                                     </div>
 
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/mongodb.webp" title="MongoDB" alt="MongoDB"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/mysql.webp" title="MySQL" alt="MySQL"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/nextjs.webp" title="Next.js" alt="Next.js"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/nodejs.webp" title="Node.js" alt="Node.js"
-                                            class="img-fluid">
-                                    </div>
-
-                                    <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/react.webp" title="React" alt="React"
-                                            class="img-fluid">
-                                    </div>
-
+                                    <!-- Tailwind CSS -->
                                     <div class="brand__item fade_bottom">
                                         <img src="/img/technology/tailwind-css.webp" title="Tailwind CSS"
                                             alt="Tailwind CSS" class="img-fluid">
                                     </div>
 
+                                    <!-- React.js -->
                                     <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/swift.webp" title="Swift" alt="Swift"
+                                        <img src="/img/technology/react.webp" title="React.js" alt="React.js"
                                             class="img-fluid">
                                     </div>
 
+                                    <!-- Next.js -->
                                     <div class="brand__item fade_bottom">
-                                        <img src="/img/technology/android-studio.webp" title="Android Studio"
-                                            alt="Android Studio" class="img-fluid">
+                                        <img src="/img/technology/nextjs.webp" title="Next.js" alt="Next.js"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- Node.js -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/nodejs.webp" title="Node.js" alt="Node.js"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- Express.js -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/express.webp" title="Express.js" alt="Express.js"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- Laravel -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/laravel.webp" title="Laravel" alt="Laravel"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- REST APIs -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/rest-api.webp" title="REST APIs" alt="REST APIs"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- Webflow -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/webflow.webp" title="Webflow" alt="Webflow"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- Shopify -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/shopify.webp" title="Shopify" alt="Shopify"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- MySQL -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/mysql.webp" title="MySQL" alt="MySQL"
+                                            class="img-fluid">
+                                    </div>
+
+                                    <!-- MongoDB -->
+                                    <div class="brand__item fade_bottom">
+                                        <img src="/img/technology/mongodb.webp" title="MongoDB" alt="MongoDB"
+                                            class="img-fluid">
                                     </div>
 
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -617,10 +613,12 @@
                                                     <div class="accordion-body">
                                                         <p>
                                                             We work with startups, SMEs, and established enterprises
-                                                            across industries including
-                                                            e-commerce, healthcare, real estate, education, technology,
-                                                            and service-based businesses
-                                                            looking to grow their digital presence.
+                                                            across
+                                                            industries such as e-commerce, healthcare, real estate,
+                                                            education,
+                                                            technology, manufacturing, and service-based businesses
+                                                            looking
+                                                            to strengthen their digital presence.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -639,12 +637,13 @@
                                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            The cost of website design and development depends on your
-                                                            project scope, features,
-                                                            and technology requirements. We offer flexible pricing for
-                                                            business websites,
-                                                            e-commerce platforms, and custom web solutions based on your
-                                                            goals.
+                                                            The cost of website design and development depends on
+                                                            factors such
+                                                            as project scope, design complexity, features, integrations,
+                                                            and
+                                                            technology used. We provide custom pricing to ensure maximum
+                                                            value
+                                                            and ROI.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -656,18 +655,18 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                        How long does it take to build a website or app?
+                                                        How long does it take to build a website or web application?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseThree" class="accordion-collapse collapse"
                                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            A standard business website typically takes 3–5 weeks, while
-                                                            complex websites or
-                                                            mobile apps may take 8–12 weeks. Timelines vary based on
-                                                            functionality, design
-                                                            complexity, and integrations.
+                                                            A standard business website usually takes 3–6 weeks, while
+                                                            custom
+                                                            websites or e-commerce platforms may take 6–12 weeks
+                                                            depending on
+                                                            functionality, integrations, and approval timelines.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -687,11 +686,11 @@
                                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. As a full-service digital marketing agency, we provide
-                                                            SEO, Google Ads,
-                                                            social media marketing, and performance marketing services
-                                                            to help you generate
-                                                            traffic, leads, and long-term growth.
+                                                            Yes. We offer SEO, performance optimization, and digital
+                                                            marketing
+                                                            services after website launch to help improve visibility,
+                                                            drive
+                                                            traffic, and increase conversions.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -710,10 +709,10 @@
                                                     aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Absolutely. We specialize in website redesign services
-                                                            focused on improving UI/UX,
-                                                            performance, SEO, and conversion rates while preserving your
-                                                            brand identity.
+                                                            Absolutely. Our website redesign services modernize outdated
+                                                            websites, enhance user experience, improve performance, and
+                                                            boost
+                                                            conversions while preserving existing SEO value.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -725,17 +724,17 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseSix"
                                                         aria-expanded="false" aria-controls="collapseSix">
-                                                        How do you measure success for digital marketing campaigns?
+                                                        How do you ensure the website is mobile-friendly?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseSix" class="accordion-collapse collapse"
                                                     aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            We track measurable KPIs such as website traffic, keyword
-                                                            rankings, lead generation,
-                                                            conversion rates, ROI, and ad performance using analytics
-                                                            and reporting tools.
+                                                            All our websites are built using responsive design
+                                                            principles,
+                                                            ensuring seamless performance across mobile phones, tablets,
+                                                            and desktop devices.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -754,10 +753,11 @@
                                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            We primarily offer custom digital solutions tailored to your
-                                                            business objectives,
-                                                            audience, and budget. This ensures scalability, flexibility,
-                                                            and better long-term results.
+                                                            We primarily offer custom website development solutions
+                                                            tailored
+                                                            to your business goals, industry needs, and growth plans.
+                                                            Predefined packages are also available for simpler
+                                                            requirements.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -769,17 +769,17 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseEight"
                                                         aria-expanded="false" aria-controls="collapseEight">
-                                                        Will my website and marketing campaigns be mobile-friendly?
+                                                        Will my website be secure and scalable?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseEight" class="accordion-collapse collapse"
                                                     aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. All our websites, apps, and digital marketing campaigns
-                                                            are fully
-                                                            mobile-optimized to ensure seamless performance across
-                                                            devices and platforms.
+                                                            Yes. We follow best practices for security, performance
+                                                            optimization, and scalability to ensure your website is
+                                                            protected,
+                                                            fast, and capable of growing with your business.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -791,17 +791,18 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseNine"
                                                         aria-expanded="false" aria-controls="collapseNine">
-                                                        Do you provide ongoing support and maintenance?
+                                                        Do you provide ongoing website maintenance and support?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseNine" class="accordion-collapse collapse"
                                                     aria-labelledby="headingNine" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            Yes. We offer website maintenance, app support, SEO
-                                                            optimization, and performance
-                                                            monitoring to ensure your digital assets remain secure,
-                                                            updated, and high-performing.
+                                                            Yes. We provide ongoing maintenance and support services
+                                                            including
+                                                            updates, backups, security monitoring, performance
+                                                            optimization,
+                                                            and technical assistance.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -813,23 +814,24 @@
                                                     <button class="accordion-button collapsed" type="button"
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTen"
                                                         aria-expanded="false" aria-controls="collapseTen">
-                                                        Why should I choose ABC Designs over other agencies?
+                                                        Why should I choose ABC Designs for website design &
+                                                        development?
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTen" class="accordion-collapse collapse"
                                                     aria-labelledby="headingTen" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body">
                                                         <p>
-                                                            ABC Designs combines strategy, creativity, technology, and
-                                                            performance marketing
-                                                            under one roof. Our client-centric approach, transparent
-                                                            process, and
-                                                            results-driven mindset help businesses achieve sustainable
-                                                            digital growth.
+                                                            ABC Designs blends creative design, modern technology, and
+                                                            strategic thinking to build visually appealing,
+                                                            high-performing,
+                                                            and conversion-focused websites—supported by transparent
+                                                            communication and dedicated support.
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
+
 
                                         </div>
                                     </div>
@@ -881,7 +883,7 @@
                     });
                 </script>
 
-                @include('frontend.layout.cta')
+                {{-- @include('frontend.layout.cta') --}}
 
             </main>
 
